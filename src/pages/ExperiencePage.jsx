@@ -3,7 +3,7 @@
 const ExperiencePage = () => {
 return (
         <div>
-            bon dia
+           Experiencia
         </div>
     )
 }

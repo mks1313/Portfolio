@@ -1,28 +1,15 @@
 .App {
   display: flex;
-  /* flex-direction: column; */
   min-height: 100vh; 
 }
 
-
 .content {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   width: 100%;
 
 }
 
-.footer {
-  background-color: #001529;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-
-}
-
-.footer a {
-  color: #fff; 
-}
 .container-main {
   flex: 1;
 }

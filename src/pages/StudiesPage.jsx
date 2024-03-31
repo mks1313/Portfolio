@@ -1,7 +1,7 @@
 const StudiesPage = () => {
     return (
         <div>
-            hello
+            Estudios
         </div>
     )
 }
