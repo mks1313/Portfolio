@@ -6,21 +6,23 @@ import HomePage from "./pages/HomePage";
 import StudiesPage from "./pages/StudiesPage";
 import Navbar from "./components/Navbar";
 
-const App = ()  => {
-  return (
-    <div className="App">
-      <div className="content">
-      <Navbar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/experience" element={<ExperiencePage />} />
-          <Route path="/studies" element={<StudiesPage />}/>
-          <Route path='/*' element={<Navigate to='/' />} />
 
-        </Routes>
+
+function App() {
+  return (
+      <div className="App">
+        <div className="content">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/experience" element={<ExperiencePage />} />
+            <Route path="/studies" element={<StudiesPage />} />
+            <Route path='/*' element={<Navigate to='/' />} />
+
+          </Routes>
+        </div>
       </div>
-    </div>
   );
 }
 
