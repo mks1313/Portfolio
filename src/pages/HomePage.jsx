@@ -5,45 +5,49 @@ import flag from "../assets/icons/flag.svg";
 import phone from "../assets/icons/phone.svg";
 import envelope from "../assets/icons/envelope.svg";
 import map from "../assets/icons/map.svg";
+import profileImage from "/profile.jpg";
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between">
+    <div className="flex flex-col md:flex-row justify-between bg-grey text-white">
       <div className="md:w-2/3 px-4">
-        <h1 className="text-2xl font-bold mb-4">Experiencia</h1>
-        <p className="text-lg"> experiencia.</p>
+        <h1 className="text-2xl font-bold mb-4 text-black">Experiencia</h1>
+        <p className="text-lg text-black">experiencia.lwkedngferojganvojdnaejlrnvljrànèrgobparenjvwldkngksngvkarngvknvkzln akñlrdznbklñrn lkrznbdlkrlsvd lfblafdbl fdn lkrbnlaknzdlk nalkdznb lzdknkñ</p>
       </div>
 
-      <div className="md:w-1/3 px-4 mt-4 md:mt-0 bg-blue-600 text-white">
+      <div className="md:w-1/5  px-4 mt-4 md:mt-0 bg-black text-white">
         <div className="flex">
-          <img src={github} alt="GitHub" className="w-8 h-8 mr-6" />
-          <img src={linkedin} alt="LinkedIn" className="w-8 h-8 mr-6" />
-          <img src={stack} alt="Stack Overflow" className="w-8 h-8 mr-6" />
+        <img src={profileImage} alt="Foto de perfil" className="w-50 h-50 rounded-full mb-4 mx-auto mt-8" />
         </div>
         <h2 className="text-xl font-bold mb-2">Contacto</h2>
         <ul>
           <li className="flex items-center text-gray-500 text-lg">
-            <img src={map} alt="Icon" />
-            Ciudad Ejemplo
+            <img src={map} alt="Icon" className="mr-4" />
+            Barcelona
           </li>
           <li className="flex items-center text-gray-500 text-lg">
-            <img src={flag} alt="Icon" />
-            Español, Ingles
+            <img src={flag} alt="Icon" className="mr-4" />
+            Español, Ingles, Ruso
           </li>
           <li>
             <a
               href="mailto:maksyara13@gmail.com"
               className="flex items-center text-gray-500 text-lg"
             >
-              <img src={envelope} alt="Icon" />
+              <img src={envelope} alt="Icon" className="mr-4" />
               maksyara13@gmail.com
             </a>
           </li>
           <li className="flex items-center text-gray-500 text-lg">
-            <img src={phone} alt="Icon" />
+            <img src={phone} alt="Icon" className="mr-4" />
             +1234567890
           </li>
         </ul>
+        <div className="flex item-center mt-5">
+        <img src={github} alt="GitHub" className="w-8 h-8 mr-6" />
+          <img src={linkedin} alt="LinkedIn" className="w-8 h-8 mr-6" />
+          <img src={stack} alt="Stack Overflow" className="w-8 h-8 mr-6" />
+        </div>
       </div>
     </div>
   );
