@@ -19,7 +19,6 @@ function App() {
             <Route path="/experience" element={<ExperiencePage />} />
             <Route path="/studies" element={<StudiesPage />} />
             <Route path='/*' element={<Navigate to='/' />} />
-
           </Routes>
         </div>
       </div>
