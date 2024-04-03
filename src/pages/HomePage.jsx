@@ -6,10 +6,12 @@ import flag from "../assets/icons/flag.svg";
 import phone from "../assets/icons/phone.svg";
 import envelope from "../assets/icons/envelope.svg";
 import map from "../assets/icons/map.svg";
-import profileImage from "/profile.jpg";
+
 
 const HomePage = () => {
     const { t } = useTranslation();
+    const imageUrl = 'https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712145110/project-3/yb1epe8w7tmtnvffy2zk.jpg';
+    
   
     return (
       <div className="flex flex-col md:flex-row justify-between bg-grey text-white">
@@ -20,7 +22,7 @@ const HomePage = () => {
   
         <div className="md:w-1/5 px-4 mt-4 md:mt-0 bg-black text-white">
           <div className="flex">
-            <img src={profileImage} alt="Foto de perfil" className="w-50 h-50 rounded-full mb-4 mx-auto mt-8" />
+            <img src={imageUrl} alt="Foto de perfil" className="w-50 h-50 rounded-full mb-4 mx-auto mt-8" />
           </div>
           <ul>
             <li className="flex items-center text-gray-500 text-lg">
@@ -34,12 +36,12 @@ const HomePage = () => {
             <li>
               <a href="mailto:maksyara13@gmail.com" className="flex items-center text-gray-500 text-lg">
                 <img src={envelope} alt="Icon" className="mr-4" />
-                maksyara13@gmail.com
+                {t('home.gmail')}
               </a>
             </li>
             <li className="flex items-center text-gray-500 text-lg">
               <img src={phone} alt="Icon" className="mr-4" />
-              +1234567890
+              {t('home.phone')}
             </li>
           </ul>
           <div className="flex item-center mt-5">

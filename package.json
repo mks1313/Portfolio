@@ -18,6 +18,8 @@
     "@mui/icons-material": "^5.15.14",
     "@mui/material": "^5.15.14",
     "autoprefixer": "^10.4.19",
+    "axios": "^1.6.8",
+    "cloudinary-react": "^1.8.1",
     "i18next": "^23.10.1",
     "i18next-browser-languagedetector": "^7.2.1",
     "postcss": "^8.4.38",
