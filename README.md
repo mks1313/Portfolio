@@ -1,1 +1,1 @@
-This is a web page made in JavaScript React + Vite, in order to show my information about me and my skills.
+This is a web page made in JavaScript React + Vite,  to show  infoabout me.

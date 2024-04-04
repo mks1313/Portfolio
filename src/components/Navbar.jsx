@@ -4,6 +4,7 @@ import { faBars, faTimes, faFlag } from '@fortawesome/free-solid-svg-icons';
 import { NavLink } from 'react-router-dom';
 import logo from '/favicon.png';
 import { useTranslation } from 'react-i18next';
+import Letters from '../components/Letters';
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
@@ -52,7 +53,7 @@ const Navbar = () => {
               onClick={handlePageClick}
               onMouseDown={() => setSelectedPage('/')}
             >
-              {t('navbar.home')}
+              <Letters value={t('navbar.home')} size="m" underline={false} gradient={false} />
             </NavLink>
           </li>
           <li>
@@ -62,7 +63,7 @@ const Navbar = () => {
               onClick={handlePageClick}
               onMouseDown={() => setSelectedPage('/about')}
             >
-              {t('navbar.about')}
+              <Letters value={t('navbar.about')} size="m" underline={false} gradient={false} />
             </NavLink>
           </li>
           <li>
@@ -72,7 +73,7 @@ const Navbar = () => {
               onClick={handlePageClick}
               onMouseDown={() => setSelectedPage('/experience')}
             >
-              {t('navbar.experience')}
+              <Letters value={t('navbar.experience')} size="m" underline={false} gradient={false} />
             </NavLink>
           </li>
           <li>
@@ -82,27 +83,24 @@ const Navbar = () => {
               onClick={handlePageClick}
               onMouseDown={() => setSelectedPage('/studies')}
             >
-              {t('navbar.studies')}
+              <Letters value={t('navbar.studies')} size="m" underline={false} gradient={false} />
             </NavLink>
           </li>
         </ul>
         <div className="flex items-center">
           <FontAwesomeIcon icon={faFlag} className="mr-1 text-gray-400" />
-          <select value={i18n.language} className="text-gray-400  border-none" onChange={(e) => i18n.changeLanguage(e.target.value)}>
+          <select value={i18n.language} className="text-gray-400 border-none" onChange={(e) => i18n.changeLanguage(e.target.value)}>
             <option value="en">English</option>
             <option value="es">Español</option>
           </select>
         </div>
-        <p className="text-sm text-gray-400">Created by Maksim Georgiev Marinov</p>
+        <p className="text-sm text-gray-400">Created by: Maksim Georgiev Marinov</p>
       </div>
     </>
   );
 };
 
 export default Navbar;
-
-
-
 
 
 
