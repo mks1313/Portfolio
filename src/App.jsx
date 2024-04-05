@@ -5,6 +5,7 @@ import ExperiencePage from "./pages/ExperiencePage";
 import HomePage from "./pages/HomePage";
 import StudiesPage from "./pages/StudiesPage";
 import Navbar from "./components/Navbar";
+import Projects from "./pages/Projects";
 
 
 
@@ -18,6 +19,7 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/experience" element={<ExperiencePage />} />
             <Route path="/studies" element={<StudiesPage />} />
+            <Route path="/projects" element={<Projects />} />
             <Route path='/*' element={<Navigate to='/' />} />
           </Routes>
         </div>

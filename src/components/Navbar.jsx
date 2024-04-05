@@ -6,7 +6,7 @@ import logo from '/favicon.png';
 import { useTranslation } from 'react-i18next';
 import Letters from '../components/Letters';
 import LanguageSelector from './LenguageSelector';
-
+//TODO hacer mas responsive, tamaño de enlaces, estilos
 const Navbar = () => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
@@ -52,6 +52,7 @@ const Navbar = () => {
             <NavLink
               to="/"
               className={`font-bold  text-${selectedPage === '/' ? 'silver' : 'aqua'}`}
+              activeClassName="text-silver"
               onClick={handlePageClick}
               onMouseDown={() => setSelectedPage('/')}
             >
@@ -88,10 +89,20 @@ const Navbar = () => {
               <Letters value={t('navbar.studies')} size="m" underline={false} gradient={false} />
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/projects"
+              className={`font-bold text-${selectedPage === '/projects' ? 'silver' : 'aqua'}`}
+              onClick={handlePageClick}
+              onMouseDown={() => setSelectedPage('/projects')}
+            >
+              <Letters value={t('navbar.projects')} size="m" underline={false} gradient={false} />
+            </NavLink>
+          </li>
         </ul>
         </div>
         <LanguageSelector />
-        <p className="text-sm text-gray-200 mt-20 mb-40">Created by: Maksim Georgiev Marinov</p>
+        <p className="text-sm text-gray-200 mt-20 mb-20">Created by: Maksim Georgiev Marinov</p>
       </div>
     </>
   );

@@ -19,7 +19,7 @@ const HomePage = () => {
         <Letters value={t("home.description")} size="l" />
       </div>
 
-      <div className="md:w-1/5 px-4 mt-4 md:mt-0 bg-black ">
+      <div className="md:w-full px-4 mt-4 md:mt-0 bg-black ">
         <div className="flex justify-center">
           <img
             src={imageUrl}
@@ -27,17 +27,24 @@ const HomePage = () => {
             className="w-50 h-50 mb-4  mt-6 mx-auto rounded-lg border-4 border-gray-200"
           />
         </div>
-         <div className="flex justify-center items-center space-x-6 mt-5 mb-20">
-          <a href={"https://www.linkedin.com/in/mgmarinov"} target="_blank" rel="noopener noreferrer">
-            <img src={linkedin} alt="LinkedIn" className="w-8 h-8" />
-          </a>
-          <a href={"https://github.com/mks1313"} target="_blank" rel="noopener noreferrer">
-            <img src={github} alt="GitHub" className="w-8 h-8" />
-          </a>
-          <a href={"https://stackoverflow.com/users/22835936/maksim-marinov"} target="_blank" rel="noopener noreferrer">
-            <img src={stack} alt="Stack Overflow" className="w-8 h-8" />
-          </a>
-        </div>
+        <div className="flex justify-center items-center space-x-6 mt-5 mb-20">
+  <a href={"https://www.linkedin.com/in/mgmarinov"} target="_blank" rel="noopener noreferrer">
+    <button type="button" className="xl:w-[60px] xl:h-[60px] w-[50px] h-[50px] gold-gradient-button flex justify-center items-center border-2 border-gray-200 rounded-lg">
+      <img src={linkedin} alt="LinkedIn" className="w-6 h-6" />
+    </button>
+  </a>
+  <a href={"https://github.com/mks1313"} target="_blank" rel="noopener noreferrer">
+    <button type="button" className="xl:w-[60px] xl:h-[60px] w-[50px] h-[50px] gold-gradient-button flex justify-center items-center border-2 border-gray-200 rounded-lg">
+      <img src={github} alt="GitHub" className="w-6 h-6" />
+    </button>
+  </a>
+  <a href={"https://stackoverflow.com/users/22835936/maksim-marinov"} target="_blank" rel="noopener noreferrer">
+    <button type="button" className="xl:w-[60px] xl:h-[60px] w-[50px] h-[50px] gold-gradient-button flex justify-center items-center border-2 border-gray-200 rounded-lg">
+      <img src={stack} alt="Stack Overflow" className="w-6 h-6" />
+    </button>
+  </a>
+</div>
+
 
         <ul className="mt-8 pr-4">
           <li className="flex items-center text-lg mb-4">

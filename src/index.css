@@ -10,3 +10,11 @@
   font-family: 'Raleway', Arial, sans-serif;
   letter-spacing: 0;
 }
+
+.silver-gradient {
+  background: linear-gradient(90deg, #C0C0C0, #E0E0E0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+

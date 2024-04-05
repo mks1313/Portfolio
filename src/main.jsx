@@ -12,12 +12,14 @@ import esExperienceTranslations from "./translations/es/experience.json";
 import esHomeTranslations from "./translations/es/home.json";
 import esNavbarTranslations from "./translations/es/navbar.json";
 import esStudiesTranslations from "./translations/es/studies.json";
+import esProjectsTranslations from "./translations/es/projects.json";
 
 import enAboutTranslations from "./translations/en/about.json";
 import enExperienceTranslations from "./translations/en/experience.json";
 import enHomeTranslations from "./translations/en/home.json";
 import enNavbarTranslations from "./translations/en/navbar.json";
 import enStudiesTranslations from "./translations/en/studies.json";
+import enProjectsTranslations from "./translations/en/projects.json";
 
 i18next.init({
   interpolation: { escapeValue: false },
@@ -30,6 +32,7 @@ i18next.init({
         home: enHomeTranslations,
         navbar: enNavbarTranslations,
         studies: enStudiesTranslations,
+        projects: enProjectsTranslations,
       },
     },
     es: {
@@ -39,6 +42,7 @@ i18next.init({
         home: esHomeTranslations,
         navbar: esNavbarTranslations,
         studies: esStudiesTranslations,
+        projects: esProjectsTranslations,
       },
     },
   },

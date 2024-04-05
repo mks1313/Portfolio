@@ -8,7 +8,8 @@ const StudiesPage = () => {
             <div className="px-4 lg:pl-80 bg-black mt-6 mb-8 ">
                 <Letters value={t('studies.title')} size="xl" underline={false} gradient={true} className="text-center text-white mb-2" id="title" />
                 <Letters value={t('studies.date')} size="s" underline={false} gradient={true} className="text-center text-white mb-2" id="date" />
-                <img src={t('studies.image')} alt="Foto de perfil" className="w-90 h-60 mb-8 mx-auto mt-4" />
+                <img src={t('studies.image')} alt="Foto de perfil"className="w-90 h-60 mb-8 mx-auto mt-4 rounded-lg border-[6px] border-gray-200"/>
+
                 <Letters value={t('studies.description')} size="l" underline={false} gradient={true} className="text-center text-white" id="description" />
             </div>
             <div className="w-full mx-4">
