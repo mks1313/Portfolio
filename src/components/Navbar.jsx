@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import flag from "../assets/icons/flag.svg";
 import { NavLink } from 'react-router-dom';
 import logo from '/favicon.png';
 import { useTranslation } from 'react-i18next';
 import Letters from '../components/Letters';
+import LanguageSelector from './LenguageSelector';
 
 const Navbar = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [selectedPage, setSelectedPage] = useState(null);
 
@@ -46,12 +46,12 @@ const Navbar = () => {
         `}
       >
         <img src={logo} alt="Logo" className="w-32 h-auto mt-10 mb-4 mx-auto rounded-full" />
-        <div className='mt-20'>
-        <ul className="flex flex-col items-center space-y-4 ">
+        <div className='mt-40'>
+        <ul className="flex flex-col items-center space-y-4">
           <li>
             <NavLink
               to="/"
-              className={`font-bold text-${selectedPage === '/' ? 'silver' : 'aqua'}`}
+              className={`font-bold  text-${selectedPage === '/' ? 'silver' : 'aqua'}`}
               onClick={handlePageClick}
               onMouseDown={() => setSelectedPage('/')}
             >
@@ -90,14 +90,8 @@ const Navbar = () => {
           </li>
         </ul>
         </div>
-        <div className="flex items-center mt-20">
-        <img src={flag} alt="Icon" className="mr-4" />
-          <select value={i18n.language} className="text-gray-400 border-none mt-1" onChange={(e) => i18n.changeLanguage(e.target.value)}>
-            <option value="en">English</option>
-            <option value="es">Español</option>
-          </select>
-        </div>
-        <p className="text-sm text-gray-400 mt-80">Created by: Maksim Georgiev Marinov</p>
+        <LanguageSelector />
+        <p className="text-sm text-gray-200 mt-20 mb-40">Created by: Maksim Georgiev Marinov</p>
       </div>
     </>
   );
