@@ -7,6 +7,7 @@ import { useTranslation } from 'react-i18next';
 import Letters from '../components/Letters';
 import LanguageSelector from './LenguageSelector';
 //TODO hacer mas responsive, tamaño de enlaces, estilos
+// TODO Al recargar , se caye, solo accede al home. Revisar este punto.
 const Navbar = () => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
@@ -46,13 +47,12 @@ const Navbar = () => {
         `}
       >
         <img src={logo} alt="Logo" className="w-32 h-auto mt-10 mb-4 mx-auto rounded-full" />
-        <div className='mt-40'>
+        <div className='mt-20'>
         <ul className="flex flex-col items-center space-y-4">
           <li>
             <NavLink
               to="/"
               className={`font-bold  text-${selectedPage === '/' ? 'silver' : 'aqua'}`}
-              activeClassName="text-silver"
               onClick={handlePageClick}
               onMouseDown={() => setSelectedPage('/')}
             >
