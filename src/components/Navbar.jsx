@@ -71,22 +71,22 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink
-              to="/experience"
-              className={`font-bold text-${selectedPage === '/experience' ? 'silver' : 'aqua'}`}
-              onClick={handlePageClick}
-              onMouseDown={() => setSelectedPage('/experience')}
-            >
-              <Letters value={t('navbar.experience')} size="m" underline={false} gradient={false} />
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
               to="/studies"
               className={`font-bold text-${selectedPage === '/studies' ? 'silver' : 'aqua'}`}
               onClick={handlePageClick}
               onMouseDown={() => setSelectedPage('/studies')}
             >
               <Letters value={t('navbar.studies')} size="m" underline={false} gradient={false} />
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/experience"
+              className={`font-bold text-${selectedPage === '/experience' ? 'silver' : 'aqua'}`}
+              onClick={handlePageClick}
+              onMouseDown={() => setSelectedPage('/experience')}
+            >
+              <Letters value={t('navbar.experience')} size="m" underline={false} gradient={false} />
             </NavLink>
           </li>
           <li>
