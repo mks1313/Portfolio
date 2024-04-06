@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 import Letters from '../components/Letters';
 import LanguageSelector from './LenguageSelector';
 //TODO hacer mas responsive, tamaño de enlaces, estilos
-// TODO Al recargar , se caye, solo accede al home. Revisar este punto.
+// TODO Al recargar , se caye, solo accede al home. Revisar este punto.Importante!!!!!!!!
 const Navbar = () => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
