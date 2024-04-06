@@ -1,11 +1,11 @@
 {
     "title": "Historical Events",
     "date": "12/2023 - 01/2024",
-    "description": "express, bcrypt, etc. Era mi primer proyecto serio para poner en prueba mis conocimientos. Use como backend Express en el entorno Node.js. Para renderizar en browser use HBS. Utilise hash de contraseñas bcrypt. Alamcene los datos en MongoDB.",
+    "description": "Mi primer proyecto fue una experiencia emocionante donde pude aplicar mis conocimientos de desarrollo. La idea detrás del proyecto era reunir a personas apasionadas por la historia, permitiéndoles dejar comentarios y valoraciones sobre diferentes temas históricos. Para calcular el promedio de las valoraciones, utilicé una fórmula simple en JavaScript. Además, implementé Express en Node.js para el backend y HBS para renderizar en el navegador. Para garantizar la seguridad de las contraseñas, utilicé bcrypt para el hashing de contraseñas y almacené los datos en una base de datos MongoDB. Probé Bootstrap en algunas páginas para mejorar la apariencia y la experiencia del usuario. Aunque enfrenté desafíos, estoy emocionado de haber podido aplicar tecnologías y aprender mucho en el proceso. Fue una experiencia humilde y gratificante que me permitió explorar mi pasión por la tecnología mientras trabajaba en algo que me apasiona: la historia.",
     "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712350920/project-3/ng0hbm8h1lprezgjnivz.png",
     "title1": "Nyam Nyam",
     "date1": "02/2024 -03/2024",
-    "description1": "description",
+    "description1": " Mi segundo proyecto implicó la aplicación de los conocimientos adquiridos sobre React.js, una biblioteca de JavaScript. Fue un desafío significativo para mí, especialmente en el manejo de las propiedades (props) y en la integración entre el frontend y el backend. Para el backend, utilicé Express.js e implementé una capa de seguridad adicional utilizando JWT (JSON Web Token) tanto en el frontend como en el backend. Utilicé Postman para probar las rutas antes de comenzar a montar todo el proyecto.En el frontend, opté por utilizar la biblioteca de iconos FontAwesome para mejorar la experiencia de usuario. El objetivo principal del proyecto fue unir a personas que comparten intereses culinarios y proporcionarles una plataforma para encontrar lugares adecuados según sus preferencias. Este proyecto tiene un gran potencial de escalabilidad y actualmente se encuentra en proceso de mejora, con la adición de nuevas funcionalidades y mejoras continuas.",
     "image1":"https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712354135/project-3/iwh6jjiptyl4ddgeeghh.png",
     "title2": "information",
     "date2": "date",
