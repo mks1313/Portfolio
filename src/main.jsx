@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./index.css";
+import { inject } from '@vercel/analytics';
 
 import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
@@ -47,6 +48,8 @@ i18next.init({
     },
   },
 });
+
+inject('prj_Ycb76wiITijkd5gf7VWqmJkz1M0y');
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
