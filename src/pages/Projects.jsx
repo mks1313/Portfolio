@@ -14,7 +14,7 @@ const Projects = () => {
                         <span className="text-white mt-2">Client</span>
                     </div>
                     <div className="flex flex-col items-center ml-4">
-                        <Button href={"https://github.com/mks1313"} imageSrc={github} alt="GitHub-server" />
+                        <Button href={"https://github.com/mks1313/project-3-server"} imageSrc={github} alt="GitHub-server" />
                         <span className="text-white mt-2">Server</span>
                     </div>
                 </div>

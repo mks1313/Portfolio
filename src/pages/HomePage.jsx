@@ -9,6 +9,7 @@ import map from "../assets/icons/map.svg";
 import Letters from "../components/Letters";
 import Button from "../components/Button";
 
+
 const HomePage = () => {
   const { t } = useTranslation();
   const imageUrl =
