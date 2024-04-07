@@ -1,7 +1,12 @@
 {
-    "title": "Experience",
-    "description1": "Welcome to my experience page. Here you can find information about my work experience and previous projects.",
-    "description2": "",
-    "description3": "",
-    "description4": ""
+    "overview": "Experience",
+    "title1": "Hotel Oasis. Barcelona",
+    "description1": "I performed reception tasks, and over the years I mastered many aspects of the profession. Customer relationship. Master 2 PMS (Property Management System) programs. Problem solving under pressure, speed and excellent customer service.",
+    "date1": "04/2018 - 10/2023",
+    "title2": "Monolith alimentacion España Sur SL",
+    "description2": "Manager in Supermarket",
+    "date2": "07/2015 - 03/2018",
+    "title3": "Monolith alimentacion España Sur SL",
+    "description3": "Spearheaded the export operations of fruits and vegetables to international markets.",
+    "date3": "11/2012 - 07/2015"
 }

@@ -1,7 +1,12 @@
 {
-    "title": "Experiencia",
-    "description": "Bienvenido a mi página de experiencia. Aquí puedes encontrar información sobre mi experiencia laboral y proyectos anteriores.",
-    "description2": "",
-    "description3": "",
-    "description4": ""
+    "overview": "Experience",
+    "title1": "Hotel Oasis. Barcelona",
+    "description1": "Realize tareas propios de recepcion, y con los años domine muschos aspectos de la profecion. Relacion  cara la cliente. Domine 2 programas de de PMS (Property Management System). Solucion de problemas bajo presion, rapidez y excelente servisio al cliente.",
+    "date1": "04/2018 - 10/2023",
+    "title2": "Monolith alimentacion España Sur SL",
+    "description2": "Manager in Supermarket",
+    "date2": "07/2015 - 03/2018",
+    "title3": "Monolith alimentacion España Sur SL",
+    "description3": "Lideré las operaciones de exportación de frutas y verduras a los mercados internacionales.",
+    "date3": "11/2012 - 07/2015"
 }
