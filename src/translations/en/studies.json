@@ -3,10 +3,8 @@
   "date": "09/2023 - 03/2024",
   "description": "In the bootcamp, we learned basic and advanced concepts, especially in languages such as HTML5, CSS, JavaScript. We applied our knowledge to real projects that we completed ourselves. We used frontend libraries such as React and Axios to make requests to a backend created with the Express framework in the Node.js execution environment. For data storage, we learned to master MongoDB, as well as handling videos and images in Cloudinary. Finally, we deployed the projects on Vercel. Thanks to this training, I feel empowered to face challenges in the world of software development with confidence.",
   "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712145962/project-3/ckdkulxvvihsq1i9h6dx.png",
-  "title1": "information",
-  "date1": "date",
-  "description1": "description",
-  "title2": "information",
-  "date2": "date",
-  "description2": "description"
+  "title1": "Lesgaft National State University of Physical Education, Sport and Health, St. Petersburg",
+  "date1": "09/1997 - 04/2001",
+  "description1": "Faculty of Physical Education",
+  "subdescription": "Sport and the training system for athletes in the chosen sport."
 }

@@ -6,9 +6,5 @@
     "title1": "Nyam Nyam",
     "date1": "02/2024 - 03/2024",
     "description1": "My second project involved applying the knowledge I gained about React.js, a JavaScript library. It was a significant challenge for me, especially in handling properties (props) and integrating between frontend and backend. For the backend, I used Express.js and implemented an additional security layer using JWT (JSON Web Token) on both the frontend and backend. I used Postman to test the routes before I started putting the whole project together.On the frontend, I chose to use the FontAwesome icon library to improve the user experience. The main objective of the project was to bring together people who share culinary interests and provide them with a platform to find suitable places according to their preferences. This project has great scalability potential and is currently being improved, with the addition of new features and continuous improvements.",
-    "image1":"https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712354135/project-3/iwh6jjiptyl4ddgeeghh.png",
-    "title2": "information",
-    "date2": "date",
-    "description2": "description",
-    "image2":""
+    "image1":"https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712354135/project-3/iwh6jjiptyl4ddgeeghh.png"
   }

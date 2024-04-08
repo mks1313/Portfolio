@@ -3,7 +3,8 @@
   "date": "09/2023 - 03/2024",
   "description": "En el bootcamp aprendimos nociones básicas y avanzadas, especialmente en lenguajes como HTML5, CSS, JavaScript. Aplicamos nuestros conocimientos en proyectos reales hechos por nosotros mismos. Utilizamos bibliotecas para frontend como React, y Axios para hacer peticiones al backend hecho con el framework Express en el entorno de ejecución de Node.js. Para el almacenamiento de datos, aprendimos a dominar MongoDB, así como también la gestión de vídeos e imágenes en Cloudinary. Y finalmente, desplegamos los proyectos en Vercel. Gracias a esta formación, me siento capacitado para enfrentar desafíos en el mundo del desarrollo de software con confianza.",
   "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712145962/project-3/ckdkulxvvihsq1i9h6dx.png",
-  "title1": "information",
-  "date1": "date",
-  "description1": "description"
+  "title1": "Universidad Estatal Nacional de Educación Física, Deporte y Salud de Lesgaft, San Petersburgo",
+  "date1": "09/1997 - 04/2001",
+  "description1": "Facultad de Educación Física",
+  "subdescription": "El deporte y el sistema de formación de los deportistas en el deporte elegido."
 }
