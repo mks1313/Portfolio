@@ -6,5 +6,10 @@
   "title1": "Universidad Estatal Nacional de Educación Física, Deporte y Salud de Lesgaft, San Petersburgo",
   "date1": "09/1997 - 04/2001",
   "description1": "Facultad de Educación Física",
-  "subdescription": "El deporte y el sistema de formación de los deportistas en el deporte elegido."
+  "subdescription": "El deporte y el sistema de formación de los deportistas en el deporte elegido.",
+  "title2": "Responsive Web Design",
+  "date2": "05/2024 - 06/2024",
+  "description2": "freeCodeCamp",
+  "image1": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1717881078/project-3/lyji8lulplzqlhisohwc.png",
+  "subdescription1": "Obtuve un certificado en Diseño Web Responsivo de freeCodeCamp, que cubre HTML, CSS, Flexbox, Grid y las mejores prácticas de accesibilidad."
 }

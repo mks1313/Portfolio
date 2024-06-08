@@ -6,5 +6,10 @@
   "title1": "Lesgaft National State University of Physical Education, Sport and Health, St. Petersburg",
   "date1": "09/1997 - 04/2001",
   "description1": "Faculty of Physical Education",
-  "subdescription": "Sport and the training system for athletes in the chosen sport."
+  "subdescription": "Sport and the training system for athletes in the chosen sport.",
+  "title2": "Responsive Web Design",
+  "date2": "05/2024 - 06/2024",
+  "description2": "freeCodeCamp",
+  "image1": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1717881078/project-3/lyji8lulplzqlhisohwc.png",
+  "subdescription1": "Obtained a certificate in Responsive Web Design from freeCodeCamp, covering HTML, CSS, Flexbox, Grid, and accessibility best practices."
 }
