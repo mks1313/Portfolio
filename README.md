@@ -29,10 +29,23 @@ You can view the portfolio website at: [https://www.mgmarinov.com](https://www.m
 
 ## 👤 Author
 
-Maksim Georgiev Marinov - mks1313
+Maksim Georgiev Marinov - [mks1313](https://github.com/mks1313)
 
 📧 Contact
 
+<div style="display: flex; align-items: center; justify-content: center;">
+
+  <a href="mailto:mg.marinov@gmx.es" style="margin: 0 20px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mail_%28iOS%29.svg" width="40" alt="Email">
+  </a>
+
+  <a href="https://www.linkedin.com/in/mgmarinov/" style="margin: 0 20px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="40" alt="LinkedIn">
+  </a>
+
+</div>
+
 Feel free to reach out if you have any questions or feedback about my portfolio or projects.
+
 
 
