@@ -17,7 +17,11 @@ const HomePage = () => {
   return (
     <div className="flex flex-col md:flex-row justify-between bg-black text-gray-900 lg:pl-8">
       <div className=" px-4 lg:pl-80 bg-black mt-20 animate-slideInLeft">
-        <Letters value={t("home.description")} size="l" className="animate-slideInLeft" />
+        <Letters
+          value={t("home.description")}
+          size="l"
+          className="animate-slideInLeft"
+        />
       </div>
 
       <div className="md:w-full px-4 mt-4 md:mt-0 bg-black ">
@@ -28,11 +32,26 @@ const HomePage = () => {
             className="w-50 h-50 mb-4  mt-6 mx-auto rounded-lg border-4 border-gray-200 animate-fadeIn"
           />
         </div>
-       <div className="flex justify-center items-center space-x-6 mt-5 mb-20 animate-bounceLimited">
-  <Button href={"https://www.linkedin.com/in/mgmarinov"} imageSrc={linkedin} alt="LinkedIn" />
-  <Button href={"https://github.com/mks1313"} imageSrc={github} alt="GitHub" />
-  <Button href={"https://stackoverflow.com/users/22835936/maksim-marinov"} imageSrc={stack} alt="Stack Overflow" />
-</div>
+        <div className="flex justify-center items-center space-x-6 mt-5 mb-20 animate-bounceLimited">
+          <Button
+            href={"https://www.linkedin.com/in/mgmarinov"}
+            imageSrc={linkedin}
+            alt="LinkedIn"
+            className="transform transition-transform duration-300 hover:scale-105 hover:translate-y-[-2px]"
+          />
+          <Button
+            href={"https://github.com/mks1313"}
+            imageSrc={github}
+            alt="GitHub"
+            className="transform transition-transform duration-300 hover:scale-105 hover:translate-y-[-2px]"
+          />
+          <Button
+            href={"https://stackoverflow.com/users/22835936/maksim-marinov"}
+            imageSrc={stack}
+            alt="Stack Overflow"
+            className="transform transition-transform duration-300 hover:scale-105 hover:translate-y-[-2px]"
+          />
+        </div>
 
         <ul className="mt-8 pr-4 animate-slideInRight">
           <li className="flex items-center text-lg mb-4 animate-slideInRight">
@@ -60,5 +79,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
-
