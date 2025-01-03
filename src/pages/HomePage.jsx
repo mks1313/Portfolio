@@ -9,7 +9,6 @@ import map from "../assets/icons/map.svg";
 import Letters from "../components/Letters";
 import Button from "../components/Button";
 
-
 const HomePage = () => {
   const { t } = useTranslation();
   const imageUrl =
@@ -17,39 +16,40 @@ const HomePage = () => {
 
   return (
     <div className="flex flex-col md:flex-row justify-between bg-black text-gray-900 lg:pl-8">
-      <div className=" px-4 lg:pl-80 bg-black mt-20">
-        <Letters value={t("home.description")} size="l" />
+      <div className=" px-4 lg:pl-80 bg-black mt-20 animate-slideInLeft">
+        <Letters value={t("home.description")} size="l" className="animate-slideInLeft" />
       </div>
 
       <div className="md:w-full px-4 mt-4 md:mt-0 bg-black ">
-        <div className="flex justify-center">
+        <div className="flex justify-center animate-fadeIn">
           <img
             src={imageUrl}
             alt="Foto de perfil"
-            className="w-50 h-50 mb-4  mt-6 mx-auto rounded-lg border-4 border-gray-200"
+            className="w-50 h-50 mb-4  mt-6 mx-auto rounded-lg border-4 border-gray-200 animate-fadeIn"
           />
         </div>
-        <div className="flex justify-center items-center space-x-6 mt-5 mb-20">
-          <Button href={"https://www.linkedin.com/in/mgmarinov"} imageSrc={linkedin} alt="LinkedIn" />
-          <Button href={"https://github.com/mks1313"} imageSrc={github} alt="GitHub" />
-          <Button href={"https://stackoverflow.com/users/22835936/maksim-marinov"} imageSrc={stack} lt="Stack Overflow" />
-        </div>
-        <ul className="mt-8 pr-4">
-          <li className="flex items-center text-lg mb-4">
+       <div className="flex justify-center items-center space-x-6 mt-5 mb-20 animate-bounceLimited">
+  <Button href={"https://www.linkedin.com/in/mgmarinov"} imageSrc={linkedin} alt="LinkedIn" />
+  <Button href={"https://github.com/mks1313"} imageSrc={github} alt="GitHub" />
+  <Button href={"https://stackoverflow.com/users/22835936/maksim-marinov"} imageSrc={stack} alt="Stack Overflow" />
+</div>
+
+        <ul className="mt-8 pr-4 animate-slideInRight">
+          <li className="flex items-center text-lg mb-4 animate-slideInRight">
             <img src={map} alt="Icon" className="mr-4" />
             <Letters value={t("home.location")} size="m" />
           </li>
-          <li className="flex items-center text-lg mb-4">
+          <li className="flex items-center text-lg mb-4 animate-slideInRight">
             <img src={flag} alt="Icon" className="mr-4" />
             <Letters value={t("home.languages")} size="m" />
           </li>
-          <li className="flex items-center text-lg mb-4">
+          <li className="flex items-center text-lg mb-4 animate-slideInRight">
             <a href="mailto:mg.marinov@gmx.es" className="flex items-center">
               <img src={envelope} alt="Icon" className="mr-4" />
               <Letters value={t("home.gmail")} size="m" />
             </a>
           </li>
-          <li className="flex items-center text-lg">
+          <li className="flex items-center text-lg animate-slideInRight">
             <img src={phone} alt="Icon" className="mr-4" />
             <Letters value={t("home.phone")} size="m" />
           </li>
@@ -60,3 +60,5 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+
