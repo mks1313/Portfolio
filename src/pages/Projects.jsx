@@ -9,36 +9,29 @@ const Projects = () => {
     <div className="flex flex-col md:flex-col justify-between bg-black text-gray-300 lg:pl-8">
       <div className="px-4 lg:pl-80 bg-black mt-6 mb-8">
         <div className="flex justify-start items-center animate-slideIn">
-          <div
-            className="flex flex-col items-center"
-            style={{ height: "100px" }}
-          >
+          <div className="flex flex-col items-center" style={{ height: "100px" }}>
             <Button
               href={"https://github.com/mks1313/project-3-client"}
               imageSrc={github}
               alt="GitHub-client"
+              className="hover:scale-105 hover:translate-y-[-2px] transition-transform duration-300"
             />
             <span className="text-white mt-2">Client</span>
           </div>
-          <div
-            className="flex flex-col items-center ml-4"
-            style={{ height: "100px" }}
-          >
+          <div className="flex flex-col items-center ml-4" style={{ height: "100px" }}>
             <Button
               href={"https://github.com/mks1313/project-3-server"}
               imageSrc={github}
               alt="GitHub-server"
+              className="hover:scale-105 hover:translate-y-[-2px] transition-transform duration-300"
             />
             <span className="text-white mt-2">Server</span>
           </div>
-          <div
-            className="flex flex-col items-center ml-4"
-            style={{ height: "100px" }}
-          >
+          <div className="flex flex-col items-center ml-4" style={{ height: "100px" }}>
             <Button
               href={"https://project-3-client.vercel.app/"}
               text="Visit"
-              classname="custom-button"
+              className="hover:scale-105 hover:translate-y-[-2px] transition-transform duration-300"
             />
           </div>
         </div>
@@ -82,13 +75,14 @@ const Projects = () => {
               href={"https://github.com/mks1313/Historical-events-CRUD"}
               imageSrc={github}
               alt="GitHub-Historical-events-CRUD"
+              className="hover:scale-105 hover:translate-y-[-2px] transition-transform duration-300"
             />
           </div>
           <div className="flex flex-col items-center">
             <Button
               href={"https://historical-events-crud.vercel.app/"}
               text="Visit"
-              classname="custom-button"
+              className="hover:scale-105 hover:translate-y-[-2px] transition-transform duration-300"
             />
           </div>
         </div>
@@ -130,3 +124,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
