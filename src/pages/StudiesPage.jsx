@@ -4,7 +4,7 @@ import Letters from "../components/Letters";
 const StudiesPage = () => {
   const { t } = useTranslation();
   return (
-    <div className="bg-black text-gray-300">
+    <div className="text-gray-300">
       <div className="flex flex-col lg:flex-row items-center lg:items-start px-4 lg:pl-80 mt-6 mb-8 space-y-8 lg:space-y-0">
         <div className="lg:w-2/3 animate__animated animate__fadeInLeft">
           <Letters
