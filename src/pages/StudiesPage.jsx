@@ -4,8 +4,9 @@ import Letters from "../components/Letters";
 const StudiesPage = () => {
   const { t } = useTranslation();
   return (
-    <div className="text-gray-300">
-      <div className="flex flex-col lg:flex-row items-center lg:items-start px-4 lg:pl-80 mt-6 mb-8 space-y-8 lg:space-y-0">
+    <div className="relative bg-transparent text-gray-300 min-h-screen bg-cover bg-center" style={{ backgroundImage: `url(https://res.cloudinary.com/dnwyfbj7m/image/upload/v1735992827/Background_portfolio.png)` }}>
+      <div className="absolute inset-0 bg-black bg-opacity-70 z-10"></div>
+      <div className="relative z-20 flex flex-col lg:flex-row items-center lg:items-start px-4 lg:pl-80 mt-6 mb-8 space-y-8 lg:space-y-0">
         <div className="lg:w-2/3 animate__animated animate__fadeInLeft">
           <Letters
             value={t("studies.title3")}
@@ -45,7 +46,7 @@ const StudiesPage = () => {
         <hr className="bg-gray-100 h-px mt-4 mb-8" />
       </div>
 
-      <div className="px-4 lg:pl-80 mt-6 mb-8">
+      <div className="relative z-20 px-4 lg:pl-80 mt-6 mb-8">
         <Letters
           value={t("studies.title2")}
           size="xl"
@@ -89,7 +90,7 @@ const StudiesPage = () => {
         <hr className="bg-gray-100 h-px mt-4 mb-8" />
       </div>
 
-      <div className="px-4 lg:pl-80 mt-6 mb-8">
+      <div className="relative z-20 px-4 lg:pl-80 mt-6 mb-8">
         <Letters
           value={t("studies.title")}
           size="xl"
@@ -125,7 +126,7 @@ const StudiesPage = () => {
         <hr className="bg-gray-100 h-px mt-4 mb-8" />
       </div>
 
-      <div className="px-4 lg:pl-80 mt-6 mb-8">
+      <div className="relative z-20 px-4 lg:pl-80 mt-6 mb-8">
         <Letters
           value={t("studies.title1")}
           size="xl"

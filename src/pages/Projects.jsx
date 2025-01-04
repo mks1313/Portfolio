@@ -5,9 +5,20 @@ import Button from "../components/Button";
 
 const Projects = () => {
   const { t } = useTranslation();
+  const backgroundUrl =
+    "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1735992827/Background_portfolio.png";
+  
   return (
-    <div className="flex flex-col md:flex-col justify-between bg-black text-gray-300 lg:pl-8">
-      <div className="px-4 lg:pl-80 bg-black mt-6 mb-8">
+    <div className="relative flex flex-col md:flex-col justify-between bg-black text-gray-300 lg:pl-8 min-h-screen">
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
+        style={{
+          backgroundImage: `url(${backgroundUrl})`,
+        }}
+      >
+        <div className="absolute inset-0 bg-black opacity-70 z-0"></div>
+      </div>
+      <div className="relative z-10 px-4 lg:pl-80 mt-6 mb-8">
         <div className="flex justify-start items-center animate-slideIn">
           <div className="flex flex-col items-center" style={{ height: "100px" }}>
             <Button
@@ -68,7 +79,7 @@ const Projects = () => {
       <div className="w-full mx-4">
         <hr className="bg-gray-100 h-px mt-4 mb-8" />
       </div>
-      <div className="px-4 lg:pl-80 bg-black mt-6 mb-8">
+      <div className="relative z-10 px-4 lg:pl-80 mt-6 mb-8">
         <div className="flex justify-start items-center animate-slideIn">
           <div className="flex flex-col items-center mr-4">
             <Button
@@ -124,4 +135,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
