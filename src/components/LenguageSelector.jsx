@@ -12,9 +12,13 @@ const LanguageSelector = () => {
   return (
     <div className="flex items-center mt-20 ml-10">
       <FontAwesomeIcon icon={faGlobe} className="text-2xl mr-4 ml-3" style={{ color: "silver" }} />
-      <select value={i18n.language} className="text-gray-200 border-none mt-1 bg-transparent appearance-none text-lg" onChange={(e) => handleChangeLanguage(e.target.value)}>
-        <option value="en">English</option>
-        <option value="es">Español</option>
+      <select 
+        value={i18n.language} 
+        onChange={(e) => handleChangeLanguage(e.target.value)}
+        className="text-gray-200 bg-transparent border-none text-lg cursor-pointer appearance-none focus:outline-none focus:ring-0 focus:bg-transparent"
+      >
+        <option value="en" className="bg-transparent">English</option>
+        <option value="es" className="bg-transparent">Español</option>
       </select>
     </div>
   );

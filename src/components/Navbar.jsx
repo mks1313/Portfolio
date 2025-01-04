@@ -6,7 +6,8 @@ import { useTranslation } from 'react-i18next';
 import Letters from '../components/Letters';
 import LanguageSelector from './LenguageSelector';
 import matrix from "../assets/icons/matrix.svg";
-//TODO hacer mas responsive, tamaño de enlaces, estilos
+
+// TODO hacer más responsive, tamaño de enlaces, estilos
 const Navbar = () => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
@@ -41,64 +42,65 @@ const Navbar = () => {
       <div
         className={`
           ${isOpen ? '' : 'hidden'} lg:block
-          fixed top-0 left-0 z-40 w-64 h-dvh transition-transform bg-[#2E2E2E]
+          fixed top-0 left-0 z-40 w-64 h-full transition-transform
+          bg-gradient-to-r from-[#0a0a0a] via-[#003300] to-[#008000]
           flex flex-col justify-between items-center
         `}
       >
         <img src={matrix} alt="Logo" className="w-32 h-auto mt-10 mb-4 mx-auto rounded-full" />
         <div className='mt-20'>
-        <ul className="flex flex-col items-center space-y-4">
-          <li>
-            <NavLink
-              to="/"
-              className={`font-bold  text-${selectedPage === '/' ? 'silver' : 'aqua'}`}
-              onClick={handlePageClick}
-              onMouseDown={() => setSelectedPage('/')}
-            >
-              <Letters value={t('navbar.home')} size="m" underline={false} gradient={true} />
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/about"
-              className={`font-bold text-${selectedPage === '/about' ? 'silver' : 'aqua'}`}
-              onClick={handlePageClick}
-              onMouseDown={() => setSelectedPage('/about')}
-            >
-              <Letters value={t('navbar.about')} size="m" underline={false} gradient={true} />
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/studies"
-              className={`font-bold text-${selectedPage === '/studies' ? 'silver' : 'aqua'}`}
-              onClick={handlePageClick}
-              onMouseDown={() => setSelectedPage('/studies')}
-            >
-              <Letters value={t('navbar.studies')} size="m" underline={false} gradient={true} />
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/experience"
-              className={`font-bold text-${selectedPage === '/experience' ? 'silver' : 'aqua'}`}
-              onClick={handlePageClick}
-              onMouseDown={() => setSelectedPage('/experience')}
-            >
-              <Letters value={t('navbar.experience')} size="m" underline={false} gradient={true} />
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/projects"
-              className={`font-bold text-${selectedPage === '/projects' ? 'silver' : 'aqua'}`}
-              onClick={handlePageClick}
-              onMouseDown={() => setSelectedPage('/projects')}
-            >
-              <Letters value={t('navbar.projects')} size="m" underline={false} gradient={true} />
-            </NavLink>
-          </li>
-        </ul>
+          <ul className="flex flex-col items-center space-y-4">
+            <li>
+              <NavLink
+                to="/"
+                onClick={handlePageClick}
+                onMouseDown={() => setSelectedPage('/')}
+                className={`font-bold ${selectedPage === '/' ? 'text-gray-500' : 'text-teal-400'}`}
+              >
+                <Letters value={t('navbar.home')} size="m" underline={false} gradient={true} />
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/about"
+                onClick={handlePageClick}
+                onMouseDown={() => setSelectedPage('/about')}
+                className={`font-bold ${selectedPage === '/about' ? 'text-gray-500' : 'text-teal-400'}`}
+              >
+                <Letters value={t('navbar.about')} size="m" underline={false} gradient={true} />
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/studies"
+                onClick={handlePageClick}
+                onMouseDown={() => setSelectedPage('/studies')}
+                className={`font-bold ${selectedPage === '/studies' ? 'text-gray-500' : 'text-teal-400'}`}
+              >
+                <Letters value={t('navbar.studies')} size="m" underline={false} gradient={true} />
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/experience"
+                onClick={handlePageClick}
+                onMouseDown={() => setSelectedPage('/experience')}
+                className={`font-bold ${selectedPage === '/experience' ? 'text-gray-500' : 'text-teal-400'}`}
+              >
+                <Letters value={t('navbar.experience')} size="m" underline={false} gradient={true} />
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/projects"
+                onClick={handlePageClick}
+                onMouseDown={() => setSelectedPage('/projects')}
+                className={`font-bold ${selectedPage === '/projects' ? 'text-gray-500' : 'text-teal-400'}`}
+              >
+                <Letters value={t('navbar.projects')} size="m" underline={false} gradient={true} />
+              </NavLink>
+            </li>
+          </ul>
         </div>
         <LanguageSelector />
         <p className="text-sm text-gray-200 mt-20 mb-20">Created by: Maksim Georgiev Marinov</p>
@@ -108,9 +110,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-
-
-
-

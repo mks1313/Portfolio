@@ -16,5 +16,3 @@ const Button = ({ href, imageSrc, alt, text, className }) => {
 };
 
 export default Button;
-
-  
