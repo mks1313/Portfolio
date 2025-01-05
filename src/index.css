@@ -44,3 +44,17 @@
   animation: slideIn 0.8s ease-out forwards;
 }
 
+
+/* Animación desde arriba */
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.projects .animate-slideInFromTop {
+  animation: slideInFromTop 1s ease-out forwards;
+}

@@ -9,7 +9,7 @@ const Projects = () => {
     "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1735992827/Background_portfolio.png";
   
   return (
-    <div className="relative flex flex-col md:flex-col justify-between bg-black text-gray-300 lg:pl-8 min-h-screen">
+    <div className="relative flex flex-col md:flex-col justify-between bg-black text-gray-300 lg:pl-8 min-h-screen projects">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
         style={{
@@ -19,7 +19,7 @@ const Projects = () => {
         <div className="absolute inset-0 bg-black opacity-70 z-0"></div>
       </div>
       <div className="relative z-10 px-4 lg:pl-80 mt-6 mb-8">
-        <div className="flex justify-start items-center animate-slideIn">
+        <div className="flex justify-start items-center animate-slideInFromTop">
           <div className="flex flex-col items-center" style={{ height: "100px" }}>
             <Button
               href={"https://github.com/mks1313/project-3-client"}
@@ -51,7 +51,7 @@ const Projects = () => {
           size="xl"
           underline={false}
           gradient={true}
-          className="text-center text-white mb-2 animate-slideIn"
+          className="text-center text-white mb-2 animate-slideInFromTop"
           id="title1"
         />
         <Letters
@@ -59,20 +59,20 @@ const Projects = () => {
           size="s"
           underline={false}
           gradient={true}
-          className="text-center text-white mb-2 animate-slideIn"
+          className="text-center text-white mb-2 animate-slideInFromTop"
           id="date1"
         />
         <img
           src={t("projects.image1")}
           alt="Imagen de web"
-          className="w-90 h-60 mb-8 mx-auto mt-4 rounded-lg border-[6px] border-gray-200 animate-slideIn"
+          className="w-90 h-60 mb-8 mx-auto mt-4 rounded-lg border-[6px] border-gray-200 animate-slideInFromTop"
         />
         <Letters
           value={t("projects.description1")}
           size="l"
           underline={false}
           gradient={true}
-          className="text-center text-white animate-slideIn"
+          className="text-center text-white animate-slideInFromTop"
           id="description1"
         />
       </div>
@@ -80,7 +80,7 @@ const Projects = () => {
         <hr className="bg-gray-100 h-px mt-4 mb-8" />
       </div>
       <div className="relative z-10 px-4 lg:pl-80 mt-6 mb-8">
-        <div className="flex justify-start items-center animate-slideIn">
+        <div className="flex justify-start items-center animate-slideInFromTop">
           <div className="flex flex-col items-center mr-4">
             <Button
               href={"https://github.com/mks1313/Historical-events-CRUD"}
@@ -102,7 +102,7 @@ const Projects = () => {
           size="xl"
           underline={false}
           gradient={true}
-          className="text-center text-white mb-2 animate-slideIn"
+          className="text-center text-white mb-2 animate-slideInFromTop"
           id="title"
         />
         <Letters
@@ -110,20 +110,20 @@ const Projects = () => {
           size="s"
           underline={false}
           gradient={true}
-          className="text-center text-white mb-2 animate-slideIn"
+          className="text-center text-white mb-2 animate-slideInFromTop"
           id="date"
         />
         <img
           src={t("projects.image")}
           alt="Imagen de web"
-          className="w-90 h-60 mb-8 mx-auto mt-4 rounded-lg border-[6px] border-gray-200 animate-slideIn"
+          className="w-90 h-60 mb-8 mx-auto mt-4 rounded-lg border-[6px] border-gray-200 animate-slideInFromTop"
         />
         <Letters
           value={t("projects.description")}
           size="l"
           underline={false}
           gradient={true}
-          className="text-center text-white animate-slideIn"
+          className="text-center text-white animate-slideInFromTop"
           id="description"
         />
       </div>
