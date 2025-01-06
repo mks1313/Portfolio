@@ -11,6 +11,13 @@
   letter-spacing: 0;
 }
 
+.img-background {
+  background-image: url('https://res.cloudinary.com/dnwyfbj7m/image/upload/w_1920,h_1080,c_fill,q_auto/v1735992827/Background_portfolio.png');
+  background-size: cover;
+  background-position: center;
+}
+
+
 .silver-gradient {
   background: linear-gradient(90deg, #C0C0C0, #E0E0E0);
   -webkit-background-clip: text; 
@@ -44,8 +51,6 @@
   animation: slideIn 0.8s ease-out forwards;
 }
 
-
-/* Animación desde arriba */
 @keyframes slideInFromTop {
   0% {
     transform: translateY(-50%);
@@ -58,3 +63,4 @@
 .projects .animate-slideInFromTop {
   animation: slideInFromTop 1s ease-out forwards;
 }
+

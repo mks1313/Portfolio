@@ -9,23 +9,14 @@ import map from "../assets/icons/map.svg";
 import Letters from "../components/Letters";
 import Button from "../components/Button";
 
-
 const HomePage = () => {
   const { t } = useTranslation();
   const imageUrl =
     "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712145110/project-3/yb1epe8w7tmtnvffy2zk.jpg";
-  const backgroundUrl =
-    "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1735992827/Background_portfolio.png";
 
   return (
     <div
-      className="relative flex flex-col md:flex-row justify-between text-gray-900 lg:pl-8 min-h-screen"
-      style={{
-        backgroundImage: `url(${backgroundUrl})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
+      className="relative flex flex-col md:flex-row justify-between text-gray-900 lg:pl-8 min-h-screen img-background"
     >
       <div className="absolute inset-0 bg-black opacity-70"></div>
       <div className="relative px-4 lg:pl-80 mt-20 animate-slideInLeft">
