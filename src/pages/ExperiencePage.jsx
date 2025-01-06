@@ -7,11 +7,11 @@ const ExperiencePage = () => {
     "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1735992827/Background_portfolio.png";
   return (
     <div className="bg-black text-gray-300"
-    style={{
-          backgroundImage: `url(${backgroundUrl})`,
-        }}
+      style={{
+        backgroundImage: `url(${backgroundUrl})`,
+      }}
     >
-    <div className="absolute inset-0 bg-black opacity-70 z-0"></div>
+      <div className="absolute inset-0 bg-black opacity-70 z-0"></div>
       <div className="px-4 lg:pl-80 mt-6 mb-8">
         <Letters value={t("experience.title1")} size="xl" underline={false} gradient={true} className="text-center text-white mb-2 animate-fadeIn" id="title" />
         <Letters value={t("experience.date1")} size="s" underline={false} gradient={true} className="text-center text-white mb-2 animate-fadeIn" id="date" />
