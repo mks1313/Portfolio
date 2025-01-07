@@ -103,7 +103,7 @@ const Navbar = () => {
           </ul>
         </div>
         <LanguageSelector />
-        <p className="text-sm text-gray-200 mt-20 mb-20 text-center">Created by: Maksim</p>
+        <p className="text-center text-sm text-gray-200 mt-20 mb-20">Created by: Maksim </p>
       </div>
     </>
   );
