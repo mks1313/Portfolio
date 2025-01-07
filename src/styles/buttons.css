@@ -1,0 +1,39 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.375rem; 
+    border: 2px solid #e0e0e0; 
+    background: linear-gradient(90deg, #C0C0C0, #E0E0E0); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    width: 50px; 
+    height: 50px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+  }
+  
+  .btn:hover {
+    transform: scale(1.1); 
+    transform: translateY(-2px); 
+  }
+  
+  @media (min-width: 1280px) {
+    .btn {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
+  .btn img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .silver-gradient {
+    background: linear-gradient(90deg, #C0C0C0, #E0E0E0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
