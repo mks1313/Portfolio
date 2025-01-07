@@ -2,7 +2,6 @@
 @import './styles/buttons.css';
 @import './styles/animations.css';
 @import './styles/backgrounds.css';
-@import './styles/layout.css';
 @import './styles/theme.css';
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
