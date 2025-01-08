@@ -1,11 +1,17 @@
 {
-    "name": "Maksim Georgiev Marinov",
-    "description": "Soy Maksim, un apasionado por la tecnología y el desarrollo con una historia en constante evolución. Después de graduarme de Ironhack hace un año, donde completé un intensivo bootcamp de desarrollo web, decidí continuar mi aprendizaje en 42 Barcelona. Aquí, me sumerjo profundamente en conceptos avanzados como C, C++, sistemas Linux y bases de datos relacionales. En 42, no solo he aprendido sobre programación, sino que también me he sumergido en el manejo del entorno shell, desarrollando mis habilidades en línea de comandos y profundizando en los entornos de desarrollo más fundamentales para la programación. Además de mi enfoque en estas áreas técnicas, sigo manteniendo y practicando tanto el frontend como el backend con JavaScript, y me encuentro tomando cursos adicionales en calidad de software (QA) para mejorar mis habilidades en pruebas y asegurarme de entregar código robusto. A lo largo de mi trayectoria, he buscado siempre estar al tanto de las últimas tecnologías, colaborar en proyectos y aplicar mis conocimientos en diferentes contextos. Mi pasión por el aprendizaje y mi deseo de aplicar lo que he aprendido me impulsan a seguir creciendo cada día. Estoy emocionado por las oportunidades que el futuro tiene para mí en el mundo del desarrollo.",
-    "location": "Barcelona, España",
-    "languages": "Español, Ingles, Ruso",
-    "gmail": "mg.marinov@gmx.es",
-    "phone": "+34 647 63 60 10",
-    "linkedinURL": "https://www.linkedin.com/in/mgmarinov/",
-    "githubURL": "https://github.com/mks1313",
-    "stackOverflowURL": "https://stackoverflow.com/users/22835936/maksim-marinov"
+  "name": "Maksim Georgiev Marinov",
+  "location": "Barcelona, España",
+  "languages": "Inglés, Español, Ruso",
+  "gmail": "mg.marinov@gmx.es",
+  "linkedinURL": "https://www.linkedin.com/in/mgmarinov/",
+  "githubURL": "https://github.com/mks1313",
+  "profile": {
+    "intro": "Soy Maksim, un desarrollador apasionado con una historia en constante evolución.",
+    "background": "Después de graduarme de Ironhack hace un año, donde completé un intensivo bootcamp de desarrollo web, decidí continuar mi aprendizaje en 42 Barcelona.",
+    "current": "Actualmente, continúo mis estudios en 42 Barcelona, donde profundizo en conceptos avanzados como C, C++, sistemas Linux, bases de datos relacionales, y desarrollo de habilidades en la línea de comandos en varios entornos.",
+    "skills": "Además de mi enfoque en estas áreas técnicas, practico tanto el desarrollo frontend como backend con JavaScript, y tomo cursos adicionales en calidad de software (QA) para mejorar mis habilidades de prueba y asegurar que entregue código robusto y confiable.",
+    "collaboration": "Constantemente busco mantenerme actualizado con las últimas tecnologías y colaborar en proyectos diversos, aplicando mis conocimientos en diferentes contextos.",
+    "future": "Mi pasión por aprender y mi deseo de aplicar lo que he aprendido me impulsa a seguir creciendo cada día.",
+    "goal": "Estoy emocionado por las oportunidades que el futuro tiene para mí en el mundo del desarrollo."
   }
+}
