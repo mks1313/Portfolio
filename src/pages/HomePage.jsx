@@ -9,7 +9,7 @@ import map from "../assets/icons/map.svg";
 import Letters from "../components/Letters";
 import Button from "../components/Button";
 
-// TODO terminar arreglo de json, para exposicion de la info mas visual
+// TODO terminar arreglo de json, para exposicion de la info 
 const HomePage = () => {
   const { t } = useTranslation();
   const imageUrl =
