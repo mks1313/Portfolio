@@ -3,6 +3,7 @@ import ProfileSection from "../components/ProfileSection";
 import ProfileImageAndButtons from "../components/ProfileImageAndButtons";
 import ContactInfo from "../components/ContactInfo";
 
+// TODO terminar arreglo de json, para exposicion de la info mas visual
 const HomePage = () => {
   const { t } = useTranslation();
   const imageUrl =
