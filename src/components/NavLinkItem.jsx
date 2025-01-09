@@ -6,7 +6,7 @@ const NavLinkItem = ({ to, selectedPage, setSelectedPage, label, handlePageClick
   const { t } = useTranslation();
 
   return (
-    <li>
+    <li className='transform transition-transform duration-300 hover:scale-105'>
       <NavLink
         to={to}
         onClick={() => {
