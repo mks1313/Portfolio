@@ -5,7 +5,7 @@ import stack from "../assets/icons/stack-overflow.svg";
 
 const ProfileImageAndButtons = ({ imageUrl, linkedinURL, githubURL, stackOverflowURL }) => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center ml-12 mt-12">
       {/* Imagen de perfil */}
       <img
         src={imageUrl}

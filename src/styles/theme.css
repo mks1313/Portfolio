@@ -4,3 +4,15 @@
     --secondary-color: #edf2f7;
   }
   
+  /* ContactInfo.css */
+.contact-item {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem; 
+  margin-bottom: 1rem; 
+  animation: slideInRight 1s ease-in-out;
+}
+
+.contact-item:last-child {
+  margin-bottom: 2rem;
+}

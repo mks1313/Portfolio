@@ -9,22 +9,22 @@ const ContactInfo = () => {
   const { t } = useTranslation();
 
   return (
-    <ul className="mt-8 pr-4 animate-slideInRight text-white">
-      <li className="flex items-center text-lg mb-4 animate-slideInRight">
+    <ul className="mt-8 ml-20 pl-6 pr-4 animate-slideInRight text-white">
+      <li className="contact-item">
         <img src={map} alt="Icon" className="mr-4" />
         <Letters value={t("home.location")} size="m" />
       </li>
-      <li className="flex items-center text-lg mb-4 animate-slideInRight">
+      <li className="contact-item">
         <img src={flag} alt="Icon" className="mr-4" />
         <Letters value={t("home.languages")} size="m" />
       </li>
-      <li className="flex items-center text-lg mb-4 animate-slideInRight">
+      <li className="contact-item">
         <a href="mailto:mg.marinov@gmx.es" className="flex items-center">
           <img src={envelope} alt="Icon" className="mr-4" />
           <Letters value={t("home.gmail")} size="m" />
         </a>
       </li>
-      <li className="flex items-center text-lg animate-slideInRight">
+      <li className="contact-item">
         <img src={phone} alt="Icon" className="mr-4" />
         <Letters value={t("home.phone")} size="m" />
       </li>

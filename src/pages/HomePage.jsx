@@ -15,7 +15,7 @@ const HomePage = () => {
     <div className="relative flex flex-col md:flex-row justify-between text-gray-900 lg:pl-8 min-h-screen img-background">
       <div className="absolute inset-0 bg-black opacity-70"></div>
 
-      <div className="relative px-4 lg:pl-80 mt-20 animate-slideInLeft">
+      <div className="relative px-4 lg:pl-60 mt-20 w-full animate-slideInLeft">
         <ProfileSection
           title={t("home.profile.intro")}
           content={t("home.profile.background")}
@@ -33,7 +33,7 @@ const HomePage = () => {
           content=""
         />
       </div>
-      <div className="relative md:w-full px-4 mt-4 md:mt-0">
+      <div className="relative md:w-1/3 w-full px-4 mt-4 md:mt-0 flex flex-col items-center justify-center md:justify-start space-y-4">
         <ProfileImageAndButtons
           imageUrl={imageUrl}
           linkedinURL={linkedinURL}
