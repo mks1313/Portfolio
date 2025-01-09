@@ -16,3 +16,12 @@
 .contact-item:last-child {
   margin-bottom: 2rem;
 }
+
+.profile-button {
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-button:hover {
+  transform: scale(1.1) translateY(-2px);
+}

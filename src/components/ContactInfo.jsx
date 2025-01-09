@@ -9,7 +9,7 @@ const ContactInfo = () => {
   const { t } = useTranslation();
 
   return (
-    <ul className="mt-8 ml-20 pl-6 pr-4 animate-slideInRight text-white">
+    <ul className="mt-8 ml-18 pl-6 pr-4 animate-slideInRight text-white">
       <li className="contact-item">
         <img src={map} alt="Icon" className="mr-4" />
         <Letters value={t("home.location")} size="m" />

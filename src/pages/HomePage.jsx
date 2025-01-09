@@ -15,7 +15,7 @@ const HomePage = () => {
     <div className="relative flex flex-col md:flex-row justify-between text-gray-900 lg:pl-8 min-h-screen img-background">
       <div className="absolute inset-0 bg-black opacity-70"></div>
 
-      <div className="relative px-4 lg:pl-60 mt-20 w-full animate-slideInLeft">
+      <div className="relative px-4 lg:pl-64 mt-20 w-full animate-slideInLeft">
         <ProfileSection
           title={t("home.profile.intro")}
           content={t("home.profile.background")}

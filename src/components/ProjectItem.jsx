@@ -6,13 +6,13 @@ import '../styles/ProjectItem.css';
 const ProjectItem = ({ title, date, image, description, clientUrl, serverUrl, liveUrl }) => {
   return (
     <div className="project-item-container">
-      <div className="project-button-container">
+      <div className="project-button-container mx-6">
         <div className="project-button-column">
           <Button
             href={clientUrl}
             imageSrc={github}
             alt="GitHub-client"
-            className="hover:scale-105 hover:translate-y-[-2px] transition-transform duration-300"
+            className="profile-button"
           />
           <span className="text-white mt-2">Client</span>
         </div>
@@ -21,7 +21,7 @@ const ProjectItem = ({ title, date, image, description, clientUrl, serverUrl, li
             href={serverUrl}
             imageSrc={github}
             alt="GitHub-server"
-            className="hover:scale-105 hover:translate-y-[-2px] transition-transform duration-300"
+            className="profile-button"
           />
           <span className="text-white mt-2">Server</span>
         </div>
@@ -29,7 +29,7 @@ const ProjectItem = ({ title, date, image, description, clientUrl, serverUrl, li
           <Button
             href={liveUrl}
             text="Visit"
-            className="hover:scale-105 hover:translate-y-[-2px] transition-transform duration-300"
+            className="profile-button"
           />
           <span className="text-white mt-2">Visit</span>
         </div>

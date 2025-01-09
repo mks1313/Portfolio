@@ -5,7 +5,7 @@ import stack from "../assets/icons/stack-overflow.svg";
 
 const ProfileImageAndButtons = ({ imageUrl, linkedinURL, githubURL, stackOverflowURL }) => {
   return (
-    <div className="flex flex-col items-center ml-12 mt-12">
+    <div className="flex flex-col items-center mx-2 mt-12">
       {/* Imagen de perfil */}
       <img
         src={imageUrl}
@@ -19,19 +19,19 @@ const ProfileImageAndButtons = ({ imageUrl, linkedinURL, githubURL, stackOverflo
           href={linkedinURL}
           imageSrc={linkedin}
           alt="LinkedIn"
-          className="transform transition-transform duration-300 hover:scale-110 hover:translate-y-[-2px]"
+          className="profile-button"
         />
         <Button
           href={githubURL}
           imageSrc={github}
           alt="GitHub"
-          className="transform transition-transform duration-300 hover:scale-110 hover:translate-y-[-2px]"
+          className="profile-button"
         />
         <Button
           href={stackOverflowURL}
           imageSrc={stack}
           alt="Stack Overflow"
-          className="transform transition-transform duration-300 hover:scale-110 hover:translate-y-[-2px]"
+          className="profile-button"
         />
       </div>
     </div>
