@@ -10,7 +10,8 @@ const ProfileImageAndButtons = ({ imageUrl, linkedinURL, githubURL, stackOverflo
       <img
         src={imageUrl}
         alt="Foto de perfil"
-        className="w-auto h-80 mb-6 mt-6 rounded-lg border-4 border-gray-200"
+        className="w-auto h-80 mb-6 mt-6 rounded-lg border-4 border-gray-200 object-cover"
+        style={{ maxWidth: "100%", height: "auto" }}
       />
 
       {/* Contenedor de botones */}
