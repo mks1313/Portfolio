@@ -4,7 +4,6 @@ import Logo from './Logo';
 import MenuButton from './MenuButton';
 import LanguageSelector from './LenguageSelector';
 
-// TODO hacer más responsive, tamaño de enlaces, estilos
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedPage, setSelectedPage] = useState(null);
@@ -24,7 +23,7 @@ const Navbar = () => {
   return (
     <>
       <MenuButton isOpen={isOpen} toggleNavbar={toggleNavbar} />
-      
+
       <div
         className={`
           ${isOpen ? '' : 'hidden'} lg:block
@@ -33,8 +32,12 @@ const Navbar = () => {
           flex flex-col justify-between items-center
         `}
       >
-        <Logo handlePageClick={handlePageClick} />
-        <div className="lg:mt-20">
+        {/* Mostrar logo solo en pantallas con altura mayor a 500px */}
+        <div className="hidden lg:block show-on-tall">
+          <Logo handlePageClick={handlePageClick} />
+        </div>
+
+        <div className="mt-10 lg:mt-20 flex-1 flex flex-col justify-center">
           <ul className="flex flex-col items-center space-y-4">
             <NavLinkItem to="/" selectedPage={selectedPage} setSelectedPage={setSelectedPage} label="navbar.home" handlePageClick={handlePageClick} />
             <NavLinkItem to="/about" selectedPage={selectedPage} setSelectedPage={setSelectedPage} label="navbar.about" handlePageClick={handlePageClick} />
@@ -43,8 +46,10 @@ const Navbar = () => {
             <NavLinkItem to="/projects" selectedPage={selectedPage} setSelectedPage={setSelectedPage} label="navbar.projects" handlePageClick={handlePageClick} />
           </ul>
         </div>
+
         <LanguageSelector />
-        <p className="text-center text-sm text-gray-200 mt-20 mb-20">Created by: Maksim </p>
+
+        <p className="text-center text-sm text-gray-200 mt-10 lg:mt-20 mb-10 lg:mb-20">Created by: Maksim</p>
       </div>
     </>
   );

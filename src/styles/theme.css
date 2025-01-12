@@ -26,3 +26,16 @@
 .profile-button:hover {
   transform: scale(1.1) translateY(-2px);
 }
+
+/* hidden logo */
+@media (max-height: 500px) {
+  .show-on-tall {
+    display: none;
+  }
+}
+
+@media (min-height: 501px) {
+  .show-on-tall {
+    display: block;
+  }
+}
