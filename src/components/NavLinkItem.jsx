@@ -13,7 +13,7 @@ const NavLinkItem = ({ to, selectedPage, setSelectedPage, label, handlePageClick
           setSelectedPage(to);
           handlePageClick(); 
         }}
-        className={`font-bold ${selectedPage === to ? 'text-gray-500' : 'text-teal-400'}`}
+        className={`font-bold ${selectedPage === to ? 'text-gray-500' : 'text-teal-400'} hover:text-teal-600`} 
       >
         <Letters value={t(label)} size="m" underline={false} gradient={true} />
       </NavLink>

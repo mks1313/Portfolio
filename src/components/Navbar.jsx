@@ -34,7 +34,7 @@ const Navbar = () => {
         `}
       >
         <Logo handlePageClick={handlePageClick} />
-        <div className="mt-20">
+        <div className="lg:mt-20">
           <ul className="flex flex-col items-center space-y-4">
             <NavLinkItem to="/" selectedPage={selectedPage} setSelectedPage={setSelectedPage} label="navbar.home" handlePageClick={handlePageClick} />
             <NavLinkItem to="/about" selectedPage={selectedPage} setSelectedPage={setSelectedPage} label="navbar.about" handlePageClick={handlePageClick} />
