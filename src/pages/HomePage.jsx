@@ -10,7 +10,7 @@ const HomePage = () => {
   const linkedinURL = "https://www.linkedin.com/in/mgmarinov/";
   const githubURL = "https://github.com/mks1313";
   const stackOverflowURL = "https://stackoverflow.com/users/22835936/maksim-marinov";
-// TODO hacer texto mas explicativo, uso de tecnologias, etc tanto en about como en
+// TODO hacer texto mas explicativo, uso de tecnologias, etc tanto en about como en home
 
   return (
     <div className="relative flex flex-col md:flex-row justify-between text-gray-900 lg:pl-8 min-h-screen img-background">
