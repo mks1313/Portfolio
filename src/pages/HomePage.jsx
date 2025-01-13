@@ -3,7 +3,6 @@ import ProfileSection from "../components/ProfileSection";
 import ProfileImageAndButtons from "../components/ProfileImageAndButtons";
 import ContactInfo from "../components/ContactInfo";
 
-// TODO terminar arreglo de json, para exposicion de la info mas visual
 const HomePage = () => {
   const { t } = useTranslation();
   const imageUrl =
@@ -11,10 +10,13 @@ const HomePage = () => {
   const linkedinURL = "https://www.linkedin.com/in/mgmarinov/";
   const githubURL = "https://github.com/mks1313";
   const stackOverflowURL = "https://stackoverflow.com/users/22835936/maksim-marinov";
-// TODO hacer texto mas explicativo, uso de tecnologias, etc tanto en about como en home.
+// TODO hacer texto mas explicativo, uso de tecnologias, etc tanto en about como en
+// https://1drv.ms/b/c/a920611cfc94b283/EUTz02GzsI1KuSnDo0ng9msBMsdFTFnw2hu6_WBuP6bVeg?e=WAg4Ur-link cv.es
+// https://1drv.ms/b/c/a920611cfc94b283/EQvNwz83b_5Diaaw-g8rCx4BCUbEOLL1e3GcwmEiTJBH6w?e=8LdC9H cv.en
   return (
     <div className="relative flex flex-col md:flex-row justify-between text-gray-900 lg:pl-8 min-h-screen img-background">
       <div className="absolute inset-0 bg-black opacity-70"></div>
+
       <div className="relative px-4 lg:pl-64 mt-20 w-full animate-slideInLeft">
         <ProfileSection
           title={t("home.profile.intro")}
