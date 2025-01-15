@@ -5,12 +5,16 @@ import ContactInfo from "../components/ContactInfo";
 
 const HomePage = () => {
   const { t } = useTranslation();
+
   const imageUrl =
     "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712145110/project-3/yb1epe8w7tmtnvffy2zk.jpg";
-  const linkedinURL = "https://www.linkedin.com/in/mgmarinov/";
-  const githubURL = "https://github.com/mks1313";
-  const stackOverflowURL = "https://stackoverflow.com/users/22835936/maksim-marinov";
-// TODO hacer texto mas explicativo, uso de tecnologias, etc tanto en about como en home
+  
+  const socialLinks = {
+    linkedin: "https://www.linkedin.com/in/mgmarinov/",
+    github: "https://github.com/mks1313",
+    stackOverflow: "https://stackoverflow.com/users/22835936/maksim-marinov",
+    cv: "https://asset.cloudinary.com/dnwyfbj7m/4c85803058b4bbc12fbad21133143bb6"
+  };
 
   return (
     <div className="relative flex flex-col md:flex-row justify-between text-gray-900 lg:pl-8 min-h-screen img-background">
@@ -37,9 +41,7 @@ const HomePage = () => {
       <div className="relative md:w-1/3 w-full px-4 mt-4 md:mt-0 flex flex-col items-center justify-center md:justify-start space-y-4">
         <ProfileImageAndButtons
           imageUrl={imageUrl}
-          linkedinURL={linkedinURL}
-          githubURL={githubURL}
-          stackOverflowURL={stackOverflowURL}
+          socialLinks={socialLinks} 
         />
         <ContactInfo />
       </div>
