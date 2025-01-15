@@ -2,7 +2,7 @@ import Button from "./Button";
 import github from "../assets/icons/github.svg";
 import linkedin from "../assets/icons/linkedin.svg";
 import stack from "../assets/icons/stack-overflow.svg";
-import cv from "../assets/icons/cv.svg"
+import cv from "../assets/icons/cv.svg";
 
 const ProfileImageAndButtons = ({ imageUrl, socialLinks }) => {
   return (
@@ -39,9 +39,7 @@ const ProfileImageAndButtons = ({ imageUrl, socialLinks }) => {
           alt="Descargar CV"
           className="profile-button"
           download
-        >
-          Descargar CV
-        </Button>
+        />
       </div>
     </div>
   );

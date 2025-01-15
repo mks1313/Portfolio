@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import ProfileSection from "../components/ProfileSection";
-import ProfileImageAndButtons from "../components/ProfileImageAndButtons";
+import SocialLinks from "../components/SocialLinks";
 import ContactInfo from "../components/ContactInfo";
 
 const HomePage = () => {
@@ -38,11 +38,15 @@ const HomePage = () => {
           content=""
         />
       </div>
+
       <div className="relative md:w-1/3 w-full px-4 mt-4 md:mt-0 flex flex-col items-center justify-center md:justify-start space-y-4">
-        <ProfileImageAndButtons
-          imageUrl={imageUrl}
-          socialLinks={socialLinks} 
+        <img
+          src={imageUrl}
+          alt="Foto de perfil"
+          className="w-auto h-80 mb-6 mt-6 rounded-lg border-4 border-gray-200 object-cover"
+          style={{ maxWidth: "100%", height: "auto" }}
         />
+        <SocialLinks socialLinks={socialLinks} />
         <ContactInfo />
       </div>
     </div>
