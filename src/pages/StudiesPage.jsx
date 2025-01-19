@@ -3,7 +3,7 @@ import StudySection from "../components/StudySection";
 
 const StudiesPage = () => {
   const { t } = useTranslation();
-  
+  // TODO hacer collapse, o algun otro estilo carousel tal vez, para UIUX
   return (
     <div className="relative bg-transparent text-gray-300 min-h-screen img-background">
       <div className="absolute inset-0 bg-black bg-opacity-70 z-10"></div>
