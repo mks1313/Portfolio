@@ -15,5 +15,9 @@
   "title3": "42 Barcelona, Telefónica Foundation",
   "date3": "04/2024 - present",
   "description3": "Since April 2024, I have been studying at the School of Development, Campus 42 Barcelona, ​​an innovative environment that promotes self-directed learning through problem solving and collaborative projects, without the traditional structure of teachers or classes. During my training, I have acquired skills in the C and C++ programming languages, in addition to developing skills in system administration, including the installation of virtual machines and advanced command line management.",
-  "image2": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1724402225/project-3/ow05aeq063gl6mgwkz3s.jpg"
+  "image2": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1724402225/project-3/ow05aeq063gl6mgwkz3s.jpg",
+  "title4": "Automated and Manual Software Testing",
+  "date4": "01/2025",
+  "description4": "During my training in software testing, I acquired knowledge in both manual and automated testing, using tools such as Selenium and Cypress to ensure the quality and functionality of applications. In addition, I learned to work under agile methodologies such as Scrum, managing development through Jira and participating in the planning and execution of Sprints. My focus is on ensuring an optimal user experience, detecting and resolving errors efficiently.",
+  "image3": "https://udemy-certificate.s3.amazonaws.com/image/UC-24f006f7-66eb-487e-bbef-16b3b5e1379e.jpg"
 }
