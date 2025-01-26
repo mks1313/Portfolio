@@ -3,83 +3,36 @@ import StudySection from "../components/StudySection";
 
 const StudiesPage = () => {
   const { t } = useTranslation();
-  // TODO hacer collapse, o algun otro estilo carousel tal vez, para UIUX
+  
+  const studyData = [
+    { titleKey: "title5", dateKey: "date5", descriptionKey: "description5", imageKey: "image4", altText: "Udemy certificate", animation: "animate__fadeInLeft" },
+    { titleKey: "title4", dateKey: "date4", descriptionKey: "description4", imageKey: "image3", altText: "Udemy certificate", animation: "animate__fadeInLeft" },
+    { titleKey: "title3", dateKey: "date3", descriptionKey: "description3", imageKey: "image2", altText: "42 Barcelona campus image", animation: "animate__fadeInLeft" },
+    { titleKey: "title2", dateKey: "date2", descriptionKey: "description2", imageKey: "image1", altText: "Responsive Web Design certificate", animation: "animate__fadeInRight", subdescriptionKey: "subdescription1" },
+    { titleKey: "title", dateKey: "date", descriptionKey: "description", imageKey: "image", altText: "Profile picture", animation: "animate__fadeInLeft" },
+    { titleKey: "title1", dateKey: "date1", descriptionKey: "description1", imageKey: "", altText: "Profile picture", animation: "animate__fadeInRight", subdescriptionKey: "subdescription" }
+  ];
+
   return (
     <div className="relative bg-transparent text-gray-300 min-h-screen img-background">
       <div className="absolute inset-0 bg-black bg-opacity-70 z-10"></div>
-      
       <div className="relative z-20">
-      <StudySection
-          title={t("studies.title5")}
-          date={t("studies.date5")}
-          description={t("studies.description5")}
-          image={t("studies.image4")}
-          altText="udemy certificate"
-          animation="animate__fadeInLeft"
-        />
-        
-        <div className="w-full mx-4">
-          <hr className="bg-gray-100 h-px mt-4 mb-8" />
-        </div>
-      <StudySection
-          title={t("studies.title4")}
-          date={t("studies.date4")}
-          description={t("studies.description4")}
-          image={t("studies.image3")}
-          altText="udemy certificate"
-          animation="animate__fadeInLeft"
-        />
-        
-        <div className="w-full mx-4">
-          <hr className="bg-gray-100 h-px mt-4 mb-8" />
-        </div>
-        <StudySection
-          title={t("studies.title3")}
-          date={t("studies.date3")}
-          description={t("studies.description3")}
-          image={t("studies.image2")}
-          altText="imagen campus 42"
-          animation="animate__fadeInLeft"
-        />
-        
-        <div className="w-full mx-4">
-          <hr className="bg-gray-100 h-px mt-4 mb-8" />
-        </div>
-
-        <StudySection
-          title={t("studies.title2")}
-          date={t("studies.date2")}
-          description={t("studies.description2")}
-          subdescription={t("studies.subdescription1")}
-          image={t("studies.image1")}
-          altText="certificado"
-          animation="animate__fadeInRight"
-        />
-        
-        <div className="w-full mx-4">
-          <hr className="bg-gray-100 h-px mt-4 mb-8" />
-        </div>
-
-        <StudySection
-          title={t("studies.title")}
-          date={t("studies.date")}
-          description={t("studies.description")}
-          image={t("studies.image")}
-          altText="Foto de perfil"
-          animation="animate__fadeInLeft"
-        />
-        
-        <div className="w-full mx-4">
-          <hr className="bg-gray-100 h-px mt-4 mb-8" />
-        </div>
-
-        <StudySection
-          title={t("studies.title1")}
-          date={t("studies.date1")}
-          description={t("studies.description1")}
-          subdescription={t("studies.subdescription")}
-          animation="animate__fadeInRight"
-        />
+        {studyData.map((data, index) => (
+          <div key={data.titleKey + index}>
+            <StudySection
+              title={t(`studies.${data.titleKey}`)}
+              date={t(`studies.${data.dateKey}`)}
+              description={t(`studies.${data.descriptionKey}`)}
+              image={data.imageKey ? t(`studies.${data.imageKey}`) : undefined}
+              altText={data.altText}
+              animation={data.animation}
+              subdescription={data.subdescriptionKey ? t(`studies.${data.subdescriptionKey}`) : undefined}
+            />
+            <div className="w-full mx-4">
+              <hr className="bg-gray-100 h-px mt-4 mb-8" />
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
