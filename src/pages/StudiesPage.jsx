@@ -10,6 +10,18 @@ const StudiesPage = () => {
       
       <div className="relative z-20">
       <StudySection
+          title={t("studies.title5")}
+          date={t("studies.date5")}
+          description={t("studies.description5")}
+          image={t("studies.image4")}
+          altText="udemy certificate"
+          animation="animate__fadeInLeft"
+        />
+        
+        <div className="w-full mx-4">
+          <hr className="bg-gray-100 h-px mt-4 mb-8" />
+        </div>
+      <StudySection
           title={t("studies.title4")}
           date={t("studies.date4")}
           description={t("studies.description4")}
