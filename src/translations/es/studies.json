@@ -1,27 +1,40 @@
 {
-  "title": "Ironhack: Tech Bootcamp in Barcelona",
-  "date": "09/2023 - 03/2024",
-  "description": "En el bootcamp aprendimos nociones básicas y avanzadas, especialmente en lenguajes como HTML5, CSS, JavaScript. Aplicamos nuestros conocimientos en proyectos reales hechos por nosotros mismos. Utilizamos bibliotecas para frontend como React, y Axios para hacer peticiones al backend hecho con el framework Express en el entorno de ejecución de Node.js. Para el almacenamiento de datos, aprendimos a dominar MongoDB, así como también la gestión de vídeos e imágenes en Cloudinary. Y finalmente, desplegamos los proyectos en Vercel. Gracias a esta formación, me siento capacitado para enfrentar desafíos en el mundo del desarrollo de software con confianza.",
-  "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712145962/project-3/ckdkulxvvihsq1i9h6dx.png",
-  "title1": "Universidad Estatal Nacional de Educación Física, Deporte y Salud de Lesgaft, San Petersburgo",
-  "date1": "09/1997 - 04/2001",
-  "description1": "Facultad de Educación Física",
-  "subdescription": "El deporte y el sistema de formación de los deportistas en el deporte elegido.",
-  "title2": "Responsive Web Design",
-  "date2": "05/2024 - 06/2024",
-  "description2": "freeCodeCamp",
-  "image1": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1717881078/project-3/lyji8lulplzqlhisohwc.png",
-  "subdescription1": "Obtuve un certificado en Diseño Web Responsivo de freeCodeCamp, que cubre HTML, CSS, Flexbox, Grid y las mejores prácticas de accesibilidad.",
-  "title3": "42 Barcelona, Fundación Telefónica",
-  "date3": "04/2024 - presente",
-  "description3": "Desde abril del año 2024, estoy cursando estudios en la Escuela de Desarrollo, Campus 42 Barcelona, un entorno innovador que promueve el aprendizaje autodirigido a través de la resolución de problemas y proyectos colaborativos, sin la estructura tradicional de profesores o clases. Durante mi formación, he adquirido competencias en los lenguajes de programación C y C++, además de desarrollar habilidades en administración de sistemas, incluyendo la instalación de máquinas virtuales y el manejo avanzado de la línea de comandos.",
-  "image2": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1724402225/project-3/ow05aeq063gl6mgwkz3s.jpg",
-  "title4": "Testing de Software Automatizado y Manual",
-  "date4": "01/2025",
-  "description4": "Durante mi formación en testing de software, adquirí conocimientos tanto en pruebas manuales como automatizadas, utilizando herramientas como Selenium y Cypress para asegurar la calidad y funcionalidad de aplicaciones. Además, aprendí a trabajar bajo metodologías ágiles como Scrum, gestionando el desarrollo a través de Jira y participando en la planificación y ejecución de Sprints. Mi enfoque se centra en garantizar una experiencia de usuario óptima, detectando y resolviendo errores de manera eficiente.",
-  "image3": "https://udemy-certificate.s3.amazonaws.com/image/UC-24f006f7-66eb-487e-bbef-16b3b5e1379e.jpg",
-  "title5": "Dominio del diseño web responsivo con Tailwind CSS",
-  "date5": "01/2025",
-  "description5": "A lo largo de este curso, adquirí un conocimiento sólido de Tailwind CSS, un marco de diseño moderno y utilitario. Aprendí a crear interfaces web responsivas y estilizadas de manera eficiente, optimizando tanto el tiempo de desarrollo como el rendimiento del sitio. Utilicé técnicas avanzadas de personalización y buenas prácticas para garantizar que mis proyectos sean visualmente atractivos, accesibles y fáciles de mantener. Este curso me permitió dominar la creación de diseños flexibles y escalables, adaptados a las necesidades del desarrollo web actual.",
-  "image4": "https://udemy-certificate.s3.amazonaws.com/image/UC-3321c026-22fc-45dd-964d-041d38bdc069.jpg"
+  "studies": [
+    {
+      "title": "Dominio del diseño web responsivo con Tailwind CSS",
+      "date": "01/2025",
+      "description": "A lo largo de este curso, adquirí un conocimiento sólido de Tailwind CSS, un marco de diseño moderno y utilitario. Aprendí a crear interfaces web responsivas y estilizadas de manera eficiente, optimizando tanto el tiempo de desarrollo como el rendimiento del sitio. Utilicé técnicas avanzadas de personalización y buenas prácticas para garantizar que mis proyectos sean visualmente atractivos, accesibles y fáciles de mantener. Este curso me permitió dominar la creación de diseños flexibles y escalables, adaptados a las necesidades del desarrollo web actual.",
+      "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-3321c026-22fc-45dd-964d-041d38bdc069.jpg"
+    },
+    {
+      "title": "Testing de Software Automatizado y Manual",
+      "date": "01/2025",
+      "description": "Durante mi formación en testing de software, adquirí conocimientos tanto en pruebas manuales como automatizadas, utilizando herramientas como Selenium y Cypress para asegurar la calidad y funcionalidad de aplicaciones. Además, aprendí a trabajar bajo metodologías ágiles como Scrum, gestionando el desarrollo a través de Jira y participando en la planificación y ejecución de Sprints. Mi enfoque se centra en garantizar una experiencia de usuario óptima, detectando y resolviendo errores de manera eficiente.",
+      "image": "https://udemy-certificate.s3.amazonaws.com/image/UC-24f006f7-66eb-487e-bbef-16b3b5e1379e.jpg"
+    },
+    {
+      "title": "42 Barcelona, Fundación Telefónica",
+      "date": "04/2024 - presente",
+      "description": "Desde abril del año 2024, estoy cursando estudios en la Escuela de Desarrollo, Campus 42 Barcelona, un entorno innovador que promueve el aprendizaje autodirigido a través de la resolución de problemas y proyectos colaborativos, sin la estructura tradicional de profesores o clases. Durante mi formación, he adquirido competencias en los lenguajes de programación C y C++, además de desarrollar habilidades en administración de sistemas, incluyendo la instalación de máquinas virtuales y el manejo avanzado de la línea de comandos.",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1724402225/project-3/ow05aeq063gl6mgwkz3s.jpg"
+    },
+    {
+      "title": "Responsive Web Design",
+      "date": "05/2024 - 06/2024",
+      "description": "Obtuve un certificado en Diseño Web Responsivo de freeCodeCamp, que cubre HTML, CSS, Flexbox, Grid y las mejores prácticas de accesibilidad.",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1717881078/project-3/lyji8lulplzqlhisohwc.png"
+    },
+    {
+      "title": "Ironhack: Tech Bootcamp in Barcelona",
+      "date": "09/2023 - 03/2024",
+      "description": "En el bootcamp aprendimos nociones básicas y avanzadas, especialmente en lenguajes como HTML5, CSS, JavaScript. Aplicamos nuestros conocimientos en proyectos reales hechos por nosotros mismos. Utilizamos bibliotecas para frontend como React, y Axios para hacer peticiones al backend hecho con el framework Express en el entorno de ejecución de Node.js. Para el almacenamiento de datos, aprendimos a dominar MongoDB, así como también la gestión de vídeos e imágenes en Cloudinary. Y finalmente, desplegamos los proyectos en Vercel. Gracias a esta formación, me siento capacitado para enfrentar desafíos en el mundo del desarrollo de software con confianza.",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712145962/project-3/ckdkulxvvihsq1i9h6dx.png"
+    },
+    {
+      "title": "Universidad Estatal Nacional de Educación Física, Deporte y Salud de Lesgaft, San Petersburgo",
+      "date": "09/1997 - 04/2001",
+      "description": "Facultad de Educación Física",
+      "subdescription": "El deporte y el sistema de formación de los deportistas en el deporte elegido."
+    }
+  ]
 }
