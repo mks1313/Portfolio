@@ -1,12 +1,26 @@
 {
     "overview": "Experience",
-    "title1": "Hotel Oasis. Barcelona",
-    "description1": "Durante mi experiencia en recepción, he desempeñado diversas tareas y con el paso de los años he dominado muchos aspectos de la profesión. Destaco especialmente en la gestión de reservas y clientes, asegurando un servicio ágil y eficiente. Además, tengo un dominio avanzado en dos programas de gestión hotelera (PMS - Property Management System). Resolución de problemas, incluyendo el check-in, check-out, facturación, y en proporcionar asesoramiento telefónico y en persona para satisfacer las necesidades de los huéspedes en todo momento.",
-    "date1": "04/2018 - 10/2023",
-    "title2": "Monolith alimentacion España Norte SL",
-    "description2": "Como encargado en un supermercado, me desempeñé en diversas responsabilidades que incluían el control de stock, gestión de caja, facturación y coordinación del equipo de trabajo. Supervisé a un equipo de tres personas, fomentando un ambiente colaborativo y eficiente. Destaco en la atención al cliente, proporcionando asesoramiento  y garantizando una experiencia positiva en todo momento.",
-    "date2": "07/2015 - 03/2018",
-    "title3": "Monolith alimentacion España Norte SL",
-    "description3": "Como encargado de exportación de frutas y verduras a países del norte de Europa, gestioné una amplia gama de responsabilidades, que incluyeron facturación, pagos y negociación de precios para maximizar la rentabilidad. Trabajé estrechamente con la logística para optimizar las rutas, especialmente debido a la naturaleza perecedera de los productos. Mantuve una comunicación fluida con proveedores y clientes para garantizar una cadena de suministro eficiente.",
-    "date3": "11/2012 - 07/2015"
-}
+    "jobs": [
+      {
+        "title": "Hotel Oasis. Barcelona",
+        "category": "Recepción",
+        "description": "Durante mi experiencia en recepción, he desempeñado diversas tareas y con el paso de los años he dominado muchos aspectos de la profesión. Destaco especialmente en la gestión de reservas y clientes, asegurando un servicio ágil y eficiente. Además, tengo un dominio avanzado en dos programas de gestión hotelera (PMS - Property Management System). Resolución de problemas, incluyendo el check-in, check-out, facturación, y en proporcionar asesoramiento telefónico y en persona para satisfacer las necesidades de los huéspedes en todo momento.",
+        "date": "04/2018 - 10/2023",
+        "skills": ["Gestión de reservas", "Atención al cliente", "Facturación", "PMS"]
+      },
+      {
+        "title": "Monolith Alimentación España Norte SL",
+        "category": "Supervisión de Equipo",
+        "description": "Como encargado en un supermercado, me desempeñé en diversas responsabilidades que incluían el control de stock, gestión de caja, facturación y coordinación del equipo de trabajo. Supervisé a un equipo de tres personas, fomentando un ambiente colaborativo y eficiente. Destaco en la atención al cliente, proporcionando asesoramiento y garantizando una experiencia positiva en todo momento.",
+        "date": "07/2015 - 03/2018",
+        "skills": ["Control de stock", "Gestión de caja", "Atención al cliente"]
+      },
+      {
+        "title": "Monolith Alimentación España Norte SL",
+        "category": "Exportación",
+        "description": "Como encargado de exportación de frutas y verduras a países del norte de Europa, gestioné una amplia gama de responsabilidades, que incluyeron facturación, pagos y negociación de precios para maximizar la rentabilidad. Trabajé estrechamente con la logística para optimizar las rutas, especialmente debido a la naturaleza perecedera de los productos. Mantuve una comunicación fluida con proveedores y clientes para garantizar una cadena de suministro eficiente.",
+        "date": "11/2012 - 07/2015",
+        "skills": ["Facturación", "Negociación de precios", "Logística", "Gestión de proveedores", "Comunicación efectiva"]
+      }
+    ]
+  }  

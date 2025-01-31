@@ -6,10 +6,10 @@ const StudySection = ({
   description,
   subdescription,
   image,
-  altText,
+  altText = "Imagen",
+  animation = "animate__fadeInUp",
   imageClass = "",
   descriptionClass = "",
-  animation = "animate__fadeInUp"  
 }) => {
   return (
     <div className={`relative z-20 px-4 lg:pl-80 mt-6 mb-8 ${animation}`}>
@@ -33,7 +33,7 @@ const StudySection = ({
           <div className="flex-1 animate__animated animate__fadeIn animate__delay-0.5s animate__zoomIn">
             <img
               src={image}
-              alt={altText || "Imagen"} 
+              alt={altText}
               className={`w-full sm:w-3/4 lg:w-96 h-auto mb-8 mx-auto mt-4 rounded-lg border-[6px] border-gray-200 transition-transform transform hover:scale-105 hover:shadow-xl ${imageClass}`}
             />
           </div>

@@ -1,12 +1,26 @@
 {
     "overview": "Experience",
-    "title1": "Hotel Oasis. Barcelona",
-    "description1": "During my experience in reception, I have performed various tasks and over the years I have mastered many aspects of the profession. I especially stand out in the management of reservations and clients, ensuring an agile and efficient service. In addition, I have advanced mastery in two hotel management programs (PMS - Property Management System). Troubleshooting, including check-in, check-out, billing, and providing telephone and in-person advice to meet guest needs at all times.",
-    "date1": "04/2018 - 10/2023",
-    "title2": "Monolith alimentacion España Norte SL",
-    "description2": "As a manager in a supermarket, I performed various responsibilities that included stock control, cash management, billing and coordination of the work team. Supervised a team of three people, fostering a collaborative and efficient environment. I excel in customer service, providing advice and ensuring a positive experience at all times.",
-    "date2": "07/2015 - 03/2018",
-    "title3": "Monolith alimentacion España Norte SL",
-    "description3": "As a fruit and vegetable export manager to Northern European countries, I managed a wide range of responsibilities, including invoicing, payments and price negotiation to maximize profitability. I worked closely with logistics to optimize routes, especially due to the perishable nature of the products. Maintained fluid communication with suppliers and customers to ensure an efficient supply chain.",
-    "date3": "11/2012 - 07/2015"
-}
+    "jobs": [
+      {
+        "title": "Hotel Oasis. Barcelona",
+        "category": "Reception",
+        "description": "During my experience in reception, I have performed various tasks and over the years I have mastered many aspects of the profession. I particularly excel in managing bookings and customers, ensuring a smooth and efficient service. I also have advanced knowledge of two hotel management programs (PMS - Property Management System). I handle problem-solving, including check-in, check-out, invoicing, and providing assistance both by phone and in person to meet guests' needs at all times.",
+        "date": "04/2018 - 10/2023",
+        "skills": ["Booking management", "Customer service", "Invoicing", "PMS"]
+      },
+      {
+        "title": "Monolith Alimentación España Norte SL",
+        "category": "Team Supervision",
+        "description": "As a supervisor in a supermarket, I handled various responsibilities including stock control, cash management, invoicing, and coordinating the team. I supervised a team of three people, fostering a collaborative and efficient environment. I excel in customer service, providing advice and ensuring a positive experience at all times.",
+        "date": "07/2015 - 03/2018",
+        "skills": ["Stock control", "Cash management", "Customer service"]
+      },
+      {
+        "title": "Monolith Alimentación España Norte SL",
+        "category": "Exportation",
+        "description": "As the export manager for fruits and vegetables to northern Europe, I managed a wide range of responsibilities, including invoicing, payments, and price negotiations to maximize profitability. I worked closely with logistics to optimize routes, especially due to the perishable nature of the products. I maintained effective communication with suppliers and customers to ensure a smooth supply chain.",
+        "date": "11/2012 - 07/2015",
+        "skills": ["Invoicing", "Price negotiation", "Logistics", "Supplier management", "Effective communication"]
+      }
+    ]
+  }  
