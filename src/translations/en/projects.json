@@ -1,10 +1,22 @@
 {
-    "title": "Historical Events",
-    "date": "12/2023 - 01/2024",
-    "description": "My first project was an exciting experience where I was able to apply my development knowledge. The idea behind the project was to bring together people who are passionate about history, allowing them to leave comments and ratings on different historical topics. To calculate the average of the ratings, I used a simple formula in JavaScript. Additionally, I implemented Express in Node.js for the backend and HBS for rendering in the browser. To ensure password security, I used bcrypt for password hashing and stored the data in a MongoDB database. I tested Bootstrap on some pages to improve the look and feel and user experience. Although I faced challenges, I am excited that I was able to apply technologies and learn a lot in the process. It was a humbling and rewarding experience that allowed me to explore my passion for technology while working on something I am passionate about: history.",
-    "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712350920/project-3/ng0hbm8h1lprezgjnivz.png",
-    "title1": "Nyam Nyam",
-    "date1": "02/2024 - 03/2024",
-    "description1": "My second project involved applying the knowledge I gained about React.js, a JavaScript library. It was a significant challenge for me, especially in handling properties (props) and integrating between frontend and backend. For the backend, I used Express.js and implemented an additional security layer using JWT (JSON Web Token) on both the frontend and backend. I used Postman to test the routes before I started putting the whole project together.On the frontend, I chose to use the FontAwesome icon library to improve the user experience. The main objective of the project was to bring together people who share culinary interests and provide them with a platform to find suitable places according to their preferences. This project has great scalability potential and is currently being improved, with the addition of new features and continuous improvements.",
-    "image1":"https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712354135/project-3/iwh6jjiptyl4ddgeeghh.png"
-  }
+  "projects": [
+    {
+      "title": "Nyam Nyam",
+      "date": "02/2024 - 03/2024",
+      "description": "For my second project, I focused on applying React.js to create a platform for culinary enthusiasts. This project posed challenges, particularly with handling props and integrating frontend and backend. For the backend, I implemented Express.js and secured the app with JWT (JSON Web Token) authentication. I also used Postman to test the API routes. On the frontend, I used FontAwesome icons to enhance the user interface. The project aims to connect people based on their culinary preferences, offering them a platform to find suitable places. It is scalable, and improvements are ongoing, with new features being added.",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712354135/project-3/iwh6jjiptyl4ddgeeghh.png",
+      "clientUrl": "https://github.com/mks1313/project-3-client",
+      "serverUrl": "https://github.com/mks1313/project-3-server",
+      "liveUrl": "https://project-3-client.vercel.app/"
+    },
+    {
+      "title": "Historical Events",
+      "date": "12/2023 - 01/2024",
+      "description": "This was my first project, where I applied my development knowledge to create a platform for history enthusiasts to comment and rate historical topics. I calculated the average ratings using a simple JavaScript formula. The backend was built with Express in Node.js, while the front-end utilized HBS for rendering. For password security, I used bcrypt for hashing, and the data was stored in a MongoDB database. I also incorporated Bootstrap to enhance the user interface and overall experience. It was a rewarding and humbling experience that allowed me to explore my passion for both technology and history.",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712350920/project-3/ng0hbm8h1lprezgjnivz.png",
+      "clientUrl": "https://github.com/mks1313/Historical-events-CRUD",
+      "serverUrl": "https://github.com/mks1313/Historical-events-CRUD",
+      "liveUrl": "https://historical-events-crud.vercel.app/"
+    }
+  ]
+}
