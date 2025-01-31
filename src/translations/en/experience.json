@@ -2,6 +2,13 @@
     "overview": "Experience",
     "jobs": [
       {
+        "title": "Freelance IT Developer",
+        "category": "IT Development",
+        "description": "Since April 2024, I've been working as a freelance IT developer, collaborating on web and software projects. I use technologies like JavaScript, MongoDB, Vite, React, C, Node.js, Tailwind CSS, and more to create scalable and efficient solutions. My focus is on developing modern applications, optimizing processes, and delivering exceptional user experiences. Additionally, I apply best development practices, such as automated testing with Cypress and Selenium, and manage code with Git, all in Linux environments to ensure the best performance and reliability.",
+        "date": "04/2024 - present",
+        "skills": ["JavaScript", "MongoDB", "Vite", "React", "C", "Linux", "Git", "Node.js", "Tailwind CSS", "Selenium", "Cypress"]
+      },                   
+      {
         "title": "Hotel Oasis. Barcelona",
         "category": "Reception",
         "description": "During my experience in reception, I have performed various tasks and over the years I have mastered many aspects of the profession. I particularly excel in managing bookings and customers, ensuring a smooth and efficient service. I also have advanced knowledge of two hotel management programs (PMS - Property Management System). I handle problem-solving, including check-in, check-out, invoicing, and providing assistance both by phone and in person to meet guests' needs at all times.",
