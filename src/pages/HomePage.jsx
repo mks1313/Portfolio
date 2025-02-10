@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import ProfileSection from "../components/ProfileSection";
 import SocialLinks from "../components/SocialLinks";
 import ContactInfo from "../components/ContactInfo";
-
+// Terminar responsive en medianas y peq pantallas
 const HomePage = () => {
   const { t } = useTranslation();
 
