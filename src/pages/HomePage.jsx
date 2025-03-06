@@ -13,7 +13,7 @@ const HomePage = () => {
     linkedin: "https://www.linkedin.com/in/mgmarinov/",
     github: "https://github.com/mks1313",
     stackOverflow: "https://stackoverflow.com/users/22835936/maksim-marinov",
-    cv: "https://asset.cloudinary.com/dnwyfbj7m/4c85803058b4bbc12fbad21133143bb6"
+    cv: "https://asset.cloudinary.com/dnwyfbj7m/7131282b194c4cc6bbd4189fce493377"
   };
 
   return (
