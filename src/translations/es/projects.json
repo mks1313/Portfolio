@@ -1,6 +1,7 @@
 {
-  "proyectos": [
+  "projects": [
     {
+      
       "title": "Nyam Nyam",
       "date": "02/2024 - 03/2024",
       "description": "For my second project, I focused on applying React.js to create a platform for culinary enthusiasts. This project posed challenges, particularly with handling props and integrating frontend and backend. For the backend, I implemented Express.js and secured the app with JWT (JSON Web Token) authentication. I also used Postman to test the API routes. On the frontend, I used FontAwesome icons to enhance the user interface. The project aims to connect people based on their culinary preferences, offering them a platform to find suitable places. It is scalable, and improvements are ongoing, with new features being added.",
