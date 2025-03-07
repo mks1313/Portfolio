@@ -1,10 +1,10 @@
 {
   "projects": [
     {
-      
+
       "title": "Nyam Nyam",
       "date": "02/2024 - 03/2024",
-      "description": "For my second project, I focused on applying React.js to create a platform for culinary enthusiasts. This project posed challenges, particularly with handling props and integrating frontend and backend. For the backend, I implemented Express.js and secured the app with JWT (JSON Web Token) authentication. I also used Postman to test the API routes. On the frontend, I used FontAwesome icons to enhance the user interface. The project aims to connect people based on their culinary preferences, offering them a platform to find suitable places. It is scalable, and improvements are ongoing, with new features being added.",
+      "description": "Para mi segundo proyecto, me concentré en aplicar React.js para crear una plataforma para entusiastas culinarios. Este proyecto planteó desafíos, particularmente en el manejo de props y la integración del frontend y backend. Para el backend, implementé Express.js y protegí la aplicación con autenticación JWT (JSON Web Token). También usé Postman para probar las rutas de la API. En el frontend, usé íconos de FontAwesome para mejorar la interfaz de usuario. El proyecto tiene como objetivo conectar a las personas en función de sus preferencias culinarias, ofreciéndoles una plataforma para encontrar lugares adecuados. Es escalable y se están realizando mejoras en forma continua, con nuevas funciones añadidas.",
       "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712354135/project-3/iwh6jjiptyl4ddgeeghh.png",
       "clientUrl": "https://github.com/mks1313/project-3-client",
       "serverUrl": "https://github.com/mks1313/project-3-server",
@@ -13,7 +13,7 @@
     {
       "title": "Historical Events",
       "date": "12/2023 - 01/2024",
-      "description": "This was my first project, where I applied my development knowledge to create a platform for history enthusiasts to comment and rate historical topics. I calculated the average ratings using a simple JavaScript formula. The backend was built with Express in Node.js, while the front-end utilized HBS for rendering. For password security, I used bcrypt for hashing, and the data was stored in a MongoDB database. I also incorporated Bootstrap to enhance the user interface and overall experience. It was a rewarding and humbling experience that allowed me to explore my passion for both technology and history.",
+      "description": "Este fue mi primer proyecto, en el que apliqué mis conocimientos de desarrollo para crear una plataforma para que los entusiastas de la historia pudieran comentar y calificar temas históricos. Calculé las calificaciones promedio utilizando una fórmula simple de JavaScript. El backend se creó con Express en Node.js, mientras que el frontend utilizó HBS para la representación. Para la seguridad de las contraseñas, utilicé bcrypt para el hash y los datos se almacenaron en una base de datos MongoDB. También incorporé Bootstrap para mejorar la interfaz de usuario y la experiencia general. Fue una experiencia gratificante y humilde que me permitió explorar mi pasión tanto por la tecnología como por la historia.",
       "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712350920/project-3/ng0hbm8h1lprezgjnivz.png",
       "clientUrl": "https://github.com/mks1313/Historical-events-CRUD",
       "serverUrl": "https://github.com/mks1313/Historical-events-CRUD",
