@@ -7,7 +7,7 @@ const HomePage = () => {
   const { t } = useTranslation();
 
   const imageUrl =
-    "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712145110/project-3/yb1epe8w7tmtnvffy2zk.jpg";
+    "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1741356004/foto_portfolio.jpg";
   
   const socialLinks = {
     linkedin: "https://www.linkedin.com/in/mgmarinov/",
