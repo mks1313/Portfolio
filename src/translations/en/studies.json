@@ -1,6 +1,12 @@
 {
   "studies": [
     {
+      "title": "React Challenge Certificate (HackerRank)",
+      "date": "03/2025",
+      "description": "I completed a 1-hour technical challenge on the HackerRank platform, focused on React development. During the test, I demonstrated skills in component creation, state management, event management, and performance optimization in dynamic web applications. This certificate validates my ability to solve practical problems in a time-limited environment.",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1741727791/front_react.jpg"
+    },
+    {
       "title": "Responsive Web Design Mastery with Tailwind CSS",
       "date": "01/2025",
       "description": "Throughout this course, I gained a solid understanding of Tailwind CSS, a modern and utilitarian design framework. I learned how to efficiently create responsive and stylish web interfaces, optimizing both development time and site performance. I used advanced customization techniques and best practices to ensure my projects are visually appealing, accessible, and easy to maintain. This course allowed me to master creating flexible and scalable layouts, tailored to the needs of today's web development.",

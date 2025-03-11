@@ -1,6 +1,12 @@
 {
   "studies": [
     {
+      "title": "Certificado de Desafío en React (HackerRank)",
+      "date": "03/2025",
+      "description": "Superé un desafío técnico de 1 hora en la plataforma HackerRank, enfocado en el desarrollo con React. Durante la prueba, demostré habilidades en la creación de componentes, manejo del estado, gestión de eventos y optimización de rendimiento en aplicaciones web dinámicas. Este certificado valida mi capacidad para resolver problemas prácticos en un entorno de tiempo limitado.",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1741727791/front_react.jpg"
+    },
+    {
       "title": "Dominio del diseño web responsivo con Tailwind CSS",
       "date": "01/2025",
       "description": "A lo largo de este curso, adquirí un conocimiento sólido de Tailwind CSS, un marco de diseño moderno y utilitario. Aprendí a crear interfaces web responsivas y estilizadas de manera eficiente, optimizando tanto el tiempo de desarrollo como el rendimiento del sitio. Utilicé técnicas avanzadas de personalización y buenas prácticas para garantizar que mis proyectos sean visualmente atractivos, accesibles y fáciles de mantener. Este curso me permitió dominar la creación de diseños flexibles y escalables, adaptados a las necesidades del desarrollo web actual.",
