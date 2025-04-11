@@ -48,7 +48,7 @@ i18next.init({
     },
   },
 });
-
+// TODO: aplicar google analitics, susutituir lo qu ehace falta
 inject('prj_Ycb76wiITijkd5gf7VWqmJkz1M0y');
 
 ReactDOM.createRoot(document.getElementById("root")).render(
