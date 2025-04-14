@@ -48,8 +48,8 @@ i18next.init({
     },
   },
 });
-// TODO: aplicar google analitics, susutituir lo qu ehace falta
-inject('prj_Ycb76wiITijkd5gf7VWqmJkz1M0y');
+// TODO: aplicar google analitics
+inject(import.meta.env.VITE_VERCEL_ANALYTICS_ID);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
