@@ -38,7 +38,7 @@ const HomePage = () => {
           content=""
         />
       </div>
-
+          
       <div className="relative md:w-1/3 w-full px-4 mt-4 md:mt-0 flex flex-col items-center justify-center md:justify-start space-y-4">
         <img
           src={imageUrl}
