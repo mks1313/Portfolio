@@ -1,12 +1,21 @@
 {
   "projects": [
     {
+      "title": "CreditGoose - App de Financiación de Facturas",
+      "date": "06/2025",
+      "description": "Proyecto desarrollado durante un hackatón fintech en Barcelona. La aplicación permite a pequeñas empresas conectar su cuenta de Square, enviar facturas y recibir propuestas de financiación automática gracias a un modelo de lenguaje integrado (Goose + Gemini). Participé como desarrollador backend en un equipo de 5 personas. Utilizamos React, Tailwind CSS, Node.js y Express. La app fue desplegada en DigitalOcean App Platform.",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/CreditGoose.png",
+      "clientUrl": "https://github.com/mks1313/CreditGoose-React",
+      "serverUrl": "https://github.com/mks1313/CreditGoose",
+      "liveUrl": "https://credit-goose-react-62um8.ondigitalocean.app/"
+    },
+    {
 
       "title": "Nyam Nyam",
       "date": "02/2024 - 03/2024",
       "description": "Para mi segundo proyecto, me concentré en aplicar React.js para crear una plataforma para entusiastas culinarios. Este proyecto planteó desafíos, particularmente en el manejo de props y la integración del frontend y backend. Para el backend, implementé Express.js y protegí la aplicación con autenticación JWT (JSON Web Token). También usé Postman para probar las rutas de la API. En el frontend, usé íconos de FontAwesome para mejorar la interfaz de usuario. El proyecto tiene como objetivo conectar a las personas en función de sus preferencias culinarias, ofreciéndoles una plataforma para encontrar lugares adecuados. Es escalable y se están realizando mejoras en forma continua, con nuevas funciones añadidas.",
       "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1712354135/project-3/iwh6jjiptyl4ddgeeghh.png",
-      "clientUrl": "https://github.com/mks1313/project-3-client",
+      "clientUrl": "https://github.com/mks1313/CreditGoose-React",
       "serverUrl": "https://github.com/mks1313/project-3-server",
       "liveUrl": "https://project-3-client.vercel.app/"
     },
