@@ -129,7 +129,7 @@ const HomePage = () => {
               </div>
               <p className="text-gray-300 mb-4">{t('home.sections.position')}</p>
               <div className="flex flex-wrap gap-2">
-                {['React', 'Docker', 'WebSocket', 'IoT', 'Linux'].map((tech) => (
+                {['React', 'Tailwind CSS', 'JavaScript', 'Git', 'Docker', 'Docker Compose', 'WebSocket', 'IoT', 'Linux'].map((tech) => (
                   <span key={tech} className="px-2 py-1 bg-gray-800/50 border border-emerald-500/20 rounded text-xs text-gray-400">
                     {tech}
                   </span>
