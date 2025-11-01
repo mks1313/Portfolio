@@ -1,34 +1,45 @@
 import { useTranslation } from "react-i18next";
-import map from "../assets/icons/map.svg";
-import flag from "../assets/icons/flag.svg";
 import envelope from "../assets/icons/envelope.svg";
+import flag from "../assets/icons/flag.svg";
+import map from "../assets/icons/map.svg";
 import phone from "../assets/icons/phone.svg";
-import Letters from "./Letters";
 
 const ContactInfo = () => {
   const { t } = useTranslation();
 
+  const contactItems = [
+    { icon: map, label: t("home.location") },
+    { icon: flag, label: t("home.languages") },
+    { icon: envelope, label: t("home.gmail"), href: "mailto:mg.marinov@gmx.es" },
+    { icon: phone, label: t("home.phone") },
+  ];
+
   return (
-    <ul className="mt-8 ml-18 pl-6 pr-4 animate-slideInRight text-white">
-      <li className="contact-item">
-        <img src={map} alt="Icon" className="mr-4" />
-        <Letters value={t("home.location")} size="m" />
-      </li>
-      <li className="contact-item">
-        <img src={flag} alt="Icon" className="mr-4" />
-        <Letters value={t("home.languages")} size="m" />
-      </li>
-      <li className="contact-item">
-        <a href="mailto:mg.marinov@gmx.es" className="flex items-center">
-          <img src={envelope} alt="Icon" className="mr-4" />
-          <Letters value={t("home.gmail")} size="m" />
-        </a>
-      </li>
-      <li className="contact-item">
-        <img src={phone} alt="Icon" className="mr-4" />
-        <Letters value={t("home.phone")} size="m" />
-      </li>
-    </ul>
+    <div className="w-full">
+      <h3 className="text-lg font-semibold text-gradient mb-4 text-center">
+        {t("home.contactInfo")}
+      </h3>
+      <ul className="space-y-3">
+        {contactItems.map((item, index) => (
+          <li key={index} className="contact-item">
+            {item.href ? (
+              <a
+                href={item.href}
+                className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors p-2 rounded-lg hover:bg-white/5"
+              >
+                <img src={item.icon} alt="Icon" className="w-5 h-5" />
+                <span className="text-sm">{item.label}</span>
+              </a>
+            ) : (
+              <div className="flex items-center gap-3 text-gray-300 p-2">
+                <img src={item.icon} alt="Icon" className="w-5 h-5" />
+                <span className="text-sm">{item.label}</span>
+              </div>
+            )}
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 };
 

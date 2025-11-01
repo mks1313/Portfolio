@@ -7,7 +7,15 @@
   "skills_technologies_intro": "Soy un desarrollador full stack apasionado por crear soluciones tecnológicas que sean tanto funcionales como visualmente atractivas.",
   "skills_technologies_technologies_trained": "Tecnologías entrenadas: Git, MongoDB, Tailwind, Bootstrap, Node.js, JavaScript, React, Express, Cloudinary, SQL, AJAX, Axios.",
   "skills_technologies_continued_learning": "Mi formación en Ironhack me permitió sumergirme en tecnologías de vanguardia y dominar tanto el frontend como el backend, y actualmente, en 42 Barcelona, sigo perfeccionando mis habilidades en áreas como C, C++, sistemas Linux y bases de datos relacionales.",
-  "future_goal": "Cada nuevo desafío y proyecto me motiva a seguir aprendiendo, ya que busco integrar lo mejor de ambos mundos: tecnología y atención al detalle.",
-  "future_opportunity": "Me siento afortunado de poder combinar mi pasión por el desarrollo web con mi dedicación al servicio al cliente, creando experiencias digitales excepcionales.",
-  "future_closing": "A medida que avanzo en este nuevo capítulo, estoy emocionado de colaborar en proyectos innovadores y contribuir a un futuro lleno de posibilidades. Gracias por tomarte el tiempo de conocer un poco más sobre mi viaje. Espero poder compartir más contigo en el futuro, ya que este camino apenas comienza."
+  "future_goal": "Cada nuevo desafío y proyecto me motiva a seguir aprendiendo, ya que busco integrar lo mejor de ambos mundos: la tecnología y la atención al detalle.",
+  "future_opportunity": "Me siento afortunado de combinar mi pasión por el desarrollo web con mi dedicación al servicio al cliente, creando experiencias digitales excepcionales.",
+  "future_closing": "A medida que avanzo en este nuevo capítulo, estoy emocionado de colaborar en proyectos innovadores y contribuir a un futuro lleno de posibilidades. Gracias por tomarte el tiempo de conocer más sobre mi trayectoria. Espero compartir más contigo en el futuro, ya que este viaje apenas ha comenzado.",
+  "techStack": {
+    "title": "Tecnologías y Herramientas",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "devops": "DevOps y Herramientas",
+    "languages": "Lenguajes y Editores",
+    "testing": "Testing y Calidad"
+  }
 }

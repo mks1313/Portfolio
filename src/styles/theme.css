@@ -1,15 +1,120 @@
-/* soon will create nice themes here :) */
-:root {
-    --primary-color: #1a202c;
-    --secondary-color: #edf2f7;
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.bg-gradient-cyber {
+  background: linear-gradient(135deg, #0ea5e9 0%, #a855f7 100%);
+}
+
+.bg-gradient-emerald {
+  background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+}
+
+.bg-gradient-sunset {
+  background: linear-gradient(135deg, #ec4899 0%, #f97316 100%);
+}
+
+.bg-animated-gradient {
+  background: linear-gradient(-45deg, #0a0a0f, #0c1445, #0a0a0f, #1a0f2e);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
   }
-  
-  /* ContactInfo.css */
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.card-modern {
+  background: rgba(21, 21, 33, 0.6);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition-base);
+}
+
+.card-modern:hover {
+  transform: translateY(-4px);
+  border-color: rgba(14, 165, 233, 0.5);
+  box-shadow: 0 8px 32px rgba(14, 165, 233, 0.2);
+}
+
+.section-header {
+  position: relative;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.section-header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #0ea5e9, #a855f7);
+  border-radius: 2px;
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(14, 165, 233, 0.5),
+    0 0 20px rgba(14, 165, 233, 0.3), 0 0 30px rgba(14, 165, 233, 0.2);
+}
+
+.glow-border {
+  position: relative;
+}
+
+.glow-border::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  padding: 2px;
+  background: linear-gradient(135deg, #0ea5e9, #a855f7);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+
+.glow-border:hover::before {
+  opacity: 1;
+}
+
+.skill-tag {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: rgba(14, 165, 233, 0.1);
+  border: 1px solid rgba(14, 165, 233, 0.3);
+  border-radius: var(--radius-md);
+  color: #0ea5e9;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all var(--transition-base);
+}
+
+.skill-tag:hover {
+  background: rgba(14, 165, 233, 0.2);
+  border-color: #0ea5e9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3);
+}
+
 .contact-item {
   display: flex;
   align-items: center;
-  font-size: 1.125rem; 
-  margin-bottom: 1rem; 
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
   animation: slideInRight 1s ease-in-out;
 }
 
@@ -17,7 +122,6 @@
   margin-bottom: 2rem;
 }
 
-/* buttons links */
 .profile-button {
   transform: scale(1);
   transition: transform 0.3s ease-in-out;
@@ -27,7 +131,6 @@
   transform: scale(1.1) translateY(-2px);
 }
 
-/* hidden logo */
 @media (max-height: 500px) {
   .show-on-tall {
     display: none;
@@ -37,5 +140,32 @@
 @media (min-height: 501px) {
   .show-on-tall {
     display: block;
+  }
+}
+
+.neon-border {
+  position: relative;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+.neon-border::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: linear-gradient(45deg, #0ea5e9, #a855f7, #06b6d4, #10b981);
+  background-size: 300% 300%;
+  animation: neonBorder 3s ease infinite;
+  z-index: -1;
+}
+
+@keyframes neonBorder {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
   }
 }

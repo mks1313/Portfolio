@@ -1,0 +1,6 @@
+# robots.txt for Maksim Marinov Portfolio
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://maksim-marinov.vercel.app/sitemap.xml

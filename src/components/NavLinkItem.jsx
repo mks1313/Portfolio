@@ -1,21 +1,27 @@
-import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import Letters from '../components/Letters';
+import { NavLink } from 'react-router-dom';
 
-const NavLinkItem = ({ to, selectedPage, setSelectedPage, label, handlePageClick }) => {
+const NavLinkItem = ({ to, setSelectedPage, label, handlePageClick }) => {
   const { t } = useTranslation();
 
   return (
-    <li className='transform transition-transform duration-300 hover:scale-105'>
+    <li className='w-full'>
       <NavLink
         to={to}
         onClick={() => {
           setSelectedPage(to);
-          handlePageClick(); 
+          handlePageClick();
         }}
-        className={`font-bold ${selectedPage === to ? 'text-gray-500' : 'text-teal-400'} hover:text-teal-600`} 
+        className={({ isActive }) => `
+          block w-full px-4 xl:px-6 py-3 xl:py-4 rounded-lg text-center font-medium text-sm xl:text-base
+          transition-all duration-300 ease-out
+          ${isActive
+            ? 'bg-gradient-cyber text-white shadow-glow-md scale-105'
+            : 'text-gray-300 hover:bg-white/5 hover:text-white hover:translate-x-1'
+          }
+        `}
       >
-        <Letters value={t(label)} size="m" underline={false} gradient={true} />
+        {t(label)}
       </NavLink>
     </li>
   );

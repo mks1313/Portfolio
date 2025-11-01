@@ -1,0 +1,24 @@
+{
+  "name": "Maksim Marinov - Full Stack Developer Portfolio",
+  "short_name": "Maksim Marinov",
+  "description": "Full Stack Developer specializing in React, Node.js, C/C++, Docker, and IoT",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

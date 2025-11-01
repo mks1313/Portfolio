@@ -1,17 +1,24 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const MenuButton = ({ isOpen, toggleNavbar }) => (
   <button
     onClick={toggleNavbar}
     className={`
-      fixed ${isOpen ? 'left-2 top-2' : 'left-5 top-5'} z-50 lg:hidden
-      p-2 text-sm text-gray-400
-      rounded-lg focus:outline-none
-      ring-2 ring-gray-400 bg-[#2E2E2E]
+      fixed left-4 top-4 z-50 lg:hidden
+      p-3 text-white
+      glass-strong rounded-xl
+      hover:bg-white/20 focus:outline-none
+      shadow-glow-sm hover:shadow-glow-md
+      transition-all duration-300
+      ${isOpen ? 'rotate-90' : 'rotate-0'}
     `}
+    aria-label={isOpen ? 'Cerrar menú' : 'Abrir menú'}
   >
-    <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />
+    <FontAwesomeIcon
+      icon={isOpen ? faTimes : faBars}
+      className="text-xl"
+    />
   </button>
 );
 

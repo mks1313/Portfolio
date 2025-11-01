@@ -1,14 +1,44 @@
 {
   "name": "Maksim Georgiev Marinov",
+  "role": "Full Stack Developer",
   "location": "Barcelona, Spain",
   "languages": "English, Spanish, Russian",
   "gmail": "mg.marinov@gmx.es",
   "linkedinURL": "https://www.linkedin.com/in/mgmarinov/",
   "githubURL": "https://github.com/mks1313",
   "phone": "+34 *** *** ***",
+  "contactInfo": "Contact Info",
+  "connectWithMe": "Connect with me",
+  "stats": {
+    "yearsCoding": "Years Coding",
+    "projects": "Projects",
+    "technologies": "Technologies",
+    "languages": "Languages"
+  },
+  "sections": {
+    "coreSkills": "Core Skills",
+    "currentlyAt": "Currently @Sensing Tex",
+    "activeStatus": "Active",
+    "position": "Full Stack Developer | IoT & Smart Textiles",
+    "learningJourney": "Learning Journey",
+    "openToCollaborate": "Open to Collaborate",
+    "careerTimeline": "Career Timeline",
+    "education": "42 Barcelona • Ironhack",
+    "areas": "Web Dev • IoT • QA"
+  },
+  "timeline": {
+    "sensingTex": "Sensing Tex",
+    "sensingTexRole": "Full Stack Developer",
+    "freelance": "Freelance Developer",
+    "freelanceRole": "Web & Software Projects",
+    "barcelona42": "42 Barcelona",
+    "barcelona42Role": "Advanced Programming",
+    "ironhack": "Ironhack",
+    "ironhackRole": "Full Stack Bootcamp"
+  },
   "profile": {
     "intro": "I'm Maksim, a passionate developer with a constantly evolving story.",
-    "background": "After graduating from Ironhack a year ago, where I completed an intensive web development bootcamp, I decided to continue my learning at 42 Barcelona.",
+    "background": "After graduating from Ironhack in 2024, where I completed an intensive web development bootcamp, I decided to continue my learning at 42 Barcelona.",
     "current": "Currently, I continue my studies at 42 Barcelona, where I dive deep into advanced concepts such as C, C++, Linux systems, relational databases, and developing command-line skills in various environments.",
     "skills": "In addition to my focus on these technical areas, I practice both frontend and backend development with JavaScript, and I take additional courses in software quality (QA) to improve my testing skills and ensure I deliver robust and reliable code.",
     "collaboration": "I constantly seek to stay updated with the latest technologies and collaborate on diverse projects, applying my knowledge in different contexts.",

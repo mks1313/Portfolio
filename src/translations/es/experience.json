@@ -2,6 +2,13 @@
     "overview": "Experience",
     "jobs": [
       {
+        "title": "Sensing Tex - Desarrollador Full Stack",
+        "category": "IoT y Textiles Inteligentes",
+        "description": "Trabajando en Sensing Tex, empresa pionera en textiles inteligentes y electrónica flexible potenciada por IA e IoT. Desarrollando aplicaciones web de vanguardia para sistemas de monitoreo de salud, plataformas barométricas y soluciones IoT. Construyendo plataformas escalables basadas en la nube que integran sensores hardware con visualización de datos en tiempo real. Implementando interfaces responsivas con React y Tailwind CSS, mientras gestiono servicios backend con Docker y Docker Compose. Trabajando con protocolos de red, WebSockets para comunicación en tiempo real y desplegando aplicaciones en máquinas virtuales basadas en Linux. Utilizando Git para control de versiones y colaborando en soluciones tecnológicas innovadoras para el sector salud y bienestar que democratizan la electrónica flexible.",
+        "date": "08/2025 - presente",
+        "skills": ["React", "Tailwind CSS", "Docker", "Docker Compose", "WebSocket", "Git", "Linux", "VM", "Networking", "IoT", "Soluciones Cloud", "JavaScript", "Sistemas en Tiempo Real"]
+      },
+      {
         "title": "Freelance IT Developer",
         "category": "Desarrollo IT",
         "description": "Desde abril de 2024, he trabajado como freelance en el mundo del desarrollo IT, colaborando en proyectos web y de software. Utilizo tecnologías como JavaScript, MongoDB, Vite, React, C, Node.js, Tailwind CSS, y más, para crear soluciones escalables y eficientes. Mi enfoque está en desarrollar aplicaciones modernas, optimizar procesos y ofrecer experiencias de usuario excepcionales. Además, aplico buenas prácticas de desarrollo, como pruebas automatizadas con Cypress y Selenium, y gestiono el código con Git, todo en entornos Linux para asegurar el mejor rendimiento y fiabilidad.",

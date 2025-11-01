@@ -1,14 +1,44 @@
 {
   "name": "Maksim Georgiev Marinov",
+  "role": "Desarrollador Full Stack",
   "location": "Barcelona, España",
   "languages": "Inglés, Español, Ruso",
   "gmail": "mg.marinov@gmx.es",
   "linkedinURL": "https://www.linkedin.com/in/mgmarinov/",
   "githubURL": "https://github.com/mks1313",
   "phone": "+34 *** *** ***",
+  "contactInfo": "Información de contacto",
+  "connectWithMe": "Conéctate conmigo",
+  "stats": {
+    "yearsCoding": "Años Programando",
+    "projects": "Proyectos",
+    "technologies": "Tecnologías",
+    "languages": "Idiomas"
+  },
+  "sections": {
+    "coreSkills": "Habilidades Principales",
+    "currentlyAt": "Actualmente en Sensing Tex",
+    "activeStatus": "Activo",
+    "position": "Desarrollador Full Stack | IoT y Textiles Inteligentes",
+    "learningJourney": "Camino de Aprendizaje",
+    "openToCollaborate": "Abierto a Colaborar",
+    "careerTimeline": "Línea de Tiempo Profesional",
+    "education": "42 Barcelona • Ironhack",
+    "areas": "Desarrollo Web • IoT • QA"
+  },
+  "timeline": {
+    "sensingTex": "Sensing Tex",
+    "sensingTexRole": "Desarrollador Full Stack",
+    "freelance": "Desarrollador Freelance",
+    "freelanceRole": "Proyectos Web y Software",
+    "barcelona42": "42 Barcelona",
+    "barcelona42Role": "Programación Avanzada",
+    "ironhack": "Ironhack",
+    "ironhackRole": "Bootcamp Full Stack"
+  },
   "profile": {
     "intro": "Soy Maksim, un desarrollador apasionado con una historia en constante evolución.",
-    "background": "Después de graduarme de Ironhack hace un año, donde completé un intensivo bootcamp de desarrollo web, decidí continuar mi aprendizaje en 42 Barcelona.",
+    "background": "Después de graduarme de Ironhack en 2024, donde completé un intensivo bootcamp de desarrollo web, decidí continuar mi aprendizaje en 42 Barcelona.",
     "current": "Actualmente, continúo mis estudios en 42 Barcelona, donde profundizo en conceptos avanzados como C, C++, sistemas Linux, bases de datos relacionales, y desarrollo de habilidades en la línea de comandos en varios entornos.",
     "skills": "Además de mi enfoque en estas áreas técnicas, practico tanto el desarrollo frontend como backend con JavaScript, y tomo cursos adicionales en calidad de software (QA) para mejorar mis habilidades de prueba y asegurar que entregue código robusto y confiable.",
     "collaboration": "Constantemente busco mantenerme actualizado con las últimas tecnologías y colaborar en proyectos diversos, aplicando mis conocimientos en diferentes contextos.",
