@@ -82,7 +82,7 @@ const HomePage = () => {
             <div className="card-modern p-6 hover-lift">
               <h3 className="text-lg font-bold mb-4 text-cyan-400">{t('home.sections.coreSkills')}</h3>
               <div className="flex flex-wrap gap-2">
-                {['React', 'Node.js', 'C/C++', 'Docker', 'Linux', 'Git'].map((skill) => (
+                {['React', 'Node.js', 'Tailwind CSS', 'JavaScript', 'C/C++', 'Docker', 'Linux', 'Git'].map((skill) => (
                   <span key={skill} className="px-3 py-1 bg-gray-800/50 border border-cyan-500/20 rounded-full text-sm text-gray-300">
                     {skill}
                   </span>
