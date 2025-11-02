@@ -6,7 +6,7 @@
       "title": "cub3D - 3D Raycasting Game Engine",
       "date": "07/2025 - 08/2025",
       "description": "Developed as part of the 42 Barcelona curriculum, cub3D is a challenging project inspired by the classic Wolfenstein 3D game. This project implements a raycasting engine entirely in C, creating a dynamic 3D graphical representation of a maze from a first-person perspective. Built using the MiniLibX graphics library, it handles real-time rendering, texture mapping, sprite positioning, and player movement. The project deepened my understanding of computer graphics algorithms, memory management, and low-level programming optimization. It demonstrates proficiency in mathematical concepts such as trigonometry and vector calculations applied to game development.",
-      "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800&h=600&fit=crop",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075431/Cub3D_pxks00.jpg",
       "clientUrl": "https://github.com/mks1313/Milestone-4",
       "serverUrl": "https://github.com/mks1313/Milestone-4",
       "liveUrl": "https://github.com/mks1313/Milestone-4"
@@ -24,7 +24,7 @@
       "title": "Minishell - Unix Shell Recreation",
       "date": "02/2025 - 06/2025",
       "description": "An ambitious project from 42 Barcelona that involves recreating a fully functional Unix shell from scratch in C. This deep dive into system programming covers process creation and management with fork() and execve(), implementing pipes and redirections (|, <, >, <<, >>), signal handling (SIGINT, SIGQUIT, EOF), environment variable expansion, built-in commands (echo, cd, pwd, export, unset, env, exit), and command history. The project demanded mastery of low-level programming concepts including file descriptors, process control, memory management, parsing complex command syntax, and handling edge cases. It showcases proficiency in POSIX system calls, inter-process communication, and building robust command-line interfaces that mimic bash behavior.",
-      "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&h=600&fit=crop",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075273/Minishell_exgggx.jpg",
       "clientUrl": "https://github.com/mks1313/Minishell",
       "serverUrl": "https://github.com/mks1313/Minishell",
       "liveUrl": "https://github.com/mks1313/Minishell"
@@ -33,7 +33,7 @@
       "title": "Philosophers - Dining Philosophers Problem",
       "date": "12/2024 - 02/2025",
       "description": "An advanced 42 Barcelona project implementing the solution to the classic Dining Philosophers synchronization problem using POSIX threads. Simulates N philosophers sitting at a circular table sharing forks, where each philosopher alternates between eating, sleeping, and thinking. Implements synchronization with mutexes to avoid race conditions, deadlock prevention ensuring resource acquisition order, death detection by starvation if a philosopher doesn't eat in time, and termination condition when all have eaten N times. The project requires precise time handling with gettimeofday(), multiple thread management with pthread_create/join, shared data protection with pthread_mutex_lock/unlock, and optimization to prevent data races. Demonstrates mastery of concurrent programming, thread synchronization, deadlock prevention, and shared resource management in multithreading environments.",
-      "image": "https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?w=800&h=600&fit=crop",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075254/Philo_ntqxi6.png",
       "clientUrl": "https://github.com/mks1313/Milestone-3",
       "serverUrl": "https://github.com/mks1313/Milestone-3",
       "liveUrl": "https://github.com/mks1313/Milestone-3"
@@ -42,7 +42,7 @@
       "title": "get_next_line - Line-by-Line File Reader",
       "date": "07/2024 - 08/2024",
       "description": "A 42 Barcelona project focused on creating a function that reads one line at a time from a file descriptor. Implements efficient reading with dynamic buffer (configurable BUFFER_SIZE), management of multiple simultaneous file descriptors, static memory handling to maintain state between calls, and support for reading from files, stdin, and multiple sources. The project requires careful handling of edge cases: empty files, lines without final newline, file descriptor changes, and memory management to prevent leaks. This function became a fundamental tool for all my subsequent projects requiring file reading, demonstrating mastery of dynamic memory management, pointers, static variables, and I/O reading optimization.",
-      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075873/GNL_sklddf.jpg",
       "clientUrl": "https://github.com/mks1313/Milestone-1",
       "serverUrl": "https://github.com/mks1313/Milestone-1",
       "liveUrl": "https://github.com/mks1313/Milestone-1"
@@ -51,7 +51,7 @@
       "title": "ft_printf - printf Reimplementation",
       "date": "07/2024 - 08/2024",
       "description": "A 42 Barcelona project that recreates the printf function from the C standard library. Implements format conversions for characters (%c), strings (%s), pointers (%p), decimal integers (%d, %i), unsigned integers (%u), lowercase and uppercase hexadecimal (%x, %X), and literal percent (%%). Uses variadic arguments (va_list, va_start, va_arg, va_end) to handle variable number of parameters, void pointer management for memory addresses, number conversion to different bases (decimal, hexadecimal), and returns total characters printed. The project includes comprehensive test suite comparing output with original printf, handling edge cases (NULL, INT_MIN, INT_MAX, UINT_MAX), and optimization to avoid multiple write() calls. Demonstrates mastery of variadic arguments, type conversions, and output formatting.",
-      "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=800&h=600&fit=crop",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075241/printf_rx16pq.jpg",
       "clientUrl": "https://github.com/mks1313/Milestone-1",
       "serverUrl": "https://github.com/mks1313/Milestone-1",
       "liveUrl": "https://github.com/mks1313/Milestone-1"
@@ -60,7 +60,7 @@
       "title": "Libft - Custom C Standard Library",
       "date": "06/2024 - 07/2024",
       "description": "The foundational first project at 42 Barcelona that involves recreating the C standard library from scratch. I implemented over 40 functions including string manipulation (ft_strlen, ft_strcpy, ft_strdup, ft_split), memory management (ft_memcpy, ft_memmove, ft_calloc, ft_bzero), type conversion (ft_atoi, ft_itoa), character validation (ft_isalpha, ft_isdigit, ft_isalnum), and linked list operations (ft_lstnew, ft_lstadd_front, ft_lstmap). The project also includes a complete ft_printf with variadic argument handling and get_next_line for efficient line-by-line file reading. This library became the foundation for all my subsequent C projects, demonstrating mastery of pointers, dynamic memory allocation, Makefiles, and modular code organization.",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=600&fit=crop",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075208/Libft_djjk87.jpg",
       "clientUrl": "https://github.com/mks1313/Milestone-0",
       "serverUrl": "https://github.com/mks1313/Milestone-0",
       "liveUrl": "https://github.com/mks1313/Milestone-0"

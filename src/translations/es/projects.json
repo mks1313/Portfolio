@@ -6,7 +6,7 @@
       "title": "cub3D - Motor Gráfico 3D con Raycasting",
       "date": "07/2025 - 08/2025",
       "description": "Desarrollado como parte del plan de estudios de 42 Barcelona, cub3D es un proyecto desafiante inspirado en el clásico juego Wolfenstein 3D. Este proyecto implementa un motor de raycasting completamente en C, creando una representación gráfica 3D dinámica de un laberinto desde una perspectiva en primera persona. Construido utilizando la biblioteca gráfica MiniLibX, maneja renderizado en tiempo real, mapeo de texturas, posicionamiento de sprites y movimiento del jugador. El proyecto profundizó mi comprensión de algoritmos de gráficos por computadora, gestión de memoria y optimización de programación de bajo nivel. Demuestra competencia en conceptos matemáticos como trigonometría y cálculos vectoriales aplicados al desarrollo de juegos.",
-      "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800&h=600&fit=crop",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075431/Cub3D_pxks00.jpg",
       "clientUrl": "https://github.com/mks1313/Milestone-4",
       "serverUrl": "https://github.com/mks1313/Milestone-4",
       "liveUrl": "https://github.com/mks1313/Milestone-4"
@@ -24,7 +24,7 @@
       "title": "Minishell - Recreación de Shell Unix",
       "date": "02/2025 - 06/2025",
       "description": "Proyecto ambicioso de 42 Barcelona que consiste en recrear desde cero una shell Unix completamente funcional en C. Esta inmersión profunda en programación de sistemas abarca creación y gestión de procesos con fork() y execve(), implementación de pipes y redirecciones (|, <, >, <<, >>), manejo de señales (SIGINT, SIGQUIT, EOF), expansión de variables de entorno, comandos integrados (echo, cd, pwd, export, unset, env, exit) e historial de comandos. El proyecto exigió dominio de conceptos de programación de bajo nivel incluyendo descriptores de archivo, control de procesos, gestión de memoria, parsing de sintaxis de comandos complejos y manejo de casos extremos. Demuestra competencia en llamadas al sistema POSIX, comunicación entre procesos y construcción de interfaces de línea de comandos robustas que imitan el comportamiento de bash.",
-      "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&h=600&fit=crop",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075273/Minishell_exgggx.jpg",
       "clientUrl": "https://github.com/mks1313/Minishell",
       "serverUrl": "https://github.com/mks1313/Minishell",
       "liveUrl": "https://github.com/mks1313/Minishell"
@@ -33,7 +33,7 @@
       "title": "Philosophers - Problema de los Filósofos Comensales",
       "date": "12/2024 - 02/2025",
       "description": "Proyecto avanzado de 42 Barcelona que implementa la solución al clásico problema de sincronización de los Filósofos Comensales usando threads POSIX. Simula N filósofos sentados en una mesa circular compartiendo tenedores, donde cada filósofo alterna entre comer, dormir y pensar. Implementa sincronización con mutexes para evitar condiciones de carrera, prevención de deadlock asegurando orden de adquisición de recursos, detección de muerte por inanición si un filósofo no come a tiempo y condición de finalización cuando todos han comido N veces. El proyecto requiere manejo preciso de tiempo con gettimeofday(), gestión de múltiples threads con pthread_create/join, protección de datos compartidos con pthread_mutex_lock/unlock y optimización para evitar data races. Demuestra dominio de programación concurrente, sincronización de threads, prevención de deadlock y gestión de recursos compartidos en entornos multithreading.",
-      "image": "https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?w=800&h=600&fit=crop",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075254/Philo_ntqxi6.png",
       "clientUrl": "https://github.com/mks1313/Milestone-3",
       "serverUrl": "https://github.com/mks1313/Milestone-3",
       "liveUrl": "https://github.com/mks1313/Milestone-3"
@@ -42,7 +42,7 @@
       "title": "get_next_line - Lector de Archivos Línea por Línea",
       "date": "07/2024 - 08/2024",
       "description": "Proyecto de 42 Barcelona enfocado en crear una función que lee una línea a la vez desde un descriptor de archivo. Implementa lectura eficiente con buffer dinámico (BUFFER_SIZE configurable), gestión de múltiples file descriptors simultáneos, manejo de memoria estática para mantener estado entre llamadas y soporte para lectura desde archivos, stdin y múltiples fuentes. El proyecto requiere manejo cuidadoso de casos extremos: archivos vacíos, líneas sin salto de línea final, cambios de file descriptor y gestión de memoria para evitar leaks. Esta función se convirtió en una herramienta fundamental para todos mis proyectos posteriores que requieren lectura de archivos, demostrando dominio de gestión de memoria dinámica, punteros, variables estáticas y optimización de lectura de I/O.",
-      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075873/GNL_sklddf.jpg",
       "clientUrl": "https://github.com/mks1313/Milestone-1",
       "serverUrl": "https://github.com/mks1313/Milestone-1",
       "liveUrl": "https://github.com/mks1313/Milestone-1"
@@ -51,7 +51,7 @@
       "title": "ft_printf - Reimplementación de printf",
       "date": "07/2024 - 08/2024",
       "description": "Proyecto de 42 Barcelona que consiste en recrear la función printf de la biblioteca estándar de C. Implementa conversiones de formato para caracteres (%c), cadenas (%s), punteros (%p), enteros decimales (%d, %i), enteros sin signo (%u), hexadecimales minúsculas y mayúsculas (%x, %X) y porcentaje literal (%%). Utiliza argumentos variables (va_list, va_start, va_arg, va_end) para manejar número variable de parámetros, gestión de punteros void para direcciones de memoria, conversión de números a diferentes bases (decimal, hexadecimal) y retorno de caracteres totales impresos. El proyecto incluye batería completa de tests comparando salida con printf original, manejo de casos extremos (NULL, INT_MIN, INT_MAX, UINT_MAX) y optimización para evitar múltiples llamadas a write(). Demuestra dominio de argumentos variádicos, conversiones de tipos y formateo de salida.",
-      "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=800&h=600&fit=crop",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075241/printf_rx16pq.jpg",
       "clientUrl": "https://github.com/mks1313/Milestone-1",
       "serverUrl": "https://github.com/mks1313/Milestone-1",
       "liveUrl": "https://github.com/mks1313/Milestone-1"
@@ -60,7 +60,7 @@
       "title": "Libft - Biblioteca Estándar de C Personalizada",
       "date": "06/2024 - 07/2024",
       "description": "Primer proyecto fundamental de 42 Barcelona que consiste en recrear desde cero funciones de la biblioteca estándar de C. Implementé más de 40 funciones incluyendo manipulación de cadenas (ft_strlen, ft_strcpy, ft_strdup, ft_split), gestión de memoria (ft_memcpy, ft_memmove, ft_calloc, ft_bzero), conversión de tipos (ft_atoi, ft_itoa), validación de caracteres (ft_isalpha, ft_isdigit, ft_isalnum) y operaciones con listas enlazadas (ft_lstnew, ft_lstadd_front, ft_lstmap). El proyecto también incluye ft_printf completo con gestión de argumentos variables y get_next_line para lectura eficiente de archivos línea por línea. Esta biblioteca se convirtió en la base para todos mis proyectos posteriores en C, demostrando dominio de punteros, gestión de memoria dinámica, Makefiles y organización modular de código.",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=600&fit=crop",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075208/Libft_djjk87.jpg",
       "clientUrl": "https://github.com/mks1313/Milestone-0",
       "serverUrl": "https://github.com/mks1313/Milestone-0",
       "liveUrl": "https://github.com/mks1313/Milestone-0"
