@@ -6,8 +6,6 @@
 @import './styles/backgrounds.css' layer(utilities);
 @import './styles/theme.css' layer(utilities);
 
-@custom-variant dark (&:is(.dark *));
-
 @theme {
   --breakpoint-*: initial;
   --breakpoint-xs: 475px;
