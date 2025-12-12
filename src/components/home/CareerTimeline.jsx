@@ -18,7 +18,7 @@ const CareerTimeline = () => {
       <div className="space-y-4">
         {timelineItems.map((item, index) => (
           <div key={index} className="flex items-start gap-4 group/item">
-            <div className={`flex-shrink-0 w-24 text-sm ${item.color} font-semibold`}>
+            <div className={`shrink-0 w-24 text-sm ${item.color} font-semibold`}>
               {item.date}
             </div>
             <div className="flex-1">

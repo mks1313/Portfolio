@@ -11,7 +11,7 @@ const PhilosophySection = () => {
           <div className="flex items-center justify-center gap-6 mb-8">
             <div className="h-px flex-1 bg-gradient-to-r from-transparent via-cyan-400/40 to-cyan-400/40"></div>
             <div className="w-2 h-2 rotate-45 bg-gradient-to-br from-cyan-400 to-blue-500 shadow-lg shadow-cyan-500/50"></div>
-            <div className="h-px flex-1 bg-gradient-to-l from-cyan-400/40 via-cyan-400/40 to-transparent"></div>
+            <div className="h-px flex-1 bg-linear-to-l from-cyan-400/40 via-cyan-400/40 to-transparent"></div>
           </div>
 
           <div className="space-y-5 px-4">
@@ -55,7 +55,7 @@ const PhilosophySection = () => {
           <div className="flex items-center justify-center gap-6 mt-8">
             <div className="h-px flex-1 bg-gradient-to-r from-transparent via-cyan-400/40 to-cyan-400/40"></div>
             <div className="w-2 h-2 rotate-45 bg-gradient-to-br from-cyan-400 to-blue-500 shadow-lg shadow-cyan-500/50"></div>
-            <div className="h-px flex-1 bg-gradient-to-l from-cyan-400/40 via-cyan-400/40 to-transparent"></div>
+            <div className="h-px flex-1 bg-linear-to-l from-cyan-400/40 via-cyan-400/40 to-transparent"></div>
           </div>
         </div>
       </div>
