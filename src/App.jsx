@@ -1,13 +1,13 @@
+import Navbar from "@components/layout/Navbar";
 import { lazy, Suspense } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar";
 
 // Lazy load pages for better performance
-const HomePage = lazy(() => import("./pages/HomePage"));
-const AboutPage = lazy(() => import("./pages/AboutPage"));
-const ExperiencePage = lazy(() => import("./pages/ExperiencePage"));
-const StudiesPage = lazy(() => import("./pages/StudiesPage"));
+const HomePage = lazy(() => import("@pages/HomePage"));
+const AboutPage = lazy(() => import("@pages/AboutPage"));
+const ExperiencePage = lazy(() => import("@pages/ExperiencePage"));
+const StudiesPage = lazy(() => import("@pages/StudiesPage"));
 const Projects = lazy(() => import("./pages/Projects"));
 
 // Loading component

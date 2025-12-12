@@ -1,5 +1,5 @@
+import ExperienceItem from "@components/experience/ExperienceItem";
 import { useTranslation } from "react-i18next";
-import ExperienceItem from "../components/ExperienceItem";
 
 const ExperiencePage = () => {
   const { t } = useTranslation();

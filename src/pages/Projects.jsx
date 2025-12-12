@@ -1,5 +1,5 @@
+import ProjectItem from "@components/projects/ProjectItem";
 import { useTranslation } from "react-i18next";
-import ProjectItem from "../components/ProjectItem";
 
 const Projects = () => {
   const { t } = useTranslation();

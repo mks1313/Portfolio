@@ -1,5 +1,5 @@
+import StudySection from "@components/studies/StudySection";
 import { useTranslation } from "react-i18next";
-import StudySection from "../components/StudySection";
 
 const StudiesPage = () => {
   const { t } = useTranslation();
