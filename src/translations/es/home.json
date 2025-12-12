@@ -36,6 +36,11 @@
     "ironhack": "Ironhack",
     "ironhackRole": "Bootcamp Full Stack"
   },
+  "philosophy": {
+    "line1": "Camino antes que meta.",
+    "line2": "Disciplina antes que talento.",
+    "line3": "Silencio antes que ruido."
+  },
   "profile": {
     "intro": "Soy Maksim, un desarrollador apasionado con una historia en constante evolución.",
     "background": "Después de graduarme de Ironhack en 2024, donde completé un intensivo bootcamp de desarrollo web, decidí continuar mi aprendizaje en 42 Barcelona.",
