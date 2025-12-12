@@ -1,9 +1,195 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-@import "animate.css";
-@import "./styles/base.css";
-@import "./styles/buttons.css";
-@import "./styles/animations.css";
-@import "./styles/backgrounds.css";
-@import "./styles/theme.css";
+@import 'tailwindcss';
+@import 'animate.css' layer(utilities);
+@import './styles/base.css' layer(utilities);
+@import './styles/buttons.css' layer(utilities);
+@import './styles/animations.css' layer(utilities);
+@import './styles/backgrounds.css' layer(utilities);
+@import './styles/theme.css' layer(utilities);
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-xs: 475px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+  --breakpoint-3xl: 1920px;
+
+  --color-primary-50: #f0f9ff;
+  --color-primary-100: #e0f2fe;
+  --color-primary-200: #bae6fd;
+  --color-primary-300: #7dd3fc;
+  --color-primary-400: #38bdf8;
+  --color-primary-500: #0ea5e9;
+  --color-primary-600: #0284c7;
+  --color-primary-700: #0369a1;
+  --color-primary-800: #075985;
+  --color-primary-900: #0c4a6e;
+  --color-primary-950: #082f49;
+
+  --color-accent-cyan: #06b6d4;
+  --color-accent-purple: #a855f7;
+  --color-accent-pink: #ec4899;
+  --color-accent-emerald: #10b981;
+
+  --color-dark-bg: #0a0a0f;
+  --color-dark-card: #151521;
+  --color-dark-border: #1f1f2e;
+  --color-dark-text: #e4e4e7;
+
+  --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
+  --background-image-gradient-conic: conic-gradient(
+    from 180deg at 50% 50%,
+    var(--tw-gradient-stops)
+  );
+  --background-image-gradient-primary: linear-gradient(
+    135deg,
+    #667eea 0%,
+    #764ba2 100%
+  );
+  --background-image-gradient-cyber: linear-gradient(
+    135deg,
+    #0ea5e9 0%,
+    #a855f7 100%
+  );
+  --background-image-gradient-emerald: linear-gradient(
+    135deg,
+    #10b981 0%,
+    #06b6d4 100%
+  );
+  --background-image-gradient-sunset: linear-gradient(
+    135deg,
+    #ec4899 0%,
+    #f97316 100%
+  );
+
+  --animate-fadeIn: fadeIn 0.6s ease-out forwards;
+  --animate-fadeInUp: fadeInUp 0.8s ease-out forwards;
+  --animate-fadeInDown: fadeInDown 0.8s ease-out forwards;
+  --animate-slideIn: slideIn 0.8s ease-out forwards;
+  --animate-slideInLeft: slideInLeft 0.8s ease-out forwards;
+  --animate-slideInRight: slideInRight 0.8s ease-out forwards;
+  --animate-scaleIn: scaleIn 0.5s ease-out forwards;
+  --animate-float: float 3s ease-in-out infinite;
+  --animate-glow: glow 2s ease-in-out infinite alternate;
+  --animate-shimmer: shimmer 2s linear infinite;
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  --shadow-glass: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  --shadow-glow-sm: 0 0 10px rgba(14, 165, 233, 0.5);
+  --shadow-glow-md: 0 0 20px rgba(14, 165, 233, 0.6);
+  --shadow-glow-lg: 0 0 30px rgba(14, 165, 233, 0.7);
+  --shadow-neon:
+    0 0 5px var(--color-accent-cyan), 0 0 20px var(--color-accent-cyan);
+
+  --backdrop-blur-xs: 2px;
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes scaleIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  @keyframes glow {
+    0% {
+      box-shadow:
+        0 0 5px rgba(14, 165, 233, 0.5),
+        0 0 10px rgba(14, 165, 233, 0.3);
+    }
+    100% {
+      box-shadow:
+        0 0 10px rgba(14, 165, 233, 0.8),
+        0 0 20px rgba(14, 165, 233, 0.5);
+    }
+  }
+  @keyframes shimmer {
+    0% {
+      background-position: -1000px 0;
+    }
+    100% {
+      background-position: 1000px 0;
+    }
+  }
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
