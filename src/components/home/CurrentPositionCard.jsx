@@ -6,7 +6,7 @@ const CurrentPositionCard = () => {
   const technologies = ['React', 'Docker', 'WebSocket', 'IoT', 'Linux'];
 
   return (
-    <div className="card-modern p-6 hover-lift bg-gradient-to-br from-emerald-500/5 to-cyan-500/5 border-emerald-500/20">
+    <div className="card-modern p-6 hover-lift bg-linear-to-br from-emerald-500/5 to-cyan-500/5 border-emerald-500/20">
       <div className="flex items-start justify-between mb-4">
         <h3 className="text-xl font-bold text-emerald-400">{t('home.sections.currentlyAt')}</h3>
         <span className="px-3 py-1 bg-emerald-500/20 text-emerald-400 text-xs font-semibold rounded-full">
