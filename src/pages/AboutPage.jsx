@@ -39,7 +39,7 @@ const AboutPage = () => {
 
       <div className="content-wrapper">
         <div className="mb-12 animate-fadeInDown">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent mb-4">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold bg-linear-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent mb-4">
             {t("about.about")}
           </h1>
           <div className="h-1 w-32 bg-gradient-cyber rounded-full"></div>
@@ -55,13 +55,13 @@ const AboutPage = () => {
               <div className="text-6xl mb-4 group-hover:scale-110 transition-transform">
                 {section.icon}
               </div>
-              <h2 className={`text-2xl font-bold mb-4 bg-gradient-to-r ${section.gradient} bg-clip-text text-transparent`}>
+              <h2 className={`text-2xl font-bold mb-4 bg-linear-to-r ${section.gradient} bg-clip-text text-transparent`}>
                 {section.title}
               </h2>
               <p className="text-gray-300 leading-relaxed">
                 {section.content}
               </p>
-              <div className={`mt-6 h-1 w-16 bg-gradient-to-r ${section.gradient} rounded-full group-hover:w-full transition-all duration-500`}></div>
+              <div className={`mt-6 h-1 w-16 bg-linear-to-r ${section.gradient} rounded-full group-hover:w-full transition-all duration-500`}></div>
             </div>
           ))}
         </div>
@@ -78,7 +78,7 @@ const AboutPage = () => {
                 {['React', 'JavaScript', 'TypeScript', 'Tailwind CSS', 'Bootstrap', 'HTML5', 'CSS3', 'Vite'].map((tech, i) => (
                   <span
                     key={i}
-                    className="skill-tag bg-gradient-to-r from-accent-cyan/20 to-primary-600/20 border-accent-cyan/30"
+                    className="skill-tag bg-linear-to-r from-accent-cyan/20 to-primary-600/20 border-accent-cyan/30"
                     style={{ animationDelay: `${i * 0.05}s` }}
                   >
                     {tech}
@@ -95,7 +95,7 @@ const AboutPage = () => {
                 {['Node.js', 'Express', 'C', 'C++', 'MongoDB', 'SQL', 'PostgreSQL', 'RESTful APIs', 'WebSocket', 'AJAX', 'Axios'].map((tech, i) => (
                   <span
                     key={i}
-                    className="skill-tag bg-gradient-to-r from-accent-emerald/20 to-primary-600/20 border-accent-emerald/30"
+                    className="skill-tag bg-linear-to-r from-accent-emerald/20 to-primary-600/20 border-accent-emerald/30"
                     style={{ animationDelay: `${i * 0.05}s` }}
                   >
                     {tech}
@@ -112,7 +112,7 @@ const AboutPage = () => {
                 {['Docker', 'Docker Compose', 'Git', 'GitHub', 'Linux', 'Bash', 'VM', 'Networking', 'Cloudinary'].map((tech, i) => (
                   <span
                     key={i}
-                    className="skill-tag bg-gradient-to-r from-accent-purple/20 to-primary-600/20 border-accent-purple/30"
+                    className="skill-tag bg-linear-to-r from-accent-purple/20 to-primary-600/20 border-accent-purple/30"
                     style={{ animationDelay: `${i * 0.05}s` }}
                   >
                     {tech}
@@ -129,7 +129,7 @@ const AboutPage = () => {
                 {['C', 'C++', 'JavaScript', 'TypeScript', 'Python', 'VS Code', 'Vim', 'MiniLibX'].map((tech, i) => (
                   <span
                     key={i}
-                    className="skill-tag bg-gradient-to-r from-accent-pink/20 to-primary-600/20 border-accent-pink/30"
+                    className="skill-tag bg-linear-to-r from-accent-pink/20 to-primary-600/20 border-accent-pink/30"
                     style={{ animationDelay: `${i * 0.05}s` }}
                   >
                     {tech}
@@ -146,7 +146,7 @@ const AboutPage = () => {
                 {['Cypress', 'Selenium', 'Unit Testing'].map((tech, i) => (
                   <span
                     key={i}
-                    className="skill-tag bg-gradient-to-r from-yellow-400/20 to-primary-600/20 border-yellow-400/30"
+                    className="skill-tag bg-linear-to-r from-yellow-400/20 to-primary-600/20 border-yellow-400/30"
                     style={{ animationDelay: `${i * 0.05}s` }}
                   >
                     {tech}

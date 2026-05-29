@@ -74,7 +74,7 @@ const StudySection = ({
 
         <div className="p-4 border-t border-white/5">
           <div className="flex items-center gap-2">
-            <div className={`h-1 flex-1 rounded-full bg-gradient-to-r from-${colors.accent}-500/30 to-transparent`}></div>
+            <div className={`h-1 flex-1 rounded-full bg-linear-to-r from-${colors.accent}-500/30 to-transparent`}></div>
             <div className={`w-2 h-2 rounded-full bg-${colors.accent}-500`}></div>
           </div>
         </div>

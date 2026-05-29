@@ -10,7 +10,7 @@ const AboutSection = () => {
           👨‍💻
         </div>
         <div className="flex-1">
-          <h2 className="text-3xl font-bold bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent mb-2">
+          <h2 className="text-3xl font-bold bg-linear-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent mb-2">
             {t("home.profile.intro")}
           </h2>
           <div className="h-1 w-20 bg-gradient-cyber rounded-full"></div>

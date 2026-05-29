@@ -28,7 +28,7 @@ const Navbar = () => {
         className={`
           ${isOpen ? '' : 'hidden'} lg:block
           fixed top-0 left-0 z-40 h-full transition-all duration-300
-          backdrop-blur-2xl bg-gradient-to-b from-dark-card/95 via-dark-card/90 to-dark-card/95
+          backdrop-blur-2xl bg-linear-to-b from-dark-card/95 via-dark-card/90 to-dark-card/95
           border-r border-white/10
           flex flex-col justify-between items-center
           shadow-2xl shadow-primary-500/10

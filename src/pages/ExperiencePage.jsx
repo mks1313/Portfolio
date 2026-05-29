@@ -14,14 +14,14 @@ const ExperiencePage = () => {
 
       <div className="content-wrapper">
         <div className="mb-12 animate-fadeInDown">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold bg-gradient-to-r from-emerald-400 via-cyan-500 to-blue-600 bg-clip-text text-transparent mb-4">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold bg-linear-to-r from-emerald-400 via-cyan-500 to-blue-600 bg-clip-text text-transparent mb-4">
             💼 {t("navbar.experience")}
           </h1>
           <div className="h-1 w-32 bg-gradient-cyber rounded-full"></div>
         </div>
         {experienceData.length > 0 ? (
           <div className="relative max-w-5xl mx-auto">
-            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary-500 via-accent-purple to-accent-cyan hidden lg:block"></div>
+            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-linear-to-b from-primary-500 via-accent-purple to-accent-cyan hidden lg:block"></div>
 
             <div className="space-y-8">
               {experienceData.map((job, index) => (

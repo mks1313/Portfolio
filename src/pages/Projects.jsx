@@ -14,7 +14,7 @@ const Projects = () => {
 
       <div className="content-wrapper">
         <div className="mb-12 animate-fadeInDown">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent mb-4">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold bg-linear-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent mb-4">
             🚀 {t("projects.title")}
           </h1>
           <div className="h-1 w-32 bg-gradient-cyber rounded-full"></div>

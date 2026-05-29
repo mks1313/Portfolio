@@ -12,7 +12,7 @@ const CareerTimeline = () => {
 
   return (
     <div className="card-modern p-6 hover-lift">
-      <h3 className="text-xl font-bold bg-gradient-to-r from-emerald-400 via-cyan-500 to-blue-600 bg-clip-text text-transparent mb-6 flex items-center gap-2">
+      <h3 className="text-xl font-bold bg-linear-to-r from-emerald-400 via-cyan-500 to-blue-600 bg-clip-text text-transparent mb-6 flex items-center gap-2">
         <span>📍</span> {t('home.sections.careerTimeline')}
       </h3>
       <div className="space-y-4">

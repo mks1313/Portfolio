@@ -34,7 +34,7 @@ const ExperienceItem = ({ title, date, description, category, skills }) => (
           ))}
         </div>
       )}
-      <div className="mt-4 h-0.5 w-full bg-gradient-to-r from-transparent via-primary-500 to-transparent opacity-20 group-hover:opacity-40 transition-opacity"></div>
+      <div className="mt-4 h-0.5 w-full bg-linear-to-r from-transparent via-primary-500 to-transparent opacity-20 group-hover:opacity-40 transition-opacity"></div>
     </div>
   </div>
 );
