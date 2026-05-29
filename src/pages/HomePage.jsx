@@ -31,10 +31,10 @@ const HomePage = () => {
 
       <div className="content-wrapper">
         <div className="text-center mb-16 animate-fadeInDown">
-          <h1 className="text-6xl md:text-8xl font-black mb-4 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
+          <h1 className="text-6xl md:text-8xl font-black mb-4 bg-linear-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
             {t('home.name')}
           </h1>
-          <p className="text-2xl md:text-3xl font-semibold bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mb-4">
+          <p className="text-2xl md:text-3xl font-semibold bg-linear-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent mb-4">
             {t('home.role')}
           </p>
           <div className="flex items-center justify-center gap-4 text-gray-400">
