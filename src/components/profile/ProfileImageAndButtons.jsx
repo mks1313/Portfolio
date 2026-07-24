@@ -1,8 +1,8 @@
 import Button from "@components/common/Button";
 import cv from "../../assets/icons/cv.svg";
+import envelope from "../../assets/icons/envelope.svg";
 import github from "../../assets/icons/github.svg";
 import linkedin from "../../assets/icons/linkedin.svg";
-import stack from "../../assets/icons/stack-overflow.svg";
 
 const ProfileImageAndButtons = ({ imageUrl, socialLinks }) => {
   return (
@@ -28,9 +28,9 @@ const ProfileImageAndButtons = ({ imageUrl, socialLinks }) => {
           className="profile-button"
         />
         <Button
-          href={socialLinks.stackOverflow}
-          imageSrc={stack}
-          alt="Stack Overflow"
+          href={socialLinks.email}
+          imageSrc={envelope}
+          alt="Email"
           className="profile-button"
         />
         <Button

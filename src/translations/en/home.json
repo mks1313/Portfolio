@@ -1,9 +1,9 @@
 {
   "name": "Maksim Georgiev Marinov",
-  "role": "Full Stack Developer",
+  "role": "Software Engineer",
   "location": "Barcelona, Spain",
   "languages": "English, Spanish, Russian",
-  "gmail": "mg.marinov@gmx.es",
+  "gmail": "soft_mks@gmx.es",
   "linkedinURL": "https://www.linkedin.com/in/mgmarinov/",
   "githubURL": "https://github.com/mks1313",
   "phone": "+34 *** *** ***",
@@ -19,7 +19,7 @@
     "coreSkills": "Core Skills",
     "currentlyAt": "Currently @Sensing Tex",
     "activeStatus": "Active",
-    "position": "Full Stack Developer | IoT & Smart Textiles",
+    "position": "Software Engineer | Full Stack, Systems, and IoT",
     "learningJourney": "Learning Journey",
     "openToCollaborate": "Open to Collaborate",
     "careerTimeline": "Career Timeline",
@@ -42,12 +42,12 @@
     "line3": "Silence over noise."
   },
   "profile": {
-    "intro": "I'm Maksim, a passionate developer with a constantly evolving story.",
-    "background": "After graduating from Ironhack in 2024, where I completed an intensive web development bootcamp, I decided to continue my learning at 42 Barcelona.",
-    "current": "Currently, I continue my studies at 42 Barcelona, where I dive deep into advanced concepts such as C, C++, Linux systems, relational databases, and developing command-line skills in various environments.",
-    "skills": "In addition to my focus on these technical areas, I practice both frontend and backend development with JavaScript, and I take additional courses in software quality (QA) to improve my testing skills and ensure I deliver robust and reliable code.",
-    "collaboration": "I constantly seek to stay updated with the latest technologies and collaborate on diverse projects, applying my knowledge in different contexts.",
-    "future": "My passion for learning and my desire to apply what I have learned drive me to keep growing every day.",
-    "goal": "I am excited about the opportunities the future holds for me in the development world."
+    "intro": "Software engineer building reliable products across web and systems.",
+    "background": "Based in Barcelona, I transitioned into software engineering and built a solid foundation through intensive training and hands-on delivery in production-like environments.",
+    "current": "I combine frontend and backend development with systems-level practice in C/C++, Linux, networking, and relational databases to build solutions that are practical and maintainable.",
+    "skills": "My daily work focuses on clean architecture, code quality, and shipping features that are testable, observable, and easy to evolve.",
+    "collaboration": "I work comfortably in collaborative teams, contribute through pull requests and reviews, and communicate clearly across technical and product discussions.",
+    "future": "My growth path is focused on stronger software design, distributed systems fundamentals, and long-term product ownership.",
+    "goal": "Open to challenging projects where engineering discipline and product impact matter."
   }
 }

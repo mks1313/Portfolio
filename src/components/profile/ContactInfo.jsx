@@ -10,7 +10,7 @@ const ContactInfo = () => {
   const contactItems = [
     { icon: map, label: t("home.location") },
     { icon: flag, label: t("home.languages") },
-    { icon: envelope, label: t("home.gmail"), href: "mailto:mg.marinov@gmx.es" },
+    { icon: envelope, label: t("home.gmail"), href: "mailto:soft_mks@gmx.es" },
     { icon: phone, label: t("home.phone") },
   ];
 

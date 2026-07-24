@@ -1,11 +1,17 @@
 {
   "title": "Proyectos",
-  "subtitle": "Una muestra de mis trabajos recientes y proyectos paralelos",
+  "subtitle": "Proyectos seleccionados con foco en calidad de entrega, criterio técnico e impacto de producto",
+  "featuredTitle": "Proyectos Destacados",
+  "featuredSubtitle": "Trabajo principal que mejor representa mi enfoque de ingeniería y nivel de ejecución.",
+  "archiveTitle": "Archivo de Proyectos",
+  "archiveSubtitle": "Proyectos anteriores que muestran evolución, amplitud técnica y práctica constante.",
+  "showArchive": "Mostrar archivo",
+  "hideArchive": "Ocultar archivo",
   "projects": [
     {
       "title": "cub3D - Motor Gráfico 3D con Raycasting",
       "date": "07/2025 - 08/2025",
-      "description": "Desarrollado como parte del plan de estudios de 42 Barcelona, cub3D es un proyecto desafiante inspirado en el clásico juego Wolfenstein 3D. Este proyecto implementa un motor de raycasting completamente en C, creando una representación gráfica 3D dinámica de un laberinto desde una perspectiva en primera persona. Construido utilizando la biblioteca gráfica MiniLibX, maneja renderizado en tiempo real, mapeo de texturas, posicionamiento de sprites y movimiento del jugador. El proyecto profundizó mi comprensión de algoritmos de gráficos por computadora, gestión de memoria y optimización de programación de bajo nivel. Demuestra competencia en conceptos matemáticos como trigonometría y cálculos vectoriales aplicados al desarrollo de juegos.",
+      "description": "Desarrollé un motor 3D de raycasting en C en tiempo real, inspirado en Wolfenstein 3D. Implementé parsing de mapas, bucle de render, proyección de muros y sprites, texturizado, colisiones y movimiento de cámara con MiniLibX. Este proyecto reforzó mi dominio de optimización de bajo nivel, gestión de memoria y matemáticas aplicadas a gráficos (vectores, ángulos y proyección), entregando un motor interactivo estable.",
       "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075431/Cub3D_pxks00.jpg",
       "clientUrl": "https://github.com/mks1313/Milestone-4",
       "serverUrl": "https://github.com/mks1313/Milestone-4",
@@ -14,7 +20,7 @@
     {
       "title": "CreditGoose - App de Financiación de Facturas",
       "date": "06/2025",
-      "description": "Proyecto desarrollado durante un hackatón fintech en Barcelona. La aplicación permite a pequeñas empresas conectar su cuenta de Square, enviar facturas y recibir propuestas de financiación automática gracias a un modelo de lenguaje integrado (Goose + Gemini). Participé como desarrollador backend en un equipo de 5 personas. Utilizamos React, Tailwind CSS, Node.js y Express. La app fue desplegada en DigitalOcean App Platform.",
+      "description": "Proyecto de hackatón fintech enfocado en acelerar la financiación de facturas para pymes. Participé en backend y en integración de APIs, incluyendo conexión con Square, procesamiento de facturas y lógica de recomendaciones con Goose + Gemini. Lo construimos en equipo (5 personas) con React, Tailwind CSS, Node.js y Express, y lo desplegamos en DigitalOcean App Platform siguiendo prácticas de colaboración orientadas a producción.",
       "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/CreditGoose.png",
       "clientUrl": "https://github.com/mks1313/CreditGoose-React",
       "serverUrl": "https://github.com/mks1313/CreditGoose",
@@ -23,7 +29,7 @@
     {
       "title": "Minishell - Recreación de Shell Unix",
       "date": "02/2025 - 06/2025",
-      "description": "Proyecto ambicioso de 42 Barcelona que consiste en recrear desde cero una shell Unix completamente funcional en C. Esta inmersión profunda en programación de sistemas abarca creación y gestión de procesos con fork() y execve(), implementación de pipes y redirecciones (|, <, >, <<, >>), manejo de señales (SIGINT, SIGQUIT, EOF), expansión de variables de entorno, comandos integrados (echo, cd, pwd, export, unset, env, exit) e historial de comandos. El proyecto exigió dominio de conceptos de programación de bajo nivel incluyendo descriptores de archivo, control de procesos, gestión de memoria, parsing de sintaxis de comandos complejos y manejo de casos extremos. Demuestra competencia en llamadas al sistema POSIX, comunicación entre procesos y construcción de interfaces de línea de comandos robustas que imitan el comportamiento de bash.",
+      "description": "Recreé una shell Unix funcional en C con foco en comportamiento POSIX y robustez operativa. Implementé parsing y tokenización, pipes, redirecciones, heredoc, expansión de entorno, comandos built-in, orquestación de procesos con fork/execve/wait y manejo de señales para uso interactivo. El proyecto exigió control estricto de file descriptors, tratamiento sólido de errores y cobertura de casos límite para lograr una experiencia de línea de comandos predecible.",
       "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075273/Minishell_exgggx.jpg",
       "clientUrl": "https://github.com/mks1313/Minishell",
       "serverUrl": "https://github.com/mks1313/Minishell",

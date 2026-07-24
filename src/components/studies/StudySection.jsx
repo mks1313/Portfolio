@@ -5,24 +5,50 @@ const StudySection = ({
   subdescription,
   image,
   altText = "Imagen",
-  index = 0
+  index = 0,
 }) => {
-  const getIcon = () => {
-    if (title.includes("42") || title.includes("Barcelona")) return "🚀";
-    if (title.includes("Full Stack") || title.includes("MERN")) return "💻";
-    if (title.includes("Python")) return "🐍";
-    if (title.includes("JavaScript")) return "⚡";
-    if (title.includes("SQL") || title.includes("Database")) return "🗄️";
-    if (title.includes("University") || title.includes("Universidad")) return "🎓";
-    return "📚";
+  const getTrackLabel = () => {
+    if (title.includes("42") || title.includes("Barcelona")) return "42 Track";
+    if (title.includes("Full Stack") || title.includes("MERN"))
+      return "Full Stack";
+    if (title.includes("Python")) return "Python";
+    if (title.includes("JavaScript")) return "JavaScript";
+    if (title.includes("SQL") || title.includes("Database")) return "Data";
+    if (title.includes("University") || title.includes("Universidad"))
+      return "Academic";
+    return "Studies";
   };
 
   const getColors = () => {
     const schemes = [
-      { accent: 'cyan', border: 'border-cyan-500/30', text: 'text-cyan-400', bg: 'bg-cyan-500/5', glow: 'shadow-cyan-500/20' },
-      { accent: 'purple', border: 'border-purple-500/30', text: 'text-purple-400', bg: 'bg-purple-500/5', glow: 'shadow-purple-500/20' },
-      { accent: 'emerald', border: 'border-emerald-500/30', text: 'text-emerald-400', bg: 'bg-emerald-500/5', glow: 'shadow-emerald-500/20' },
-      { accent: 'pink', border: 'border-pink-500/30', text: 'text-pink-400', bg: 'bg-pink-500/5', glow: 'shadow-pink-500/20' },
+      {
+        accent: "cyan",
+        border: "border-cyan-500/30",
+        text: "text-cyan-400",
+        bg: "bg-cyan-500/5",
+        glow: "shadow-cyan-500/20",
+      },
+      {
+        accent: "purple",
+        border: "border-purple-500/30",
+        text: "text-purple-400",
+        bg: "bg-purple-500/5",
+        glow: "shadow-purple-500/20",
+      },
+      {
+        accent: "emerald",
+        border: "border-emerald-500/30",
+        text: "text-emerald-400",
+        bg: "bg-emerald-500/5",
+        glow: "shadow-emerald-500/20",
+      },
+      {
+        accent: "pink",
+        border: "border-pink-500/30",
+        text: "text-pink-400",
+        bg: "bg-pink-500/5",
+        glow: "shadow-pink-500/20",
+      },
     ];
     return schemes[index % 4];
   };
@@ -31,12 +57,19 @@ const StudySection = ({
 
   return (
     <div className="group">
-      <div className={`card-modern h-full flex flex-col border-l-4 ${colors.border} hover:border-${colors.accent}-500/60 transition-all duration-300 hover:shadow-xl ${colors.glow}`}>
-
+      <div
+        className={`card-modern h-full flex flex-col border-l-4 ${colors.border} hover:border-${colors.accent}-500/60 transition-all duration-300 hover:shadow-xl ${colors.glow}`}
+      >
         <div className={`p-6 border-b border-white/10 ${colors.bg}`}>
           <div className="flex items-start justify-between gap-4 mb-4">
-            <span className="text-5xl group-hover:scale-110 transition-transform duration-300">{getIcon()}</span>
-            <span className={`${colors.text} text-xs font-bold px-3 py-1.5 ${colors.bg} rounded-full border ${colors.border}`}>
+            <span
+              className={`text-[11px] uppercase tracking-[0.14em] px-3 py-1.5 rounded-full border ${colors.border} ${colors.text}`}
+            >
+              {getTrackLabel()}
+            </span>
+            <span
+              className={`${colors.text} text-xs font-bold px-3 py-1.5 ${colors.bg} rounded-full border ${colors.border}`}
+            >
               {date}
             </span>
           </div>
@@ -47,7 +80,9 @@ const StudySection = ({
 
         {image && (
           <div className="p-6 border-b border-white/10">
-            <div className={`rounded-xl overflow-hidden border-2 ${colors.border} bg-white/5 group-hover:border-${colors.accent}-500/50 transition-all duration-300`}>
+            <div
+              className={`rounded-xl overflow-hidden border-2 ${colors.border} bg-white/5 group-hover:border-${colors.accent}-500/50 transition-all duration-300`}
+            >
               <img
                 src={image}
                 alt={altText}
@@ -64,9 +99,11 @@ const StudySection = ({
           </p>
 
           {subdescription && (
-            <div className={`${colors.bg} rounded-lg p-4 border-l-3 ${colors.border}`}>
+            <div
+              className={`${colors.bg} rounded-lg p-4 border-l-3 ${colors.border}`}
+            >
               <p className={`${colors.text} text-sm leading-relaxed`}>
-                💡 {subdescription}
+                {subdescription}
               </p>
             </div>
           )}
@@ -74,8 +111,12 @@ const StudySection = ({
 
         <div className="p-4 border-t border-white/5">
           <div className="flex items-center gap-2">
-            <div className={`h-1 flex-1 rounded-full bg-linear-to-r from-${colors.accent}-500/30 to-transparent`}></div>
-            <div className={`w-2 h-2 rounded-full bg-${colors.accent}-500`}></div>
+            <div
+              className={`h-1 flex-1 rounded-full bg-linear-to-r from-${colors.accent}-500/30 to-transparent`}
+            ></div>
+            <div
+              className={`w-2 h-2 rounded-full bg-${colors.accent}-500`}
+            ></div>
           </div>
         </div>
       </div>

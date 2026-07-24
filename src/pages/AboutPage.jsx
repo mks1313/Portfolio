@@ -5,36 +5,39 @@ const AboutPage = () => {
 
   const sections = [
     {
-      icon: "👨‍💻",
+      badge: "Profile",
       title: t("about.profile_name"),
       content: t("about.profile_skills"),
-      gradient: "from-primary-500 to-accent-cyan"
+      gradient: "from-primary-500 to-accent-cyan",
     },
     {
-      icon: "🚀",
+      badge: "Focus",
       title: t("about.current_stage_description_1"),
       content: t("about.current_stage_description_2"),
-      gradient: "from-accent-purple to-accent-pink"
+      gradient: "from-accent-purple to-accent-pink",
     },
     {
-      icon: "💡",
+      badge: "Stack",
       title: t("about.skills_technologies_intro"),
       content: `${t("about.skills_technologies_technologies_trained")} ${t("about.skills_technologies_continued_learning")}`,
-      gradient: "from-accent-emerald to-accent-cyan"
+      gradient: "from-accent-emerald to-accent-cyan",
     },
     {
-      icon: "🎯",
+      badge: "Direction",
       title: t("about.future_goal"),
       content: `${t("about.future_opportunity")} ${t("about.future_closing")}`,
-      gradient: "from-primary-600 to-accent-purple"
-    }
+      gradient: "from-primary-600 to-accent-purple",
+    },
   ];
 
   return (
     <div className="page-container bg-animated-gradient overflow-hidden">
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 right-20 w-96 h-96 bg-accent-purple rounded-full filter blur-3xl animate-pulse-slow"></div>
-        <div className="absolute bottom-20 left-20 w-80 h-80 bg-primary-500 rounded-full filter blur-3xl animate-pulse-slow" style={{ animationDelay: '1.5s' }}></div>
+        <div
+          className="absolute bottom-20 left-20 w-80 h-80 bg-primary-500 rounded-full filter blur-3xl animate-pulse-slow"
+          style={{ animationDelay: "1.5s" }}
+        ></div>
       </div>
 
       <div className="content-wrapper">
@@ -52,30 +55,46 @@ const AboutPage = () => {
               className="card-modern p-8 hover-lift group animate-fadeInUp"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="text-6xl mb-4 group-hover:scale-110 transition-transform">
-                {section.icon}
+              <div className="mb-4">
+                <span className="inline-block text-xs uppercase tracking-[0.14em] text-gray-400 border border-white/20 rounded-full px-3 py-1">
+                  {section.badge}
+                </span>
               </div>
-              <h2 className={`text-2xl font-bold mb-4 bg-linear-to-r ${section.gradient} bg-clip-text text-transparent`}>
+              <h2
+                className={`text-2xl font-bold mb-4 bg-linear-to-r ${section.gradient} bg-clip-text text-transparent`}
+              >
                 {section.title}
               </h2>
-              <p className="text-gray-300 leading-relaxed">
-                {section.content}
-              </p>
-              <div className={`mt-6 h-1 w-16 bg-linear-to-r ${section.gradient} rounded-full group-hover:w-full transition-all duration-500`}></div>
+              <p className="text-gray-300 leading-relaxed">{section.content}</p>
+              <div
+                className={`mt-6 h-1 w-16 bg-linear-to-r ${section.gradient} rounded-full group-hover:w-full transition-all duration-500`}
+              ></div>
             </div>
           ))}
         </div>
-        <div className="animate-fadeInUp max-w-6xl mx-auto" style={{ animationDelay: '0.4s' }}>
+        <div
+          className="animate-fadeInUp max-w-6xl mx-auto"
+          style={{ animationDelay: "0.4s" }}
+        >
           <div className="glass-strong rounded-2xl p-8 lg:p-12">
             <h3 className="text-3xl lg:text-4xl font-bold text-gradient mb-8 text-center">
-              🔧 {t("about.techStack.title")}
+              {t("about.techStack.title")}
             </h3>
             <div className="mb-8">
               <h4 className="text-xl font-semibold text-accent-cyan mb-4 flex items-center gap-2">
-                <span>🎨</span> {t("about.techStack.frontend")}
+                {t("about.techStack.frontend")}
               </h4>
               <div className="flex flex-wrap gap-3">
-                {['React', 'JavaScript', 'TypeScript', 'Tailwind CSS', 'Bootstrap', 'HTML5', 'CSS3', 'Vite'].map((tech, i) => (
+                {[
+                  "React",
+                  "JavaScript",
+                  "TypeScript",
+                  "Tailwind CSS",
+                  "Bootstrap",
+                  "HTML5",
+                  "CSS3",
+                  "Vite",
+                ].map((tech, i) => (
                   <span
                     key={i}
                     className="skill-tag bg-linear-to-r from-accent-cyan/20 to-primary-600/20 border-accent-cyan/30"
@@ -89,10 +108,22 @@ const AboutPage = () => {
 
             <div className="mb-8">
               <h4 className="text-xl font-semibold text-accent-emerald mb-4 flex items-center gap-2">
-                <span>⚙️</span> {t("about.techStack.backend")}
+                {t("about.techStack.backend")}
               </h4>
               <div className="flex flex-wrap gap-3">
-                {['Node.js', 'Express', 'C', 'C++', 'MongoDB', 'SQL', 'PostgreSQL', 'RESTful APIs', 'WebSocket', 'AJAX', 'Axios'].map((tech, i) => (
+                {[
+                  "Node.js",
+                  "Express",
+                  "C",
+                  "C++",
+                  "MongoDB",
+                  "SQL",
+                  "PostgreSQL",
+                  "RESTful APIs",
+                  "WebSocket",
+                  "AJAX",
+                  "Axios",
+                ].map((tech, i) => (
                   <span
                     key={i}
                     className="skill-tag bg-linear-to-r from-accent-emerald/20 to-primary-600/20 border-accent-emerald/30"
@@ -106,10 +137,20 @@ const AboutPage = () => {
 
             <div className="mb-8">
               <h4 className="text-xl font-semibold text-accent-purple mb-4 flex items-center gap-2">
-                <span>🛠️</span> {t("about.techStack.devops")}
+                {t("about.techStack.devops")}
               </h4>
               <div className="flex flex-wrap gap-3">
-                {['Docker', 'Docker Compose', 'Git', 'GitHub', 'Linux', 'Bash', 'VM', 'Networking', 'Cloudinary'].map((tech, i) => (
+                {[
+                  "Docker",
+                  "Docker Compose",
+                  "Git",
+                  "GitHub",
+                  "Linux",
+                  "Bash",
+                  "VM",
+                  "Networking",
+                  "Cloudinary",
+                ].map((tech, i) => (
                   <span
                     key={i}
                     className="skill-tag bg-linear-to-r from-accent-purple/20 to-primary-600/20 border-accent-purple/30"
@@ -123,10 +164,19 @@ const AboutPage = () => {
 
             <div className="mb-8">
               <h4 className="text-xl font-semibold text-accent-pink mb-4 flex items-center gap-2">
-                <span>💻</span> {t("about.techStack.languages")}
+                {t("about.techStack.languages")}
               </h4>
               <div className="flex flex-wrap gap-3">
-                {['C', 'C++', 'JavaScript', 'TypeScript', 'Python', 'VS Code', 'Vim', 'MiniLibX'].map((tech, i) => (
+                {[
+                  "C",
+                  "C++",
+                  "JavaScript",
+                  "TypeScript",
+                  "Python",
+                  "VS Code",
+                  "Vim",
+                  "MiniLibX",
+                ].map((tech, i) => (
                   <span
                     key={i}
                     className="skill-tag bg-linear-to-r from-accent-pink/20 to-primary-600/20 border-accent-pink/30"
@@ -140,10 +190,10 @@ const AboutPage = () => {
 
             <div>
               <h4 className="text-xl font-semibold text-yellow-400 mb-4 flex items-center gap-2">
-                <span>🧪</span> {t("about.techStack.testing")}
+                {t("about.techStack.testing")}
               </h4>
               <div className="flex flex-wrap gap-3">
-                {['Cypress', 'Selenium', 'Unit Testing'].map((tech, i) => (
+                {["Cypress", "Selenium", "Unit Testing"].map((tech, i) => (
                   <span
                     key={i}
                     className="skill-tag bg-linear-to-r from-yellow-400/20 to-primary-600/20 border-yellow-400/30"

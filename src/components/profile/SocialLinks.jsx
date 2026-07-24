@@ -1,9 +1,9 @@
 import Button from "@components/common/Button";
 import { useTranslation } from "react-i18next";
 import cv from "../../assets/icons/cv.svg";
+import envelope from "../../assets/icons/envelope.svg";
 import github from "../../assets/icons/github.svg";
 import linkedin from "../../assets/icons/linkedin.svg";
-import stack from "../../assets/icons/stack-overflow.svg";
 
 const SocialLinks = ({ socialLinks }) => {
   const { t } = useTranslation();
@@ -27,9 +27,9 @@ const SocialLinks = ({ socialLinks }) => {
           className="glass hover-lift p-3 rounded-lg flex items-center justify-center hover:bg-white/10 transition-all"
         />
         <Button
-          href={socialLinks.stackOverflow}
-          imageSrc={stack}
-          alt="Stack Overflow"
+          href={socialLinks.email}
+          imageSrc={envelope}
+          alt="Email"
           className="glass hover-lift p-3 rounded-lg flex items-center justify-center hover:bg-white/10 transition-all"
         />
         <Button

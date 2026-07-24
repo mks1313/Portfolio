@@ -6,9 +6,9 @@ const GoalCard = () => {
   return (
     <div className="card-modern p-8 hover-lift group bg-linear-to-br from-primary-800/50 to-accent-purple/30">
       <div className="flex items-center gap-4 mb-4">
-        <div className="text-5xl group-hover:scale-110 transition-transform">
-          🎯
-        </div>
+        <span className="text-xs uppercase tracking-[0.14em] text-purple-300 border border-purple-400/30 rounded-full px-3 py-1">
+          Focus
+        </span>
         <h3 className="text-2xl font-bold text-white">
           {t("home.profile.goal")}
         </h3>

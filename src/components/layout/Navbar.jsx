@@ -1,8 +1,8 @@
-import Logo from '@components/common/Logo';
-import LanguageSelector from '@components/i18n/LanguageSelector';
-import { useState } from 'react';
-import MenuButton from './MenuButton';
-import NavLinkItem from './NavLinkItem';
+import Logo from "@components/common/Logo";
+import LanguageSelector from "@components/i18n/LanguageSelector";
+import { useState } from "react";
+import MenuButton from "./MenuButton";
+import NavLinkItem from "./NavLinkItem";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +26,7 @@ const Navbar = () => {
 
       <div
         className={`
-          ${isOpen ? '' : 'hidden'} lg:block
+          ${isOpen ? "" : "hidden"} lg:block
           fixed top-0 left-0 z-40 h-full transition-all duration-300
           backdrop-blur-2xl bg-linear-to-b from-dark-card/95 via-dark-card/90 to-dark-card/95
           border-r border-white/10
@@ -34,7 +34,7 @@ const Navbar = () => {
           shadow-2xl shadow-primary-500/10
           overflow-y-auto
         `}
-        style={{ width: 'var(--navbar-width)' }}
+        style={{ width: "var(--navbar-width)" }}
       >
         <div className="hidden lg:block show-on-tall mt-6 xl:mt-8">
           <Logo handlePageClick={handlePageClick} />
@@ -80,12 +80,13 @@ const Navbar = () => {
           </ul>
         </nav>
 
-        <div className="mt-8 mb-6 xl:mb-8">
+        <div className="mt-8 mb-5 xl:mb-6 w-full px-2 xl:px-3">
           <LanguageSelector />
         </div>
-        <div className="mb-6 xl:mb-8 text-center px-4">
+        <div className="mb-6 xl:mb-8 text-center px-5 w-full">
           <p className="text-xs xl:text-sm text-gray-400">
-            Created by <span className="text-gradient font-semibold">Maksim</span>
+            Created by{" "}
+            <span className="text-gradient font-semibold">Maksim</span>
           </p>
         </div>
       </div>
