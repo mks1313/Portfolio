@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 const LanguageSelector = () => {
   const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const [openDown, setOpenDown] = useState(false);
   const dropdownRef = useRef(null);
   const normalizedLanguage = i18n.language?.split("-")[0] || "en";
 
@@ -54,7 +55,11 @@ const LanguageSelector = () => {
       <div ref={dropdownRef} className="relative">
         <button
           type="button"
-          onClick={() => setIsOpen((open) => !open)}
+          onClick={(event) => {
+            const rect = event.currentTarget.getBoundingClientRect();
+            setOpenDown(window.innerHeight - rect.bottom >= rect.top);
+            setIsOpen((open) => !open);
+          }}
           className="w-full glass-strong rounded-xl px-4 py-3 flex items-center justify-between gap-3 border border-white/10 hover:bg-white/10 transition-all duration-250"
           aria-haspopup="listbox"
           aria-expanded={isOpen}
@@ -86,7 +91,11 @@ const LanguageSelector = () => {
 
         {isOpen && (
           <div
-            className="absolute bottom-full left-0 right-0 mb-2 glass-strong rounded-xl border border-white/12 overflow-hidden shadow-glow-md z-50 animate-fadeInUp"
+            className={`absolute left-0 right-0 glass-strong rounded-xl border border-white/12 overflow-hidden shadow-glow-md z-50 ${
+              openDown
+                ? "top-full mt-2 animate-fadeInDown"
+                : "bottom-full mb-2 animate-fadeInUp"
+            }`}
             role="listbox"
             aria-label="Languages"
           >

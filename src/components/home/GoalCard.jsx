@@ -4,7 +4,7 @@ const GoalCard = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="card-modern p-8 hover-lift group bg-linear-to-br from-primary-800/50 to-accent-purple/30">
+    <div className="card-modern p-8 hover-lift group bg-linear-to-br from-primary-800/50 to-accent-purple/30 lg:min-h-56">
       <div className="flex items-center gap-4 mb-4">
         <span className="text-xs uppercase tracking-[0.14em] text-purple-300 border border-purple-400/30 rounded-full px-3 py-1">
           Focus
@@ -13,7 +13,7 @@ const GoalCard = () => {
           {t("home.profile.goal")}
         </h3>
       </div>
-      <p className="text-gray-300 leading-relaxed mb-4">
+      <p className="text-gray-300 leading-relaxed mb-4 lg:min-h-16">
         {t("home.profile.future")}
       </p>
       <div className="h-1 w-full bg-linear-to-r from-accent-emerald via-primary-500 to-accent-purple rounded-full opacity-30"></div>
