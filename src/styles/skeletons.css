@@ -1,0 +1,40 @@
+.skeleton-block {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    rgba(28, 31, 46, 0.86) 0%,
+    rgba(49, 56, 79, 0.9) 50%,
+    rgba(28, 31, 46, 0.86) 100%
+  );
+  background-size: 200% 100%;
+  animation: skeletonShimmer 1.9s ease-in-out infinite;
+  border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.skeleton-card {
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  background: linear-gradient(
+    155deg,
+    rgba(15, 23, 42, 0.5) 0%,
+    rgba(20, 25, 38, 0.45) 100%
+  );
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+@keyframes skeletonShimmer {
+  from {
+    background-position: 100% 0;
+  }
+
+  to {
+    background-position: -100% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton-block {
+    animation: none;
+  }
+}
