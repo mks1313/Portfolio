@@ -1,7 +1,17 @@
 import Button from "@components/common/Button";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import github from "../../assets/icons/github.svg";
 
-const ProjectItem = ({ title, date, image, description, clientUrl, serverUrl, liveUrl }) => {
+const ProjectItem = ({
+  title,
+  date,
+  image,
+  description,
+  clientUrl,
+  serverUrl,
+  liveUrl,
+}) => {
   const isSingleRepo = clientUrl === serverUrl && serverUrl === liveUrl;
 
   return (
@@ -21,9 +31,7 @@ const ProjectItem = ({ title, date, image, description, clientUrl, serverUrl, li
       </div>
 
       <div className="p-6 flex-1 flex flex-col">
-        <h3 className="text-2xl font-bold text-gradient mb-3">
-          {title}
-        </h3>
+        <h3 className="text-2xl font-bold text-gradient mb-3">{title}</h3>
 
         <p className="text-gray-300 leading-relaxed mb-6 flex-1">
           {description}
@@ -61,9 +69,12 @@ const ProjectItem = ({ title, date, image, description, clientUrl, serverUrl, li
 
               <Button
                 href={liveUrl}
-                text="🌐 Visit"
+                ariaLabel="Visit live project"
                 className="bg-gradient-cyber hover-lift px-6 py-2 rounded-lg text-sm font-semibold text-white shadow-glow-sm hover:shadow-glow-md transition-all"
-              />
+              >
+                <FontAwesomeIcon icon={faGlobe} aria-hidden="true" />
+                <span>Visit</span>
+              </Button>
             </>
           )}
         </div>
