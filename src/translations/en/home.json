@@ -19,7 +19,7 @@
     "coreSkills": "Core Skills",
     "currentlyAt": "Currently @Sensing Tex",
     "activeStatus": "Active",
-    "position": "Software Engineer | Full Stack, Systems, and IoT",
+    "position": "Software Engineer working across full-stack web development, systems, and IoT.",
     "learningJourney": "Learning Journey",
     "openToCollaborate": "Open to Collaborate",
     "careerTimeline": "Career Timeline",
@@ -42,12 +42,12 @@
     "line3": "Silence over noise."
   },
   "profile": {
-    "intro": "Software engineer building reliable products across web and systems.",
-    "background": "Based in Barcelona, I transitioned into software engineering and built a solid foundation through intensive training and hands-on delivery in production-like environments.",
-    "current": "I combine frontend and backend development with systems-level practice in C/C++, Linux, networking, and relational databases to build solutions that are practical and maintainable.",
-    "skills": "My daily work focuses on clean architecture, code quality, and shipping features that are testable, observable, and easy to evolve.",
+    "intro": "Software Engineer building reliable products across web and systems.",
+    "background": "Based in Barcelona, I work across frontend, backend, and systems programming. My training at 42 Barcelona and Ironhack gave me a practical foundation built around real projects and problem solving.",
+    "current": "I combine React and Node.js development with C/C++, Linux, networking, Docker, and IoT work.",
+    "skills": "I care about clear code, sensible architecture, and building software that is easy to test, use, and maintain.",
     "collaboration": "I work comfortably in collaborative teams, contribute through pull requests and reviews, and communicate clearly across technical and product discussions.",
-    "future": "My growth path is focused on stronger software design, distributed systems fundamentals, and long-term product ownership.",
-    "goal": "Open to challenging projects where engineering discipline and product impact matter."
+    "future": "I am continuing to deepen my understanding of software design, distributed systems, and long-term product ownership.",
+    "goal": "Open to projects where thoughtful engineering and useful products matter."
   }
 }

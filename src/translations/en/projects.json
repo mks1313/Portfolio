@@ -1,8 +1,8 @@
 {
   "title": "Projects",
-  "subtitle": "Selected projects focused on delivery quality, systems thinking, and product impact",
+  "subtitle": "A selection of projects I have built while learning, working, and exploring different parts of software engineering.",
   "featuredTitle": "Featured Projects",
-  "featuredSubtitle": "Core work that best reflects my engineering approach and execution quality.",
+  "featuredSubtitle": "The projects that best show how I think, build, and solve problems.",
   "archiveTitle": "Project Archive",
   "archiveSubtitle": "Earlier projects that document progression, breadth, and technical practice.",
   "showArchive": "Show archive",
@@ -11,7 +11,7 @@
     {
       "title": "cub3D - 3D Raycasting Game Engine",
       "date": "07/2025 - 08/2025",
-      "description": "Built a real-time 3D raycasting engine in C inspired by Wolfenstein 3D. I implemented map parsing, rendering loops, wall and sprite projection, texture mapping, collision handling, and input-driven camera movement using MiniLibX. The project strengthened my understanding of low-level optimization, memory discipline, and graphics math (vectors, angles, and projection) while shipping a stable interactive engine.",
+      "description": "Built a real-time 3D raycasting engine in C using MiniLibX. I handled map parsing, wall and sprite rendering, textures, collisions, and camera movement. It was a hands-on exercise in graphics math, memory management, and low-level optimization.",
       "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075431/Cub3D_pxks00.jpg",
       "clientUrl": "https://github.com/mks1313/Milestone-4",
       "serverUrl": "https://github.com/mks1313/Milestone-4",
@@ -20,7 +20,7 @@
     {
       "title": "CreditGoose - Invoice Financing App",
       "date": "06/2025",
-      "description": "Fintech hackathon project designed to streamline invoice financing for small businesses. I contributed on backend architecture and API integration, including flows for Square connectivity, invoice processing, and funding recommendation logic with Goose + Gemini. Built in a 5-person team with React, Tailwind, Node.js, and Express, then deployed on DigitalOcean App Platform with production-oriented collaboration practices.",
+      "description": "A fintech hackathon project for helping small businesses explore invoice financing. I worked on the backend architecture, Square integration, invoice processing, and funding recommendations with Goose and Gemini. We built it as a five-person team and deployed it on DigitalOcean.",
       "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/CreditGoose.png",
       "clientUrl": "https://github.com/mks1313/CreditGoose-react",
       "serverUrl": "https://github.com/mks1313/CreditGoose",
@@ -29,7 +29,7 @@
     {
       "title": "Minishell - Unix Shell Recreation",
       "date": "02/2025 - 06/2025",
-      "description": "Recreated a functional Unix shell in C with a strong focus on POSIX behavior and robustness. Implemented parsing and tokenization, pipelines, redirections, heredoc, environment expansion, built-in commands, process orchestration with fork/execve/wait, and signal handling for interactive use. This project required careful file descriptor management, error handling, and edge-case coverage to deliver predictable shell behavior under real command-line workflows.",
+      "description": "Recreated a Unix shell in C with pipelines, redirections, heredocs, environment expansion, built-in commands, and signal handling. The project required careful process and file descriptor management, along with plenty of attention to edge cases.",
       "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075273/Minishell_exgggx.jpg",
       "clientUrl": "https://github.com/mks1313/Minishell",
       "serverUrl": "https://github.com/mks1313/Minishell",
@@ -38,7 +38,7 @@
     {
       "title": "Philosophers - Dining Philosophers Problem",
       "date": "12/2024 - 02/2025",
-      "description": "An advanced 42 Barcelona project implementing the solution to the classic Dining Philosophers synchronization problem using POSIX threads. Simulates N philosophers sitting at a circular table sharing forks, where each philosopher alternates between eating, sleeping, and thinking. Implements synchronization with mutexes to avoid race conditions, deadlock prevention ensuring resource acquisition order, death detection by starvation if a philosopher doesn't eat in time, and termination condition when all have eaten N times. The project requires precise time handling with gettimeofday(), multiple thread management with pthread_create/join, shared data protection with pthread_mutex_lock/unlock, and optimization to prevent data races. Demonstrates mastery of concurrent programming, thread synchronization, deadlock prevention, and shared resource management in multithreading environments.",
+      "description": "Implemented the Dining Philosophers problem in C with POSIX threads and mutexes. I worked on synchronization, deadlock prevention, starvation detection, precise timing, and safe access to shared resources.",
       "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075254/Philo_ntqxi6.png",
       "clientUrl": "https://github.com/mks1313/Milestone-3",
       "serverUrl": "https://github.com/mks1313/Milestone-3",
