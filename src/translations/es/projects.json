@@ -30,7 +30,7 @@
       "title": "cub3D - Motor Gráfico 3D con Raycasting",
       "date": "07/2025 - 08/2025",
       "description": "Desarrollé un motor 3D de raycasting en C en tiempo real, inspirado en Wolfenstein 3D. Implementé parsing de mapas, bucle de render, proyección de muros y sprites, texturizado, colisiones y movimiento de cámara con MiniLibX. Este proyecto reforzó mi dominio de optimización de bajo nivel, gestión de memoria y matemáticas aplicadas a gráficos (vectores, ángulos y proyección), entregando un motor interactivo estable.",
-      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075431/Cub3D_pxks00.jpg",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1789336231/cub3D_k6r4ri.png",
       "clientUrl": "https://github.com/mks1313/Milestone-4",
       "serverUrl": "https://github.com/mks1313/Milestone-4",
       "liveUrl": "https://github.com/mks1313/Milestone-4"

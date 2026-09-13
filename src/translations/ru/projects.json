@@ -30,7 +30,7 @@
       "title": "cub3D - 3D игровой движок на основе рейкастинга",
       "date": "07/2025 - 08/2025",
       "description": "Реализовал 3D-движок рейкастинга на C в реальном времени, вдохновленный Wolfenstein 3D. Реализованы парсинг карты, цикл рендера, проекция стен и спрайтов, текстурирование, коллизии и управление камерой через MiniLibX. Проект усилил мои навыки низкоуровневой оптимизации, дисциплины управления памятью и прикладной графической математики (векторы, углы, проекция), в результате чего получился стабильный интерактивный движок.",
-      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075431/Cub3D_pxks00.jpg",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1789336231/cub3D_k6r4ri.png",
       "clientUrl": "https://github.com/mks1313/Milestone-4",
       "serverUrl": "https://github.com/mks1313/Milestone-4",
       "liveUrl": "https://github.com/mks1313/Milestone-4"
