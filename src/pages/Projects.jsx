@@ -10,8 +10,8 @@ const Projects = () => {
   const { featuredProjects, archivedProjects } = useMemo(() => {
     const list = Array.isArray(projects) ? projects : [];
     return {
-      featuredProjects: list.slice(0, 4),
-      archivedProjects: list.slice(4),
+      featuredProjects: list.slice(0, 6),
+      archivedProjects: list.slice(6),
     };
   }, [projects]);
 
