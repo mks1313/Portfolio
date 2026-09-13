@@ -23,7 +23,7 @@
     "learningJourney": "Camino de Aprendizaje",
     "openToCollaborate": "Abierto a Colaborar",
     "careerTimeline": "Línea de Tiempo Profesional",
-    "education": "42 Barcelona • Ironhack",
+    "education": "42 Barcelona (Common Core) • Ironhack",
     "areas": "Desarrollo Web • IoT • QA"
   },
   "timeline": {
@@ -32,7 +32,7 @@
     "freelance": "Desarrollador Freelance",
     "freelanceRole": "Proyectos Web y Software",
     "barcelona42": "42 Barcelona",
-    "barcelona42Role": "Programación Avanzada",
+    "barcelona42Role": "Graduado Common Core • Outer Core",
     "ironhack": "Ironhack",
     "ironhackRole": "Bootcamp Full Stack"
   },
@@ -43,8 +43,8 @@
   },
   "profile": {
     "intro": "Ingeniero de software enfocado en productos fiables, mantenibles y bien diseñados.",
-    "background": "Con base en Barcelona, construí mi transición a software con formación intensiva y práctica real en proyectos colaborativos y exigentes.",
-    "current": "Combino desarrollo frontend y backend con fundamentos de sistemas en C/C++, Linux, redes y bases de datos relacionales.",
+    "background": "Con base en Barcelona, completé con éxito el Common Core en 42 Barcelona y el bootcamp de Ironhack, uniendo desarrollo web moderno y sistemas.",
+    "current": "Combino desarrollo frontend y backend con fundamentos de sistemas en C/C++, Linux, redes, Docker y bases de datos.",
     "skills": "Mi trabajo se centra en arquitectura limpia, calidad de código y entrega de funcionalidades que sean testeables, observables y fáciles de evolucionar.",
     "collaboration": "Trabajo cómodo en equipo, aporto mediante pull requests y code reviews, y mantengo una comunicación técnica clara.",
     "future": "Estoy enfocado en fortalecer diseño de software, fundamentos de sistemas distribuidos y ownership de producto a largo plazo.",

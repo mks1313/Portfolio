@@ -23,7 +23,7 @@
     "learningJourney": "Learning Journey",
     "openToCollaborate": "Open to Collaborate",
     "careerTimeline": "Career Timeline",
-    "education": "42 Barcelona • Ironhack",
+    "education": "42 Barcelona (Common Core) • Ironhack",
     "areas": "Web Dev • IoT • QA"
   },
   "timeline": {
@@ -32,7 +32,7 @@
     "freelance": "Freelance Developer",
     "freelanceRole": "Web & Software Projects",
     "barcelona42": "42 Barcelona",
-    "barcelona42Role": "Advanced Programming",
+    "barcelona42Role": "Common Core Graduate • Outer Core",
     "ironhack": "Ironhack",
     "ironhackRole": "Full Stack Bootcamp"
   },
@@ -43,7 +43,7 @@
   },
   "profile": {
     "intro": "Software Engineer building reliable products across web and systems.",
-    "background": "Based in Barcelona, I work across frontend, backend, and systems programming. My training at 42 Barcelona and Ironhack gave me a practical foundation built around real projects and problem solving.",
+    "background": "Based in Barcelona, I completed the 42 Barcelona Common Core and the Ironhack bootcamp, bridging modern web development with robust systems fundamentals.",
     "current": "I combine React and Node.js development with C/C++, Linux, networking, Docker, and IoT work.",
     "skills": "I care about clear code, sensible architecture, and building software that is easy to test, use, and maintain.",
     "collaboration": "I work comfortably in collaborative teams, contribute through pull requests and reviews, and communicate clearly across technical and product discussions.",

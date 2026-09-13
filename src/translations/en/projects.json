@@ -9,6 +9,24 @@
   "hideArchive": "Hide archive",
   "projects": [
     {
+      "title": "ft_transcendence - Enuma Fighter (Real-Time Multiplayer Brawler)",
+      "date": "06/2026 - 08/2026",
+      "description": "Capstone project of the 42 Common Core: Enuma Fighter, a full-stack real-time multiplayer brawler supporting up to 8 simultaneous players. Built with a Raylib game engine compiled to WebAssembly (WASM), an authoritative 60 Hz physics loop over WebSockets, 4 playable characters with distinct abilities (voltage gauge, combos, and hitstop), 1v1 duels, free-for-all battles, and single-elimination tournaments. As Technical Lead and Developer, I drove architecture decisions, designed the relational PostgreSQL schema, built the social backend (friends graph, user profiles, match history, and GDPR compliance export/deletion), and created React 18 frontend views, all fully containerized with Docker Compose, Express, and NGINX with TLS/HTTPS.",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1789335186/ChatGPT_Image_13_sept_2026_23_32_52_twjm8y.png",
+      "clientUrl": "https://github.com/mks1313/ft_transcendence42",
+      "serverUrl": "https://github.com/mks1313/ft_transcendence42",
+      "liveUrl": "https://github.com/mks1313/ft_transcendence42"
+    },
+    {
+      "title": "Webserv - Non-Blocking HTTP/1.1 Server in C++98",
+      "date": "03/2026 - 05/2026",
+      "description": "Developed a fully functional non-blocking HTTP/1.1 server in C++98 inspired by NGINX, using I/O multiplexing (epoll / kqueue / select). Built custom configuration file parsing, routing, GET, POST, and DELETE methods, file upload handling, CGI script execution (Python, PHP, Bash), cookie session management, custom error pages, and resilient handling of concurrent client requests without memory leaks.",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1789334670/WEBSERV-42_oy1lci.png",
+      "clientUrl": "https://github.com/mks1313/WEBSERV-42",
+      "serverUrl": "https://github.com/mks1313/WEBSERV-42",
+      "liveUrl": "https://github.com/mks1313/WEBSERV-42"
+    },
+    {
       "title": "cub3D - 3D Raycasting Game Engine",
       "date": "07/2025 - 08/2025",
       "description": "Built a real-time 3D raycasting engine in C using MiniLibX. I handled map parsing, wall and sprite rendering, textures, collisions, and camera movement. It was a hands-on exercise in graphics math, memory management, and low-level optimization.",

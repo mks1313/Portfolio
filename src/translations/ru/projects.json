@@ -9,6 +9,24 @@
   "hideArchive": "Скрыть архив",
   "projects": [
     {
+      "title": "ft_transcendence - Enuma Fighter (Многопользовательский файтинг в реальном времени)",
+      "date": "06/2026 - 08/2026",
+      "description": "Дипломный проект (capstone) программы 42 Common Core: Enuma Fighter — многопользовательский веб-файтинг/броулер в реальном времени с поддержкой до 8 игроков одновременно. Построен на игровом движке Raylib, скомпилированном в WebAssembly (WASM), с серверным физическим циклом на 60 Гц через WebSockets, 4 уникальными персонажами (система Voltage, комбо и hitstop), дуэлями 1v1, режимом Free-for-All и турнирами с сеткой на выбывание. В роли Technical Lead и разработчика отвечал за архитектуру, реляционную схему PostgreSQL, социальный бэкенд (система друзей, профили пользователей, история матчей, экспорт данных по GDPR) и страницы React 18 с полной контейнеризацией в Docker Compose, Express и NGINX с HTTPS/TLS.",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075431/Cub3D_pxks00.jpg",
+      "clientUrl": "https://github.com/mks1313/ft_transcendence42",
+      "serverUrl": "https://github.com/mks1313/ft_transcendence42",
+      "liveUrl": "https://github.com/mks1313/ft_transcendence42"
+    },
+    {
+      "title": "Webserv - Неблокирующий веб-сервер HTTP/1.1 на C++98",
+      "date": "03/2026 - 05/2026",
+      "description": "Разработал полнофункциональный неблокирующий HTTP/1.1 сервер на C++98 (по аналогии с NGINX), использующий мультиплексирование ввода-вывода (epoll / kqueue / select). Реализованы парсинг конфигурационных файлов, маршрутизация, методы GET, POST и DELETE, загрузка файлов, выполнение CGI-скриптов (Python, PHP, Bash), управление сессиями через cookies, кастомные страницы ошибок и надежная обработка множества одновременных подключений.",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075431/Cub3D_pxks00.jpg",
+      "clientUrl": "https://github.com/mks1313/WEBSERV-42",
+      "serverUrl": "https://github.com/mks1313/WEBSERV-42",
+      "liveUrl": "https://github.com/mks1313/WEBSERV-42"
+    },
+    {
       "title": "cub3D - 3D игровой движок на основе рейкастинга",
       "date": "07/2025 - 08/2025",
       "description": "Реализовал 3D-движок рейкастинга на C в реальном времени, вдохновленный Wolfenstein 3D. Реализованы парсинг карты, цикл рендера, проекция стен и спрайтов, текстурирование, коллизии и управление камерой через MiniLibX. Проект усилил мои навыки низкоуровневой оптимизации, дисциплины управления памятью и прикладной графической математики (векторы, углы, проекция), в результате чего получился стабильный интерактивный движок.",
