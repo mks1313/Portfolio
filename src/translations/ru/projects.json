@@ -48,7 +48,7 @@
       "title": "Minishell - Воссоздание Unix Shell",
       "date": "02/2025 - 06/2025",
       "description": "Воссоздал рабочую Unix shell на C с фокусом на POSIX-поведение и надежность. Реализовал парсинг и токенизацию, конвейеры, редиректы, heredoc, расширение переменных окружения, встроенные команды, оркестрацию процессов через fork/execve/wait и обработку сигналов для интерактивной работы. Проект потребовал строгого контроля file descriptors, устойчивой обработки ошибок и покрытия сложных edge-cases для предсказуемого поведения shell.",
-      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075273/Minishell_exgggx.jpg",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1789336239/minishell_vhbwki.png",
       "clientUrl": "https://github.com/mks1313/Minishell",
       "serverUrl": "https://github.com/mks1313/Minishell",
       "liveUrl": "https://github.com/mks1313/Minishell"

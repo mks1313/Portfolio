@@ -48,7 +48,7 @@
       "title": "Minishell - Unix Shell Recreation",
       "date": "02/2025 - 06/2025",
       "description": "Recreated a Unix shell in C with pipelines, redirections, heredocs, environment expansion, built-in commands, and signal handling. The project required careful process and file descriptor management, along with plenty of attention to edge cases.",
-      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075273/Minishell_exgggx.jpg",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1789336239/minishell_vhbwki.png",
       "clientUrl": "https://github.com/mks1313/Minishell",
       "serverUrl": "https://github.com/mks1313/Minishell",
       "liveUrl": "https://github.com/mks1313/Minishell"
