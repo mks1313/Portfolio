@@ -32,15 +32,15 @@ const AboutPage = () => {
 
   return (
     <div className="page-container bg-animated-gradient overflow-hidden">
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 right-20 w-96 h-96 bg-accent-purple rounded-full filter blur-3xl animate-pulse-slow"></div>
+      <div className="absolute inset-0 opacity-10 pointer-events-none">
+        <div className="absolute top-20 left-10 w-96 h-96 bg-accent-purple rounded-full filter blur-3xl animate-pulse-slow"></div>
         <div
-          className="absolute bottom-20 left-20 w-80 h-80 bg-primary-500 rounded-full filter blur-3xl animate-pulse-slow"
+          className="absolute bottom-20 right-10 w-96 h-96 bg-primary-500 rounded-full filter blur-3xl animate-pulse-slow"
           style={{ animationDelay: "1.5s" }}
         ></div>
       </div>
 
-      <div className="content-wrapper">
+      <div className="content-wrapper relative z-10">
         <div className="mb-12 animate-fadeInDown">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold bg-linear-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent mb-4">
             {t("about.about")}

@@ -23,7 +23,7 @@ const HomePage = () => {
 
   return (
     <div className="page-container bg-animated-gradient overflow-hidden">
-      <div className="absolute inset-0 opacity-10">
+      <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div className="absolute top-20 left-20 w-72 h-72 bg-primary-500 rounded-full filter blur-3xl animate-pulse-slow"></div>
         <div
           className="absolute bottom-20 right-20 w-96 h-96 bg-accent-purple rounded-full filter blur-3xl animate-pulse-slow"
@@ -35,7 +35,7 @@ const HomePage = () => {
         ></div>
       </div>
 
-      <div className="content-wrapper">
+      <div className="content-wrapper relative z-10">
         <div className="text-center mb-16 animate-fadeInDown">
           <h1 className="text-6xl md:text-8xl font-black mb-4 bg-linear-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
             {t("home.name")}
