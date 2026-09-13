@@ -57,7 +57,7 @@
       "title": "Philosophers - Problema de los Filósofos Comensales",
       "date": "12/2024 - 02/2025",
       "description": "Proyecto avanzado de 42 Barcelona que implementa la solución al clásico problema de sincronización de los Filósofos Comensales usando threads POSIX. Simula N filósofos sentados en una mesa circular compartiendo tenedores, donde cada filósofo alterna entre comer, dormir y pensar. Implementa sincronización con mutexes para evitar condiciones de carrera, prevención de deadlock asegurando orden de adquisición de recursos, detección de muerte por inanición si un filósofo no come a tiempo y condición de finalización cuando todos han comido N veces. El proyecto requiere manejo preciso de tiempo con gettimeofday(), gestión de múltiples threads con pthread_create/join, protección de datos compartidos con pthread_mutex_lock/unlock y optimización para evitar data races. Demuestra dominio de programación concurrente, sincronización de threads, prevención de deadlock y gestión de recursos compartidos en entornos multithreading.",
-      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075254/Philo_ntqxi6.png",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1789336243/philo_c6nnpf.png",
       "clientUrl": "https://github.com/mks1313/Milestone-3",
       "serverUrl": "https://github.com/mks1313/Milestone-3",
       "liveUrl": "https://github.com/mks1313/Milestone-3"

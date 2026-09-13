@@ -57,7 +57,7 @@
       "title": "Philosophers - Dining Philosophers Problem",
       "date": "12/2024 - 02/2025",
       "description": "Implemented the Dining Philosophers problem in C with POSIX threads and mutexes. I worked on synchronization, deadlock prevention, starvation detection, precise timing, and safe access to shared resources.",
-      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075254/Philo_ntqxi6.png",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1789336243/philo_c6nnpf.png",
       "clientUrl": "https://github.com/mks1313/Milestone-3",
       "serverUrl": "https://github.com/mks1313/Milestone-3",
       "liveUrl": "https://github.com/mks1313/Milestone-3"
