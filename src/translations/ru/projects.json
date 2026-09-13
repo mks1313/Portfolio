@@ -12,7 +12,7 @@
       "title": "ft_transcendence - Enuma Fighter (Многопользовательский файтинг в реальном времени)",
       "date": "06/2026 - 08/2026",
       "description": "Дипломный проект (capstone) программы 42 Common Core: Enuma Fighter — многопользовательский веб-файтинг/броулер в реальном времени с поддержкой до 8 игроков одновременно. Построен на игровом движке Raylib, скомпилированном в WebAssembly (WASM), с серверным физическим циклом на 60 Гц через WebSockets, 4 уникальными персонажами (система Voltage, комбо и hitstop), дуэлями 1v1, режимом Free-for-All и турнирами с сеткой на выбывание. В роли Technical Lead и разработчика отвечал за архитектуру, реляционную схему PostgreSQL, социальный бэкенд (система друзей, профили пользователей, история матчей, экспорт данных по GDPR) и страницы React 18 с полной контейнеризацией в Docker Compose, Express и NGINX с HTTPS/TLS.",
-      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075431/Cub3D_pxks00.jpg",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1789335186/ChatGPT_Image_13_sept_2026_23_32_52_twjm8y.png",
       "clientUrl": "https://github.com/mks1313/ft_transcendence42",
       "serverUrl": "https://github.com/mks1313/ft_transcendence42",
       "liveUrl": "https://github.com/mks1313/ft_transcendence42"
@@ -21,7 +21,7 @@
       "title": "Webserv - Неблокирующий веб-сервер HTTP/1.1 на C++98",
       "date": "03/2026 - 05/2026",
       "description": "Разработал полнофункциональный неблокирующий HTTP/1.1 сервер на C++98 (по аналогии с NGINX), использующий мультиплексирование ввода-вывода (epoll / kqueue / select). Реализованы парсинг конфигурационных файлов, маршрутизация, методы GET, POST и DELETE, загрузка файлов, выполнение CGI-скриптов (Python, PHP, Bash), управление сессиями через cookies, кастомные страницы ошибок и надежная обработка множества одновременных подключений.",
-      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1762075431/Cub3D_pxks00.jpg",
+      "image": "https://res.cloudinary.com/dnwyfbj7m/image/upload/v1789334670/WEBSERV-42_oy1lci.png",
       "clientUrl": "https://github.com/mks1313/WEBSERV-42",
       "serverUrl": "https://github.com/mks1313/WEBSERV-42",
       "liveUrl": "https://github.com/mks1313/WEBSERV-42"
