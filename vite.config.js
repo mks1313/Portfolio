@@ -1,22 +1,43 @@
-import tailwindcss from '@tailwindcss/vite'
-import react from '@vitejs/plugin-react'
-import path from 'path'
-import { fileURLToPath } from 'url'
-import { defineConfig } from 'vite'
+import tailwindcss from "@tailwindcss/vite";
+import react from "@vitejs/plugin-react";
+import { execFileSync } from "child_process";
+import path from "path";
+import { fileURLToPath } from "url";
+import { defineConfig } from "vite";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const commitHash = execFileSync("git", ["rev-parse", "--short=7", "HEAD"], {
+  encoding: "utf8",
+}).trim();
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  plugins: [
+    react(),
+    tailwindcss(),
+    {
+      name: "expose-commit-hash",
+      transformIndexHtml() {
+        return {
+          tags: [
+            {
+              tag: "script",
+              children: `window.__HASH__ = ${JSON.stringify(commitHash)};`,
+              injectTo: "head",
+            },
+          ],
+        };
+      },
+    },
+  ],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),
-      '@components': path.resolve(__dirname, './src/components'),
-      '@pages': path.resolve(__dirname, './src/pages'),
-      '@assets': path.resolve(__dirname, './src/assets'),
-      '@styles': path.resolve(__dirname, './src/styles'),
-      '@translations': path.resolve(__dirname, './src/translations'),
+      "@": path.resolve(__dirname, "./src"),
+      "@components": path.resolve(__dirname, "./src/components"),
+      "@pages": path.resolve(__dirname, "./src/pages"),
+      "@assets": path.resolve(__dirname, "./src/assets"),
+      "@styles": path.resolve(__dirname, "./src/styles"),
+      "@translations": path.resolve(__dirname, "./src/translations"),
     },
   },
-})
+});
