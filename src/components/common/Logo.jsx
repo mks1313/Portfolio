@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import matrix from "../../assets/icons/matrix.svg";
+import matrix from "@assets/icons/matrix.svg";
 
 const Logo = ({ handlePageClick }) => (
   <NavLink

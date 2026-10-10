@@ -1,12 +1,14 @@
 import Button from "@components/common/Button";
 import { useTranslation } from "react-i18next";
-import cv from "../../assets/icons/cv.svg";
-import envelope from "../../assets/icons/envelope.svg";
-import github from "../../assets/icons/github.svg";
-import linkedin from "../../assets/icons/linkedin.svg";
+import cv from "@assets/icons/cv.svg";
+import envelope from "@assets/icons/envelope.svg";
+import github from "@assets/icons/github.svg";
+import linkedin from "@assets/icons/linkedin.svg";
 
 const SocialLinks = ({ socialLinks }) => {
   const { t } = useTranslation();
+
+  const cls = "glass hover-lift p-3 rounded-lg flex items-center justify-center hover:bg-white/10 transition-all";
 
   return (
     <div className="w-full">
@@ -18,25 +20,25 @@ const SocialLinks = ({ socialLinks }) => {
           href={socialLinks.linkedin}
           imageSrc={linkedin}
           alt="LinkedIn"
-          className="glass hover-lift p-3 rounded-lg flex items-center justify-center hover:bg-white/10 transition-all"
+          className={cls}
         />
         <Button
           href={socialLinks.github}
           imageSrc={github}
           alt="GitHub"
-          className="glass hover-lift p-3 rounded-lg flex items-center justify-center hover:bg-white/10 transition-all"
+          className={cls}
         />
         <Button
           href={socialLinks.email}
           imageSrc={envelope}
           alt="Email"
-          className="glass hover-lift p-3 rounded-lg flex items-center justify-center hover:bg-white/10 transition-all"
+          className={cls}
         />
         <Button
           href={socialLinks.cv}
           imageSrc={cv}
           alt="Descargar CV"
-          className="glass hover-lift p-3 rounded-lg flex items-center justify-center hover:bg-white/10 transition-all"
+          className={cls}
           download
         />
       </div>

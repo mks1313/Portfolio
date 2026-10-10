@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
-import envelope from "../../assets/icons/envelope.svg";
-import flag from "../../assets/icons/flag.svg";
-import map from "../../assets/icons/map.svg";
-import phone from "../../assets/icons/phone.svg";
+import envelope from "@assets/icons/envelope.svg";
+import flag from "@assets/icons/flag.svg";
+import map from "@assets/icons/map.svg";
+import phone from "@assets/icons/phone.svg";
 
 const ContactInfo = () => {
   const { t } = useTranslation();
