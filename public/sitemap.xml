@@ -1,33 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://maksim-marinov.vercel.app/</loc>
-    <lastmod>2025-11-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://www.mgmarinov.com/</loc>
   </url>
   <url>
-    <loc>https://maksim-marinov.vercel.app/about</loc>
-    <lastmod>2025-11-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.mgmarinov.com/about</loc>
   </url>
   <url>
-    <loc>https://maksim-marinov.vercel.app/experience</loc>
-    <lastmod>2025-11-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://www.mgmarinov.com/experience</loc>
   </url>
   <url>
-    <loc>https://maksim-marinov.vercel.app/studies</loc>
-    <lastmod>2025-11-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.mgmarinov.com/studies</loc>
   </url>
   <url>
-    <loc>https://maksim-marinov.vercel.app/projects</loc>
-    <lastmod>2025-11-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://www.mgmarinov.com/projects</loc>
   </url>
 </urlset>
