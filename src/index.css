@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "animate.css" layer(utilities);
 @import "./styles/base.css" layer(utilities);
 @import "./styles/buttons.css" layer(utilities);
 @import "./styles/animations.css" layer(utilities);
