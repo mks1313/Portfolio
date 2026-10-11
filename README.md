@@ -1,51 +1,36 @@
-# 🖥️ Portfolio
+# Portfolio
 
-Welcome to my portfolio! This site showcases my work and projects, built using modern web technologies.
+Personal portfolio built with React, Vite, and Tailwind CSS, showcasing my experience, technical skills, education, and software projects.
 
-## 🌟 Project Overview
+**Live website:** [www.mgmarinov.com](https://www.mgmarinov.com/)
 
-This portfolio website was created to present my skills and projects. It uses a combination of technologies to provide a responsive and visually appealing experience.
+## Tech Stack
 
-### 🛠️ Technologies Used
+- **React** — Component-based user interface
+- **Vite** — Development server and production bundling
+- **Tailwind CSS** — Styling and responsive layouts
+- **React Router** — Client-side routing
+- **react-i18next** — Internationalization (English, Spanish, and Russian)
+- **Vercel** — Hosting and deployment
 
-- **JavaScript**: Core programming language for interactivity and functionality.
-- **React**: Frontend library used for building the user interface.
-- **Tailwind CSS**: Utility-first CSS framework for custom styles and design.
-- **i18n**: Internationalization library for supporting multiple languages.
-- **Cloudinary**: Used for image storage and management.
-- **Vercel**: Deployed and hosted the site on Vercel.
-- **GoDaddy**: Domain registered with GoDaddy.
+## Features
 
-### 🚀 Features
+- Responsive layouts for desktop and mobile
+- Multilingual interface
+- Lazy-loaded pages with React Suspense
+- Custom animations and reusable components
+- SEO metadata, sitemap, robots.txt, and web manifest
+- Git commit identification embedded during the build
 
-- **Responsive Design**: The website is designed to be fully responsive and accessible across various devices.
-- **Custom Styles**: Implemented personalized styles using Tailwind CSS.
-- **Multilingual Support**: Added support for multiple languages using the i18n library.
-- **Image Storage**: Managed images efficiently with Cloudinary.
+## Deployment
 
-### 🌐 Visit the Portfolio
+The portfolio is hosted on Vercel.
 
-You can view the portfolio website at: [https://www.mgmarinov.com](https://www.mgmarinov.com)
+## Author
 
-## 👤 Author
+**Maksim Marinov — Software Engineer**
 
-Maksim Georgiev Marinov - [mks1313](https://github.com/mks1313)
-
-📧 Contact
-
-<div style="display: flex; align-items: center; justify-content: center;">
-
-  <a href="mailto:mg.marinov@gmx.es" style="margin: 0 20px;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mail_%28iOS%29.svg" width="40" alt="Email">
-  </a>
-
-  <a href="https://www.linkedin.com/in/mgmarinov/" style="margin: 0 20px;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="40" alt="LinkedIn">
-  </a>
-
-</div>
-
-Feel free to reach out if you have any questions or feedback about my portfolio or projects.
-
-
-
+- [Portfolio](https://www.mgmarinov.com/)
+- [GitHub](https://github.com/mks1313)
+- [LinkedIn](https://www.linkedin.com/in/mgmarinov/)
+- [Email](mailto:mg.marinov@gmx.es)
