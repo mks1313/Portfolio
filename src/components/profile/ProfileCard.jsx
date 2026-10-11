@@ -28,6 +28,7 @@ const ProfileCard = ({ imageUrl, socialLinks }) => {
             "Node.js",
             "JavaScript",
             "C/C++",
+            "Python",
             "Docker",
             "Linux",
             "Git",
