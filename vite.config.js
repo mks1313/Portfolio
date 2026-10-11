@@ -6,9 +6,12 @@ import { fileURLToPath } from "node:url";
 import { defineConfig } from "vite";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const commitHash = execFileSync("git", ["rev-parse", "--short=7", "HEAD"], {
-  encoding: "utf8",
-}).trim();
+const commitHash = process.env.VERCEL_GIT_COMMIT_SHA
+  ? process.env.VERCEL_GIT_COMMIT_SHA.slice(0, 7)
+  : execFileSync("git", ["rev-parse", "--short=7", "HEAD"], {
+      encoding: "utf8",
+    }).trim();
+    
 const contributor = {
   name: "Maksim Marinov",
   email: "mg.marinov@gmx.es",
