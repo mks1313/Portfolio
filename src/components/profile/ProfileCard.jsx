@@ -1,5 +1,5 @@
-import ContactInfo from "@components/profile/ContactInfo";
-import SocialLinks from "@components/profile/SocialLinks";
+import ContactInfo from "@/components/profile/ContactInfo";
+import SocialLinks from "@/components/profile/SocialLinks";
 import { useTranslation } from "react-i18next";
 
 const ProfileCard = ({ imageUrl, socialLinks }) => {

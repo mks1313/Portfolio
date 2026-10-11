@@ -1,4 +1,4 @@
-import ProjectItem from "@components/projects/ProjectItem";
+import ProjectItem from "@/components/projects/ProjectItem";
 import { useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 

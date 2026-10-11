@@ -1,12 +1,8 @@
-import { NavLink } from 'react-router-dom';
-import matrix from "@assets/icons/matrix.svg";
+import matrix from "@/assets/icons/matrix.svg";
+import { NavLink } from "react-router-dom";
 
 const Logo = ({ handlePageClick }) => (
-  <NavLink
-    to="/"
-    onClick={handlePageClick}
-    className="group relative block"
-  >
+  <NavLink to="/" onClick={handlePageClick} className="group relative block">
     <div className="absolute -inset-4 bg-gradient-cyber rounded-full blur-xl opacity-0 group-hover:opacity-60 transition-opacity duration-500"></div>
 
     <div className="relative">

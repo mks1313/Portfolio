@@ -1,11 +1,11 @@
-import AboutSection from "@components/home/AboutSection";
-import CareerTimeline from "@components/home/CareerTimeline";
-import CurrentPositionCard from "@components/home/CurrentPositionCard";
-import GoalCard from "@components/home/GoalCard";
-import JourneyCards from "@components/home/JourneyCards";
-import PhilosophySection from "@components/home/PhilosophySection";
-import StatsCards from "@components/home/StatsCards";
-import ProfileCard from "@components/profile/ProfileCard";
+import AboutSection from "@/components/home/AboutSection";
+import CareerTimeline from "@/components/home/CareerTimeline";
+import CurrentPositionCard from "@/components/home/CurrentPositionCard";
+import GoalCard from "@/components/home/GoalCard";
+import JourneyCards from "@/components/home/JourneyCards";
+import PhilosophySection from "@/components/home/PhilosophySection";
+import StatsCards from "@/components/home/StatsCards";
+import ProfileCard from "@/components/profile/ProfileCard";
 import { useTranslation } from "react-i18next";
 
 const HomePage = () => {

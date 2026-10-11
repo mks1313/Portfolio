@@ -1,4 +1,4 @@
-import Letters from "@components/common/Letters";
+import Letters from "@/components/common/Letters";
 
 const ContactItem = ({ iconSrc, text, link }) => {
   return (

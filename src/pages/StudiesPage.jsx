@@ -1,4 +1,4 @@
-import StudySection from "@components/studies/StudySection";
+import StudySection from "@/components/studies/StudySection";
 import { useTranslation } from "react-i18next";
 
 const StudiesPage = () => {
@@ -28,18 +28,19 @@ const StudiesPage = () => {
             const isLeft = index % 2 === 0;
 
             return (
-              <div
-                key={study.title + index}
-                className="relative"
-              >
+              <div key={study.title + index} className="relative">
                 {/* Punto en la línea timeline */}
                 <div className="hidden md:block absolute left-1/2 top-8 transform -translate-x-1/2 z-10">
                   <div className="w-4 h-4 rounded-full bg-cyan-500 ring-4 ring-gray-900 shadow-lg shadow-cyan-500/50"></div>
                 </div>
 
                 {/* Grid alternado */}
-                <div className={`md:grid md:grid-cols-2 md:gap-12 ${isLeft ? '' : 'md:grid-flow-dense'}`}>
-                  <div className={`${isLeft ? 'md:col-start-1' : 'md:col-start-2'}`}>
+                <div
+                  className={`md:grid md:grid-cols-2 md:gap-12 ${isLeft ? "" : "md:grid-flow-dense"}`}
+                >
+                  <div
+                    className={`${isLeft ? "md:col-start-1" : "md:col-start-2"}`}
+                  >
                     <StudySection
                       title={study.title}
                       date={study.date}
@@ -51,7 +52,9 @@ const StudiesPage = () => {
                       isTimeline={true}
                     />
                   </div>
-                  <div className={`hidden md:block ${isLeft ? 'md:col-start-2' : 'md:col-start-1'}`}></div>
+                  <div
+                    className={`hidden md:block ${isLeft ? "md:col-start-2" : "md:col-start-1"}`}
+                  ></div>
                 </div>
               </div>
             );
@@ -69,7 +72,9 @@ const StudiesPage = () => {
           <div className="mt-16 text-center">
             <div className="inline-flex items-center gap-3 px-6 py-3 bg-linear-to-r from-cyan-500/10 to-purple-500/10 border border-cyan-500/30 rounded-full">
               <span className="w-3 h-3 bg-cyan-500 rounded-full animate-pulse"></span>
-              <span className="text-gray-400 text-sm font-medium">{t("studies.timelineEnd")}</span>
+              <span className="text-gray-400 text-sm font-medium">
+                {t("studies.timelineEnd")}
+              </span>
               <span className="w-3 h-3 bg-purple-500 rounded-full animate-pulse"></span>
             </div>
           </div>

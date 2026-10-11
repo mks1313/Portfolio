@@ -1,5 +1,5 @@
-import Logo from "@components/common/Logo";
-import LanguageSelector from "@components/i18n/LanguageSelector";
+import Logo from "@/components/common/Logo";
+import LanguageSelector from "@/components/i18n/LanguageSelector";
 import { useState } from "react";
 import MenuButton from "./MenuButton";
 import NavLinkItem from "./NavLinkItem";

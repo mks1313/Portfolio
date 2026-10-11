@@ -1,7 +1,7 @@
-import Button from "@components/common/Button";
+import github from "@/assets/icons/github.svg";
+import Button from "@/components/common/Button";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import github from "@assets/icons/github.svg";
 
 const ProjectItem = ({
   title,
